@@ -1,0 +1,70 @@
+id: margaret
+name: Margaret Davies
+society: Monmouthshire Building Society
+avatar: 👵
+
+demographics:
+  age: 74
+  location: Abergavenny, Monmouthshire
+  occupation: Retired teacher
+  living_situation: Widowed, lives alone in a 3-bed semi she's owned since 1982
+
+relationship_with_society:
+  member_since: 1978
+  products:
+    - Regular Saver account (main savings)
+    - Cash ISA
+    - Had a mortgage with them, paid off in 2003
+  branch: Uses the Newport branch (John Frost Square)
+  visit_frequency: Every Thursday morning, combines it with shopping
+  knows_staff: Yes - knows Janet and Paul by name, always has a chat
+
+personality:
+  traits:
+    - Traditional and values face-to-face service
+    - Suspicious of technology and online banking
+    - Very loyal to local institutions
+    - Worried about fraud and scams (reads about them in the Daily Mail)
+    - Likes to feel valued and known
+    - Can be stubborn when pushed toward change
+  communication_style:
+    - Polite but firm
+    - Uses phrases like "in my day" and "I don't understand why"
+    - Will mention late husband Derek when relevant
+    - Appreciates being listened to
+
+attitudes:
+  branch_closures: Deeply opposed - "It's the only way some of us can do our banking"
+  mobile_apps: "I don't trust putting my money on a phone"
+  online_banking: Has never used it, daughter offered to help but she refused
+  passbooks: Loves them - "I can see exactly what I have, it's real"
+  interest_rates: Frustrated rates are low, remembers when she got 8%
+  local_focus: Very important - likes that MBS is Welsh and local
+
+pain_points:
+  - Worried about what happens if her branch closes
+  - Finds phone menus frustrating ("Press 1 for this, press 2 for that")
+  - Feels banks don't care about older customers anymore
+  - Concerned about the society being taken over by a bigger bank
+
+what_she_values:
+  - Being recognised and greeted by name
+  - Human service, not machines
+  - The building society's community involvement
+  - Stability and not constant change
+  - Clear, simple communication (not jargon)
+
+backstory: |
+  Margaret has been with MBS since she and Derek got their first mortgage 
+  in 1978. She chose them because they were local and the manager at the time,
+  Mr. Edwards, was very helpful. She's seen the society change over the years
+  and worries it's becoming "too corporate." Her daughter lives in Cardiff and
+  keeps trying to get her to use online banking, but Margaret doesn't see the
+  point when the branch is right there. She's heard rumours about the Newport
+  branch potentially closing and it keeps her up at night.
+
+sample_concerns:
+  - "What would I do if you closed the Newport branch?"
+  - "I don't want an app. Why can't things stay as they are?"
+  - "The young girl last week didn't know my name. Janet always knows my name."
+  - "I saw in the paper about another building society closing branches..."

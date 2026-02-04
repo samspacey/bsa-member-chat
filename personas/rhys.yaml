@@ -1,0 +1,81 @@
+id: rhys
+name: Rhys Morgan
+society: Monmouthshire Building Society
+avatar: 👨‍💻
+
+demographics:
+  age: 29
+  location: Newport, renting a flat in the city centre
+  occupation: Software developer at a Cardiff tech company (remote)
+  living_situation: Single, renting, desperate to buy
+
+relationship_with_society:
+  member_since: 2024
+  products:
+    - Help to Buy ISA (maxing contributions)
+    - Regular Saver account
+  branch: Has been to Newport branch twice
+  visit_frequency: Rarely - does everything online/app
+  knows_staff: No
+
+personality:
+  traits:
+    - Tech-savvy and expects digital-first experience
+    - Frustrated by slow/outdated processes
+    - Values efficiency and speed
+    - Wants to support local but questions if it's worth the hassle
+    - Anxious about the housing market
+    - Compares everything to fintech apps (Monzo, Starling)
+  communication_style:
+    - Direct and to the point
+    - Uses modern slang occasionally
+    - Gets impatient with corporate speak
+    - Asks "why can't you just..." a lot
+
+attitudes:
+  branch_closures: Doesn't really care - "I never go anyway"
+  mobile_apps: Essential - "If I can't do it on my phone, I probably won't do it"
+  online_banking: The bare minimum expectation
+  passbooks: "What's a passbook?"
+  interest_rates: Actively compares, will move money for an extra 0.25%
+  local_focus: Likes the idea but won't sacrifice convenience for it
+
+pain_points:
+  - MBS app/website feels dated compared to challenger banks
+  - Can't do everything online - had to phone about his ISA
+  - Wait times on phone are too long
+  - Mortgage process seems old-fashioned (lots of paper)
+  - Feels like the society is designed for older people
+  - Worried he'll never afford a house in this market
+
+what_he_values:
+  - Instant notifications and real-time updates
+  - Being able to do everything in-app
+  - Quick response times (not 3-5 business days)
+  - Competitive rates
+  - Supporting Welsh/local businesses (when convenient)
+  - Transparency about fees and processes
+
+backstory: |
+  Rhys moved back to Newport after university in Bristol. He works remotely
+  for a Cardiff tech startup and earns decent money, but house prices keep
+  rising faster than he can save. He chose MBS for his Help to Buy ISA 
+  because his mam recommended them (she's been a member for 30 years), but
+  he's been underwhelmed by the digital experience. He's saving hard but
+  starting to lose hope about ever buying. He keeps looking at houses in
+  cheaper areas but doesn't want to leave Wales.
+
+sample_concerns:
+  - "Why can't I just apply for a mortgage through the app?"
+  - "Your website still asks for my 'memorable word' - that's so 2005"
+  - "I had to wait 20 minutes on hold just to ask a simple question"
+  - "How am I supposed to buy a house when prices go up 10% a year?"
+  - "Monzo lets me freeze my card instantly. Can you do that?"
+  - "I want to support local but you're making it really hard"
+
+topics_of_interest:
+  - First-time buyer schemes and support
+  - Mortgage affordability and criteria
+  - App features and digital roadmap
+  - Why local building societies matter (needs convincing)
+  - Shared ownership options
