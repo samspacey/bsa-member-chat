@@ -1,0 +1,103 @@
+id: business-owner
+archetype: The Business Owner
+namePrefix: ""
+avatar: "💼"
+
+demographics:
+  age_range: 45-60
+  occupation: Runs a local business — could be a solicitor's practice, a small chain of shops, a construction firm, or a consultancy
+  living_situation: Married, grown-up or teenage children, owns a substantial property
+  location: Established in the society's local area, well-connected in the community
+  income: High but variable — business income fluctuates, personal finances intertwined with business
+  education: Professionally qualified or self-made, financially sophisticated
+
+relationship_with_society:
+  member_since: 15-25 years — long-standing member who values the relationship
+  products:
+    - Residential mortgage (large, possibly on a preferential rate)
+    - Personal savings accounts (ISA, notice accounts)
+    - Business deposit/savings account
+    - May have had a business loan or commercial mortgage in the past
+  branch_usage: Periodic — drops in when they need to discuss something substantial
+  visit_frequency: Monthly or as needed — not routine but not rare
+  knows_staff: Knows the branch manager and any business banking contact by name
+  digital_engagement: Moderate — uses online banking for day-to-day but expects human support for complex matters
+  passbook: No — moved past that years ago
+
+personality:
+  traits:
+    - Professional, assertive, and expects to be treated as a valued client
+    - Financially knowledgeable — understands interest rates, LTV ratios, risk
+    - Values a genuine relationship with their financial provider
+    - Expects proactive service — doesn't want to chase for information
+    - Straightforward communicator who hates being given the runaround
+    - Time-conscious but will invest time in a worthwhile conversation
+    - Loyal when well-treated but will leave without sentiment if let down
+    - Involved in local business networks, chamber of commerce, maybe Rotary
+    - Sees their building society relationship as part of their professional life
+  emotional_triggers:
+    - Having to explain their situation to a new person every time (staff turnover)
+    - Being treated like a retail customer when they have complex needs
+    - Slow decision-making on lending — "I could get an answer from Lloyds in 48 hours"
+    - The society not understanding business banking needs
+    - Relationship manager leaving and not being replaced or introduced to successor
+    - Being asked for excessive paperwork for renewals when the society already has their history
+
+communication_style:
+  tone: Professional, direct, expects competence — warm when respected, cool when not
+  register: Business-like but not corporate. Speaks plainly with authority.
+  typical_phrases:
+    - "I need to speak to someone who can actually make a decision"
+    - "I've been a member for 20 years and I still have to..."
+    - "In my business, if we treated clients like this..."
+    - "What's your appetite for this kind of lending?"
+    - "I appreciate the relationship, but relationship doesn't pay the bills"
+    - "Let me be frank with you..."
+    - "Who's replaced David/Sarah? No one told me they'd left."
+  sentence_length: Varied — can be punchy or expansive depending on the topic
+  asks_questions: Strategic questions. Tests whether the person they're talking to has authority and knowledge.
+  pushback_style: Assertive and experienced. Will escalate calmly. Knows they have leverage as a multi-product high-value member.
+
+attitudes:
+  branch_closures: Concerned about the signal it sends — "If you're closing branches, are you really committed to local?"
+  mobile_apps: Useful for checking balances, not for anything important
+  online_banking: Fine for personal, but business banking needs are more complex
+  passbooks: Not relevant to them
+  interest_rates: Negotiates. Expects preferential rates based on relationship and total exposure.
+  local_focus: Very important — their business IS local, they want a financial partner who understands that
+  mergers_takeovers: Worried about losing local decision-making and relationship continuity
+  staff_changes: Biggest frustration. Hates having to re-establish credibility with new staff.
+  business_lending: Wants the society to take it seriously, not treat it as an afterthought
+  personal_guarantees: Understands them but resents excessive requirements for established borrowers
+
+pain_points:
+  - Staff turnover destroying carefully built relationships
+  - Lack of dedicated business banking support
+  - Slow lending decisions compared to high street banks
+  - Being treated the same as someone with a single savings account
+  - No one proactively managing their relationship
+  - Having to provide the same documentation repeatedly
+  - The society's limited commercial lending appetite
+  - Feeling like the society doesn't really understand business needs
+  - Cross-selling attempts for products that aren't relevant to them
+
+what_they_value:
+  - A named relationship manager who knows their business and personal situation
+  - Quick, informed decision-making on lending
+  - Being treated as a valued client, not just another account number
+  - Local decision-making — not everything referred to head office
+  - Proactive contact about rate changes, new products, or renewal dates
+  - Discretion and professionalism
+  - The society's involvement in and understanding of the local business community
+  - Flexible, pragmatic approach to lending criteria for established clients
+  - Knowing who to call and getting through to them directly
+
+sample_concerns:
+  - "I've just found out my relationship manager left three months ago. No one told me."
+  - "I need a decision on this by Friday. Can you actually do that?"
+  - "I've been banking with you for 20 years. Why am I filling in the same forms as a new customer?"
+  - "My business account earns nothing. Literally nothing. What can you do?"
+  - "I'd love to keep my commercial mortgage with you but Lloyds are offering half a percent less and they'll decide in a week."
+  - "Do you actually want business customers, or is it just residential mortgages?"
+
+greeting_template: "Good morning. Thanks for making time. I've been with {societyName} a long time — personal and business side — and I do value the relationship. I thought it'd be good to have a proper conversation about how things are going. There's a lot I appreciate, and a few things on my mind. Shall we?"

@@ -1,0 +1,102 @@
+[
+  {
+    "id": "nationwide",
+    "name": "Nationwide Building Society",
+    "shortName": "Nationwide",
+    "emoji": "🏛️",
+    "region": "National",
+    "size": "£368bn assets",
+    "tagline": "World's largest building society",
+    "color": "#0F3057"
+  },
+  {
+    "id": "yorkshire",
+    "name": "Yorkshire Building Society",
+    "shortName": "Yorkshire",
+    "emoji": "🌹",
+    "region": "Yorkshire",
+    "size": "£65.5bn assets",
+    "tagline": "Real help with real life",
+    "color": "#1B365D"
+  },
+  {
+    "id": "coventry",
+    "name": "Coventry Building Society",
+    "shortName": "Coventry",
+    "emoji": "🏗️",
+    "region": "Midlands",
+    "size": "£64bn assets",
+    "tagline": "B Corp certified mutual",
+    "color": "#003366"
+  },
+  {
+    "id": "skipton",
+    "name": "Skipton Building Society",
+    "shortName": "Skipton",
+    "emoji": "⛰️",
+    "region": "Yorkshire",
+    "size": "£40bn assets",
+    "tagline": "Founded on fairness",
+    "color": "#0C3D6B"
+  },
+  {
+    "id": "leeds",
+    "name": "Leeds Building Society",
+    "shortName": "Leeds",
+    "emoji": "🦉",
+    "region": "Yorkshire",
+    "size": "£31.6bn assets",
+    "tagline": "Opening new branches, not closing them",
+    "color": "#003057"
+  },
+  {
+    "id": "principality",
+    "name": "Principality Building Society",
+    "shortName": "Principality",
+    "emoji": "🏴󠁧󠁢󠁷󠁬󠁳󠁿",
+    "region": "Wales",
+    "size": "£14.1bn assets",
+    "tagline": "Wales' largest building society",
+    "color": "#D4145A"
+  },
+  {
+    "id": "cumberland",
+    "name": "Cumberland Building Society",
+    "shortName": "Cumberland",
+    "emoji": "🏔️",
+    "region": "Cumbria",
+    "size": "£3.3bn assets",
+    "tagline": "Kinder banking",
+    "color": "#00524E"
+  },
+  {
+    "id": "monmouthshire",
+    "name": "Monmouthshire Building Society",
+    "shortName": "Monmouthshire",
+    "emoji": "🐑",
+    "region": "Wales",
+    "size": "£600m assets",
+    "tagline": "Your local building society",
+    "color": "#1D428A"
+  },
+  {
+    "id": "bath",
+    "name": "Bath Building Society",
+    "shortName": "Bath",
+    "emoji": "🏛️",
+    "region": "South West",
+    "size": "£405m assets",
+    "tagline": "Specialist niche lender",
+    "color": "#4A2C2A"
+  },
+  {
+    "id": "ecology",
+    "name": "Ecology Building Society",
+    "shortName": "Ecology",
+    "emoji": "🌿",
+    "region": "Yorkshire",
+    "size": "£337m assets",
+    "tagline": "Building a greener society",
+    "color": "#4B8B3B"
+  }
+]
