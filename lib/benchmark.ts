@@ -15,6 +15,7 @@ export interface FactorScore {
 export interface BenchmarkResult {
   society: string;
   scores: FactorScore[];
+  totalSocieties: number;
 }
 
 // Factor definitions with positive and negative keyword signals
@@ -543,5 +544,6 @@ export function getBenchmarkForSociety(societyId: string): BenchmarkResult | nul
   return {
     society: societyId,
     scores,
+    totalSocieties: allRanked.size,
   };
 }

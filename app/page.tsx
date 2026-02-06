@@ -17,6 +17,7 @@ interface BenchmarkScore {
 interface BenchmarkData {
   society: string;
   scores: BenchmarkScore[];
+  totalSocieties: number;
 }
 
 interface Message {
@@ -179,13 +180,7 @@ export default function Home() {
   }, []);
 
   const sendBenchmarkEmail = async () => {
-    if (!benchmarkEmail || !selectedSociety) return;
-
-    // Validate email
-    if (!benchmarkEmail.includes("@") || !benchmarkEmail.includes(".")) {
-      setBenchmarkEmailError("Please enter a valid email address");
-      return;
-    }
+    if (!selectedSociety) return;
 
     setBenchmarkEmailSending(true);
     setBenchmarkEmailError("");
@@ -195,12 +190,23 @@ export default function Home() {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
-          email: benchmarkEmail,
+          email: benchmarkEmail || undefined,
           societyId: selectedSociety.id,
         }),
       });
 
       if (!res.ok) throw new Error("Failed to generate report");
+
+      // Download the PDF blob
+      const blob = await res.blob();
+      const url = window.URL.createObjectURL(blob);
+      const a = document.createElement("a");
+      a.href = url;
+      a.download = `${selectedSociety.id}-benchmark-report.pdf`;
+      document.body.appendChild(a);
+      a.click();
+      window.URL.revokeObjectURL(url);
+      document.body.removeChild(a);
 
       setBenchmarkEmailSent(true);
     } catch {
@@ -873,7 +879,7 @@ export default function Home() {
                               {badge}
                             </span>
                             <span className="text-xs text-gray-400">
-                              {ordinal(s.rank)} of 10
+                              {ordinal(s.rank)} of {benchmarkData.totalSocieties}
                             </span>
                           </div>
                         </div>
@@ -922,16 +928,16 @@ export default function Home() {
                 </div>
               )}
 
-              {/* Email capture section */}
+              {/* PDF download + optional email capture */}
               {!benchmarkLoading && benchmarkData && (
                 <div className="mt-6 pt-5 border-t border-gray-100">
                   {!benchmarkEmailSent ? (
                     <div>
                       <h3 className="text-sm font-semibold text-gray-800 mb-2">
-                        📧 Get this report as a PDF
+                        📊 Get this report as a PDF
                       </h3>
                       <p className="text-xs text-gray-500 mb-3">
-                        We&apos;ll send you a professionally formatted PDF of this benchmark report.
+                        Download a professionally formatted PDF of this benchmark report. Optionally leave your email to receive future updates.
                       </p>
                       <div className="flex gap-2">
                         <input
@@ -941,17 +947,17 @@ export default function Home() {
                             setBenchmarkEmail(e.target.value);
                             setBenchmarkEmailError("");
                           }}
-                          placeholder="your@email.com"
+                          placeholder="your@email.com (optional)"
                           className="flex-1 border border-gray-300 rounded-lg px-3 py-2 text-sm text-gray-900 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent"
                           onKeyDown={(e) => e.key === "Enter" && sendBenchmarkEmail()}
                           disabled={benchmarkEmailSending}
                         />
                         <button
                           onClick={sendBenchmarkEmail}
-                          disabled={benchmarkEmailSending || !benchmarkEmail.trim()}
+                          disabled={benchmarkEmailSending}
                           className="px-4 py-2 text-sm font-medium text-white bg-blue-600 hover:bg-blue-700 rounded-lg transition-colors disabled:bg-gray-300 disabled:cursor-not-allowed whitespace-nowrap"
                         >
-                          {benchmarkEmailSending ? "Sending..." : "Send Report"}
+                          {benchmarkEmailSending ? "Downloading..." : "Download PDF"}
                         </button>
                       </div>
                       {benchmarkEmailError && (
@@ -962,7 +968,7 @@ export default function Home() {
                     <div className="text-center py-3">
                       <div className="inline-flex items-center gap-2 px-4 py-2 bg-emerald-50 text-emerald-700 rounded-lg border border-emerald-200">
                         <span>✅</span>
-                        <span className="text-sm font-medium">Report sent! Check your inbox.</span>
+                        <span className="text-sm font-medium">Report downloaded!</span>
                       </div>
                     </div>
                   )}
