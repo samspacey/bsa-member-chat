@@ -8,7 +8,6 @@ const { jsPDF } = require("jspdf");
 const fs = require("fs");
 const path = require("path");
 
-// We need to load benchmark logic - import it dynamically
 const societyId = process.argv[2];
 const outputPath = process.argv[3];
 
@@ -17,7 +16,6 @@ if (!societyId || !outputPath) {
   process.exit(1);
 }
 
-// Load societies
 const societies = JSON.parse(
   fs.readFileSync(path.join(__dirname, "..", "societies.json"), "utf8")
 );
@@ -27,7 +25,6 @@ if (!society) {
   process.exit(1);
 }
 
-// Load reviews and calculate benchmark inline (simplified version)
 const reviewsDir = path.join(__dirname, "..", "data", "reviews");
 
 const FACTOR_KEYWORDS = {
@@ -36,48 +33,35 @@ const FACTOR_KEYWORDS = {
     negative: ["rude", "unhelpful", "poor service", "terrible", "awful", "appalling", "disgraceful", "dreadful", "worst", "incompetent", "useless", "dismissive", "unprofessional", "shocking"]
   },
   "Digital Experience": {
-    positive: ["app", "online", "easy to use", "user friendly", "website", "digital", "mobile", "convenient", "quick online", "simple online", "modern"],
-    negative: ["app", "website", "online", "clunky", "outdated", "difficult", "crash", "glitch", "stone age", "archaic", "can't login", "error"]
+    positive: ["easy to use", "user friendly", "website works", "digital", "mobile app", "convenient online", "quick online", "simple online", "modern app", "good app"],
+    negative: ["app crash", "website down", "online broken", "clunky", "outdated website", "difficult online", "crash", "glitch", "stone age", "archaic", "can't login", "error page"]
   },
   "Communication": {
-    positive: ["kept informed", "communicated well", "clear", "transparent", "responsive", "quick response", "replied", "called back", "updated", "explained"],
-    negative: ["no communication", "never replied", "no response", "ignored", "chasing", "waiting", "no update", "left in the dark", "nobody called", "unanswered"]
+    positive: ["kept informed", "communicated well", "clear communication", "transparent", "responsive", "quick response", "replied quickly", "called back", "kept updated", "explained clearly"],
+    negative: ["no communication", "never replied", "no response", "ignored", "chasing them", "still waiting", "no update", "left in the dark", "nobody called", "unanswered"]
   },
   "Complaint Handling": {
-    positive: ["resolved quickly", "handled well", "sorted", "compensation", "apologised", "fixed", "dealt with"],
-    negative: ["complaint", "unresolved", "escalated", "ombudsman", "FOS", "months", "ignored complaint", "no resolution", "still waiting"]
+    positive: ["resolved quickly", "handled well", "sorted out", "fair compensation", "apologised", "fixed promptly", "dealt with well"],
+    negative: ["unresolved complaint", "escalated", "ombudsman", "months waiting", "ignored complaint", "no resolution", "still unresolved", "formal complaint"]
   },
   "Value & Rates": {
-    positive: ["competitive", "good rate", "best rate", "value", "fair", "reasonable", "good deal", "attractive rate"],
-    negative: ["poor rate", "low rate", "rip off", "expensive", "overpriced", "better rates elsewhere", "uncompetitive"]
+    positive: ["competitive rate", "good rate", "best rate", "great value", "fair rate", "reasonable rate", "good deal", "attractive rate", "competitive interest"],
+    negative: ["poor rate", "low interest", "rip off", "expensive", "overpriced", "better rates elsewhere", "uncompetitive rate", "terrible rate"]
   },
   "Trust & Community": {
-    positive: ["trust", "reliable", "safe", "secure", "mutual", "community", "local", "loyal", "member", "ethical", "values"],
-    negative: ["don't trust", "scam", "fraudulent", "misleading", "dishonest", "untrustworthy"]
+    positive: ["trust", "trustworthy", "reliable", "safe", "secure", "mutual", "community", "local branch", "loyal member", "ethical", "good values", "personal touch"],
+    negative: ["don't trust", "untrustworthy", "scam", "misleading", "dishonest", "lost trust"]
   }
 };
 
 const FACTOR_NAMES = Object.keys(FACTOR_KEYWORDS);
 
-// Slug mapping
-const SLUG_MAP = {};
-societies.forEach(s => {
-  const reviewFiles = fs.readdirSync(reviewsDir).filter(f => f.endsWith('.json') && f !== '_summary.json');
-  for (const rf of reviewFiles) {
-    const slug = rf.replace('.json', '').toLowerCase();
-    if (slug.includes(s.id) || s.id.includes(slug.replace('-building-society', ''))) {
-      SLUG_MAP[s.id] = rf.replace('.json', '');
-    }
-  }
-});
-
 function loadReviews(sid) {
   const candidates = [
     `${sid}.json`,
     `${sid}-building-society.json`,
-    SLUG_MAP[sid] ? `${SLUG_MAP[sid]}.json` : null,
-  ].filter(Boolean);
-  
+  ];
+
   for (const candidate of candidates) {
     const fp = path.join(reviewsDir, candidate);
     if (fs.existsSync(fp)) {
@@ -85,8 +69,7 @@ function loadReviews(sid) {
       return Array.isArray(data) ? data : (data.reviews || []);
     }
   }
-  
-  // Fuzzy match
+
   const files = fs.readdirSync(reviewsDir).filter(f => f.endsWith('.json') && f !== '_summary.json');
   for (const f of files) {
     if (f.toLowerCase().includes(sid.replace(/-/g, '')) || f.toLowerCase().includes(sid)) {
@@ -104,33 +87,30 @@ function scoreReviews(reviews) {
     let positiveCount = 0;
     let negativeCount = 0;
     let matched = 0;
-    
+
     for (const r of reviews) {
-      const text = `${r.title || ''} ${r.reviewText || r.text || r.quote || ''} ${r.review || ''}`.toLowerCase();
+      const text = `${r.title || ''} ${r.text || r.reviewText || r.quote || ''} ${r.review || ''}`.toLowerCase();
       let pos = 0, neg = 0;
-      
-      for (const k of kw.positive) {
-        if (text.includes(k.toLowerCase())) pos++;
-      }
-      for (const k of kw.negative) {
-        if (text.includes(k.toLowerCase())) neg++;
-      }
-      
+
+      for (const k of kw.positive) { if (text.includes(k.toLowerCase())) pos++; }
+      for (const k of kw.negative) { if (text.includes(k.toLowerCase())) neg++; }
+
       if (pos > 0 || neg > 0) {
         matched++;
         positiveCount += pos;
         negativeCount += neg;
       }
     }
-    
+
     const total = positiveCount + negativeCount;
-    const score = total > 0 ? Math.min(10, Math.max(1, (positiveCount / total) * 10)) : 5;
-    scores[factor] = { score: Math.round(score * 10) / 10, matched };
+    const rawScore = total > 0 ? (positiveCount / total) * 10 : 5;
+    const score = Math.min(10, Math.max(1, Math.round(rawScore * 10) / 10));
+    scores[factor] = { score, matched };
   }
   return scores;
 }
 
-// Calculate all society scores for ranking
+// Calculate all society scores
 const allScores = {};
 for (const s of societies) {
   const reviews = loadReviews(s.id);
@@ -141,13 +121,15 @@ for (const s of societies) {
 
 // Calculate averages and ranks
 const results = {};
+const totalSocieties = Object.keys(allScores).length;
+
 for (const factor of FACTOR_NAMES) {
   const entries = Object.entries(allScores)
     .map(([id, scores]) => ({ id, score: scores[factor].score }))
     .sort((a, b) => b.score - a.score);
-  
+
   const avg = entries.reduce((s, e) => s + e.score, 0) / entries.length;
-  
+
   let rank = 1;
   for (let i = 0; i < entries.length; i++) {
     if (i > 0 && entries[i].score < entries[i - 1].score) rank = i + 1;
@@ -161,15 +143,13 @@ for (const factor of FACTOR_NAMES) {
   }
 }
 
-const totalSocieties = Object.keys(allScores).length;
 const myScores = results[societyId];
-
 if (!myScores) {
   console.error(`No benchmark data for ${societyId}`);
   process.exit(1);
 }
 
-// Generate PDF
+// === Generate PDF ===
 const ordinal = (n) => {
   const s = ["th", "st", "nd", "rd"];
   const v = n % 100;
@@ -178,143 +158,203 @@ const ordinal = (n) => {
 
 const doc = new jsPDF();
 const pageWidth = doc.internal.pageSize.getWidth();
+const pageHeight = doc.internal.pageSize.getHeight();
 const margin = 20;
 const contentWidth = pageWidth - margin * 2;
-let y = 25;
 
-doc.setFontSize(20);
+// Colours
+const navy = [15, 48, 87];
+const darkGrey = [50, 50, 50];
+const midGrey = [120, 120, 120];
+const lightGrey = [200, 200, 200];
+const green = [22, 163, 74];
+const amber = [202, 138, 4];
+const red = [220, 50, 50];
+
+let y = 20;
+
+// === HEADER ===
+doc.setFontSize(22);
 doc.setFont("helvetica", "bold");
-doc.setTextColor(15, 48, 87);
+doc.setTextColor(...navy);
 doc.text(society.name, pageWidth / 2, y, { align: "center" });
-y += 10;
+y += 9;
 
-doc.setFontSize(14);
+doc.setFontSize(13);
 doc.setFont("helvetica", "normal");
+doc.setTextColor(...midGrey);
 doc.text("Member Experience Benchmark Report", pageWidth / 2, y, { align: "center" });
-y += 10;
+y += 8;
 
-doc.setFontSize(10);
-doc.setTextColor(100, 100, 100);
-doc.text("Generated by Woodhurst Consulting | BSA Member Chat", pageWidth / 2, y, { align: "center" });
-y += 7;
-
+doc.setFontSize(9);
+doc.setTextColor(150, 150, 150);
 const dateStr = new Date().toLocaleDateString("en-GB", { day: "numeric", month: "long", year: "numeric" });
-doc.setFontSize(9);
-doc.text(`Report generated: ${dateStr}`, pageWidth / 2, y, { align: "center" });
-y += 12;
-
-doc.setDrawColor(200, 200, 200);
-doc.setLineWidth(0.5);
-doc.line(margin, y, pageWidth - margin, y);
+doc.text(`Woodhurst Consulting  •  ${dateStr}`, pageWidth / 2, y, { align: "center" });
 y += 10;
 
-// Table header
+// Divider
+doc.setDrawColor(...lightGrey);
+doc.setLineWidth(0.4);
+doc.line(margin, y, pageWidth - margin, y);
+y += 8;
+
+// === SUMMARY LINE ===
 doc.setFontSize(9);
+doc.setFont("helvetica", "normal");
+doc.setTextColor(...midGrey);
+doc.text(`Benchmarked against ${totalSocieties} building societies  •  Based on customer review sentiment analysis`, margin, y);
+y += 10;
+
+// === TABLE HEADER ===
+const col1 = margin;                    // Factor name
+const col2 = margin + contentWidth * 0.32;  // Bar start
+const barWidth = contentWidth * 0.30;   // Bar width
+const col3 = margin + contentWidth * 0.65;  // Score
+const col4 = margin + contentWidth * 0.74;  // Avg
+const col5 = margin + contentWidth * 0.83;  // Rank
+const col6 = margin + contentWidth * 0.93;  // Status
+
+doc.setFontSize(7.5);
 doc.setFont("helvetica", "bold");
-doc.setTextColor(80, 80, 80);
-
-const colFactor = margin;
-const colScore = margin + contentWidth * 0.45;
-const colAvg = margin + contentWidth * 0.58;
-const colRank = margin + contentWidth * 0.71;
-const colIndicator = margin + contentWidth * 0.82;
-
-doc.text("Factor", colFactor, y);
-doc.text("Score", colScore, y);
-doc.text("Avg", colAvg, y);
-doc.text("Rank", colRank, y);
-doc.text("Status", colIndicator, y);
-y += 3;
+doc.setTextColor(...midGrey);
+doc.text("Factor", col1, y);
+doc.text("Score", col3, y, { align: "center" });
+doc.text("Avg", col4, y, { align: "center" });
+doc.text("Rank", col5, y, { align: "center" });
+y += 2;
 
 doc.setDrawColor(180, 180, 180);
 doc.setLineWidth(0.3);
 doc.line(margin, y, pageWidth - margin, y);
-y += 7;
+y += 6;
 
+// === TABLE ROWS ===
 for (const factor of FACTOR_NAMES) {
   const s = myScores[factor];
   const diff = s.score - s.average;
-  let status, statusColor;
 
-  if (diff >= 1.0) {
-    status = "Above avg";
-    statusColor = [22, 163, 74];
-  } else if (diff > -1.0) {
-    status = "Near avg";
-    statusColor = [180, 130, 20];
+  let statusLabel, statusColor;
+  if (diff >= 0.5) { statusLabel = "+"; statusColor = green; }
+  else if (diff >= -0.5) { statusLabel = "~"; statusColor = amber; }
+  else { statusLabel = "-"; statusColor = red; }
+
+  let barColor;
+  if (diff >= 0.5) barColor = [34, 197, 94];
+  else if (diff >= -0.5) barColor = [250, 204, 21];
+  else barColor = [239, 68, 68];
+
+  // Factor name
+  doc.setFont("helvetica", "bold");
+  doc.setFontSize(9);
+  doc.setTextColor(...darkGrey);
+  doc.text(factor, col1, y);
+
+  // Score
+  doc.setFont("helvetica", "bold");
+  doc.setFontSize(9);
+  doc.text(s.score.toFixed(1), col3, y, { align: "center" });
+
+  // Average
+  doc.setFont("helvetica", "normal");
+  doc.setTextColor(...midGrey);
+  doc.text(s.average.toFixed(1), col4, y, { align: "center" });
+
+  // Rank
+  doc.setFontSize(8);
+  doc.text(ordinal(s.rank), col5, y, { align: "center" });
+
+  // Status indicator (colored circle)
+  doc.setFillColor(...statusColor);
+  doc.circle(col6, y - 1.5, 2, "F");
+
+  // Bar (below text, with some spacing)
+  const barY = y + 2;
+  const barH = 4;
+
+  // Background bar
+  doc.setFillColor(240, 240, 240);
+  doc.roundedRect(col2, barY, barWidth, barH, 1, 1, "F");
+
+  // Score bar (scale from 0-10, minimum visible width)
+  const scoreBarW = Math.max(3, (s.score / 10) * barWidth);
+  doc.setFillColor(...barColor);
+  if (scoreBarW > 3) {
+    doc.roundedRect(col2, barY, scoreBarW, barH, 1.5, 1.5, "F");
   } else {
-    status = "Below avg";
-    statusColor = [220, 50, 50];
+    doc.rect(col2, barY, scoreBarW, barH, "F");
   }
 
-  doc.setFont("helvetica", "normal");
-  doc.setFontSize(9);
-  doc.setTextColor(40, 40, 40);
-  doc.text(factor, colFactor, y);
-
-  doc.setFont("helvetica", "bold");
-  doc.text(s.score.toFixed(1), colScore, y);
-
-  doc.setFont("helvetica", "normal");
-  doc.setTextColor(120, 120, 120);
-  doc.text(s.average.toFixed(1), colAvg, y);
-  doc.text(`${ordinal(s.rank)} of ${totalSocieties}`, colRank, y);
-
-  doc.setTextColor(...statusColor);
-  doc.setFont("helvetica", "bold");
-  doc.setFontSize(8);
-  doc.text(status, colIndicator, y);
-
-  y += 4;
-
-  const barMaxWidth = contentWidth * 0.35;
-  doc.setFillColor(235, 235, 235);
-  doc.rect(colFactor, y, barMaxWidth, 3, "F");
-
-  const scoreWidth = (s.score / 10) * barMaxWidth;
-  if (diff >= 1.0) doc.setFillColor(34, 197, 94);
-  else if (diff > -1.0) doc.setFillColor(250, 204, 21);
-  else doc.setFillColor(239, 68, 68);
-  doc.rect(colFactor, y, scoreWidth, 3, "F");
-
-  const avgX = colFactor + (s.average / 10) * barMaxWidth;
+  // Average marker line
+  const avgX = col2 + (s.average / 10) * barWidth;
   doc.setDrawColor(80, 80, 80);
-  doc.setLineWidth(0.5);
-  doc.line(avgX, y - 0.5, avgX, y + 3.5);
+  doc.setLineWidth(0.6);
+  doc.line(avgX, barY - 1, avgX, barY + barH + 1);
 
-  y += 10;
-  doc.setDrawColor(230, 230, 230);
+  // Reviews matched count
+  doc.setFontSize(6.5);
+  doc.setFont("helvetica", "normal");
+  doc.setTextColor(170, 170, 170);
+  doc.text(`${s.matched} reviews matched`, col2, barY + barH + 4);
+
+  y += 18;
+
+  // Row separator
+  doc.setDrawColor(240, 240, 240);
   doc.setLineWidth(0.2);
-  doc.line(margin, y - 2, pageWidth - margin, y - 2);
+  doc.line(margin, y - 4, pageWidth - margin, y - 4);
 }
 
-y += 5;
-doc.setDrawColor(200, 200, 200);
+// === LEGEND ===
+y += 2;
+doc.setFontSize(7);
+doc.setFont("helvetica", "normal");
+doc.setTextColor(...midGrey);
+// Draw legend with colored dots
+doc.setFillColor(...green);
+doc.circle(margin + 2, y - 1, 1.5, "F");
+doc.setTextColor(...midGrey);
+doc.text("Above avg (+0.5)", margin + 6, y);
+
+doc.setFillColor(...amber);
+doc.circle(margin + 52, y - 1, 1.5, "F");
+doc.text("Near avg", margin + 56, y);
+
+doc.setFillColor(...red);
+doc.circle(margin + 82, y - 1, 1.5, "F");
+doc.text("Below avg (-0.5)", margin + 86, y);
+
+doc.setDrawColor(80, 80, 80);
 doc.setLineWidth(0.5);
+doc.line(margin + 130, y - 3, margin + 130, y + 1);
+doc.text("Industry average", margin + 133, y);
+y += 4;
+doc.text("Scores range from 1–10 (10 = best). Bar colour indicates performance relative to the industry average.", margin, y);
+
+// === METHODOLOGY ===
+y += 10;
+doc.setDrawColor(...lightGrey);
+doc.setLineWidth(0.3);
 doc.line(margin, y, pageWidth - margin, y);
-y += 8;
+y += 6;
 
 doc.setFontSize(8);
 doc.setFont("helvetica", "bold");
-doc.setTextColor(80, 80, 80);
+doc.setTextColor(...darkGrey);
 doc.text("Methodology", margin, y);
 y += 5;
 
 doc.setFont("helvetica", "normal");
 doc.setFontSize(7.5);
-doc.setTextColor(120, 120, 120);
-const methodology = `Scores derived from analysis of customer reviews across Smart Money People and Trustpilot. Rankings are out of ${totalSocieties} building societies analysed. Scores range from 1-10 where 10 is best.`;
+doc.setTextColor(...midGrey);
+const methodology = `Scores are derived from keyword-based sentiment analysis of ${loadReviews(societyId).length} customer reviews from Smart Money People and Trustpilot. Each factor is scored by the ratio of positive to negative keyword matches. Rankings are calculated across ${totalSocieties} building societies. This report is generated automatically and should be considered alongside other data sources.`;
 const methodLines = doc.splitTextToSize(methodology, contentWidth);
 doc.text(methodLines, margin, y);
 
+// === FOOTER ===
 doc.setFontSize(7);
-doc.setTextColor(160, 160, 160);
-doc.text(
-  "© Woodhurst Consulting | bsa-member-chat | Confidential",
-  pageWidth / 2,
-  doc.internal.pageSize.getHeight() - 10,
-  { align: "center" }
-);
+doc.setTextColor(170, 170, 170);
+doc.text("© Woodhurst Consulting  •  Confidential  •  bsa-member-chat.vercel.app", pageWidth / 2, pageHeight - 10, { align: "center" });
 
+// Save
 fs.writeFileSync(outputPath, Buffer.from(doc.output("arraybuffer")));
 console.log(`PDF generated: ${outputPath}`);
