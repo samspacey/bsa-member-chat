@@ -1,0 +1,58 @@
+{
+  "society": "Swansea Building Society",
+  "slug": "swansea-building-society",
+  "smpUrl": "https://smartmoneypeople.com/swansea-building-society-reviews/products",
+  "totalReviewsOnSMP": 6,
+  "avgRating": 3.67,
+  "scrapedAt": "2026-02-06T16:09:27.752907+00:00",
+  "reviews": [
+    {
+      "title": "Current manager mumbles branch works to close to the...",
+      "text": "Current manager mumbles branch works to close to the book no flexibility not really customer friendly but a good actor for a local building society makes his mind up by looking nothing like previous managers",
+      "rating": 1,
+      "date": "3rd July 2025",
+      "product": "Mortgages",
+      "sentiment": "negative"
+    },
+    {
+      "title": "Have just opened an online account with Swansea Buil...",
+      "text": "Have just opened an online account with Swansea Building Society. The process was very straightforward and the account showed up in My Accounts very quickly. Also opened a regular saver account. It is a pity more accounts cannot be opened online as I had to email the forms for the regular saver to be opened but, to be fair, they were on to opening the account as soon as they received the forms. Spoke to a member of staff of the Swansea Branch re a query and they were extremely helpful. They are not the most up to date in relation to their online offering but I would highly recommend.",
+      "rating": 5,
+      "date": "12th August 2025",
+      "product": "Savings",
+      "sentiment": "positive"
+    },
+    {
+      "title": "Excellent customer service-traditional personal touch",
+      "text": "As always Swansea Building Society gives excellent customer service with a traditional personal touch. Really good interest rates too with good advice, making the customer aware. This is my experience with the Cowbridge branch.",
+      "rating": 5,
+      "date": "6th April 2024",
+      "product": "Savings",
+      "sentiment": "positive"
+    },
+    {
+      "title": "Changed my view from experience.",
+      "text": "Their non-online online provision is dreadful. Online in name only. Can't open accounts online, only by paper. Can't transfer money automatically, has to be entered on-line then manually authorised. Can't download statements, have to ask for a paper statement to be posted. Claim to do electronic ISA transfers but don't as they have to send a form for you to sign when they get a transfer out request but it is never mentioned until the form arrives in the post (by the time they sent the form 2 other ISA transfers had been completed). If they send you a secure message they don't inform you that a message is there you have to log on to check. Abysmal online service not worth bothering with.",
+      "rating": 1,
+      "date": "20th April 2023",
+      "product": "Savings",
+      "sentiment": "negative"
+    },
+    {
+      "title": "Superb Support and Customer Service from Carmarthen Branch",
+      "text": "Don't live near a branch so opened an account with them through the Carmarthen Branch (by post and telephone). Absolutely superb support and customer service - the best I've experienced from any financial institution. Would highly recommend the Swansea Building Society and the Carmarthen Branch to anyone",
+      "rating": 5,
+      "date": "3rd March 2023",
+      "product": "Savings",
+      "sentiment": "positive"
+    },
+    {
+      "title": "Opening branches, not closing them.",
+      "text": "Fantastic building society. They offer great savings rates and their customer service is excellent. They also offer very good mortgages to key workers in recognition of their efforts.",
+      "rating": 5,
+      "date": "15th January 2022",
+      "product": "Savings",
+      "sentiment": "positive"
+    }
+  ]
+}

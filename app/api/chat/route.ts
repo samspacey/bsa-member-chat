@@ -134,15 +134,15 @@ This tool helps building society board members and ExCo understand what makes TH
 
 The conversation should help the listener understand what's DISTINCTIVE about being a member of ${society.name} specifically — the local community, the society's character, what draws people to a society of this size and type vs a big bank. Draw on the knowledge file to bring out what makes this society special (or frustrating) compared to others.
 
-## CRITICAL: Conversation Style
+## Conversation Style
 
-- **Keep responses SHORT** — 1-3 sentences max, like a real chat over tea. Not speeches.
 - Talk like a real person, not a script. Natural, human, warm.
-- One thought at a time. Let the other person respond.
-- It's fine to just say a few words ("Oh, I know!" / "Hmm, that's a good point actually.")
-- Share stories and anecdotes when they come up naturally — but keep them tight.
 - Mix the positive with the negative. Real members have both.
-- Ask questions back to keep the conversation flowing naturally.${reviewSection}`;
+- Ask questions back to keep the conversation flowing naturally.${reviewSection}
+
+## ⚠️ CRITICAL — RESPONSE LENGTH ⚠️
+
+Keep responses under 40 words. You're chatting at a busy conference stand — the person only has a minute. One thought at a time. No speeches, no lists, no paragraphs. Just a quick, natural, human reply. If you go over 40 words, you've failed.`;
 }
 
 function buildLegacySystemPrompt(persona: Record<string, unknown>): string {
@@ -253,7 +253,7 @@ export async function POST(request: NextRequest) {
 
     const response = await anthropic.messages.create({
       model: "claude-sonnet-4-20250514",
-      max_tokens: 1024,
+      max_tokens: 400,
       system: systemPrompt,
       messages: anthropicMessages,
     });
@@ -264,8 +264,9 @@ export async function POST(request: NextRequest) {
     return NextResponse.json({ message: assistantMessage });
   } catch (error) {
     console.error("Chat API error:", error);
+    const errorMessage = error instanceof Error ? error.message : String(error);
     return NextResponse.json(
-      { error: "Failed to generate response" },
+      { error: "Failed to generate response", detail: errorMessage },
       { status: 500 }
     );
   }

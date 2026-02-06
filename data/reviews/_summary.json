@@ -1,0 +1,320 @@
+{
+  "scrapedAt": "2026-02-06T16:25:00Z",
+  "societies": [
+    {
+      "name": "Chorley Building Society",
+      "slug": "Chorley-building-society",
+      "totalOnSMP": 1818,
+      "scraped": 250,
+      "avgRating": 4.9
+    },
+    {
+      "name": "Bath Building Society",
+      "slug": "bath-building-society",
+      "totalOnSMP": 2510,
+      "scraped": 250,
+      "avgRating": 4.75
+    },
+    {
+      "name": "Darlington Building Society",
+      "slug": "darlington-building-society",
+      "totalOnSMP": 13253,
+      "scraped": 250,
+      "avgRating": 4.86
+    },
+    {
+      "name": "Hanley Economic Building Society",
+      "slug": "hanley-economic-building-society",
+      "totalOnSMP": 900,
+      "scraped": 250,
+      "avgRating": 4.83
+    },
+    {
+      "name": "Hinckley & Rugby Building Society",
+      "slug": "hinckley-rugby-building-society",
+      "totalOnSMP": 1990,
+      "scraped": 250,
+      "avgRating": 4.64
+    },
+    {
+      "name": "Leek Building Society",
+      "slug": "leek-building-society",
+      "totalOnSMP": 5367,
+      "scraped": 250,
+      "avgRating": 4.93
+    },
+    {
+      "name": "Loughborough Building Society",
+      "slug": "loughborough-building-society",
+      "totalOnSMP": 576,
+      "scraped": 250,
+      "avgRating": 4.87
+    },
+    {
+      "name": "Mansfield Building Society",
+      "slug": "mansfield-building-society",
+      "totalOnSMP": 1794,
+      "scraped": 250,
+      "avgRating": 4.66
+    },
+    {
+      "name": "Melton Building Society",
+      "slug": "melton-mowbray-building-society",
+      "totalOnSMP": 2742,
+      "scraped": 250,
+      "avgRating": 4.66
+    },
+    {
+      "name": "Monmouthshire Building Society",
+      "slug": "monmouthshire-building-society",
+      "totalOnSMP": 3191,
+      "scraped": 250,
+      "avgRating": 4.84
+    },
+    {
+      "name": "Nationwide Building Society",
+      "slug": "nationwide",
+      "totalOnSMP": 2753,
+      "scraped": 250,
+      "avgRating": 4.11
+    },
+    {
+      "name": "Newbury Building Society",
+      "slug": "newbury-building-society",
+      "totalOnSMP": 10019,
+      "scraped": 250,
+      "avgRating": 4.78
+    },
+    {
+      "name": "Nottingham Building Society",
+      "slug": "nottingham-building-society",
+      "totalOnSMP": 377,
+      "scraped": 250,
+      "avgRating": 4.87
+    },
+    {
+      "name": "Saffron Building Society",
+      "slug": "saffron-building-society",
+      "totalOnSMP": 6941,
+      "scraped": 250,
+      "avgRating": 4.96
+    },
+    {
+      "name": "Scottish Building Society",
+      "slug": "scottish-building-society",
+      "totalOnSMP": 3452,
+      "scraped": 250,
+      "avgRating": 4.6
+    },
+    {
+      "name": "Family Building Society",
+      "slug": "the-family-building-society",
+      "totalOnSMP": 1850,
+      "scraped": 250,
+      "avgRating": 4.93
+    },
+    {
+      "name": "Vernon Building Society",
+      "slug": "vernon-building-society",
+      "totalOnSMP": 4356,
+      "scraped": 250,
+      "avgRating": 4.9
+    },
+    {
+      "name": "Ecology Building Society",
+      "slug": "ecology-building-society",
+      "totalOnSMP": 669,
+      "scraped": 249,
+      "avgRating": 4.9
+    },
+    {
+      "name": "Suffolk Building Society",
+      "slug": "suffolk-building-society",
+      "totalOnSMP": 1856,
+      "scraped": 249,
+      "avgRating": 4.8
+    },
+    {
+      "name": "Beverley Building Society",
+      "slug": "beverley-building-society",
+      "totalOnSMP": 273,
+      "scraped": 221,
+      "avgRating": 4.89
+    },
+    {
+      "name": "Dudley Building Society",
+      "slug": "dudley-building-society",
+      "totalOnSMP": 3917,
+      "scraped": 176,
+      "avgRating": 4.42
+    },
+    {
+      "name": "Yorkshire Building Society",
+      "slug": "yorkshire-building-society",
+      "totalOnSMP": 162,
+      "scraped": 160,
+      "avgRating": 4.41
+    },
+    {
+      "name": "Coventry Building Society",
+      "slug": "coventry-building-society",
+      "totalOnSMP": 152,
+      "scraped": 151,
+      "avgRating": 4.12
+    },
+    {
+      "name": "Skipton Building Society",
+      "slug": "skipton-building-society",
+      "totalOnSMP": 123,
+      "scraped": 122,
+      "avgRating": 4.39
+    },
+    {
+      "name": "Marsden Building Society",
+      "slug": "marsden-building-society",
+      "totalOnSMP": 4785,
+      "scraped": 113,
+      "avgRating": 4.62
+    },
+    {
+      "name": "Cumberland Building Society",
+      "slug": "the-cumberland",
+      "totalOnSMP": 106,
+      "scraped": 104,
+      "avgRating": 4.78
+    },
+    {
+      "name": "Leeds Building Society",
+      "slug": "leeds-building-society",
+      "totalOnSMP": 82,
+      "scraped": 79,
+      "avgRating": 3.66
+    },
+    {
+      "name": "Stafford Railway Building Society",
+      "slug": "stafford-building-society",
+      "totalOnSMP": 49,
+      "scraped": 49,
+      "avgRating": 4.69
+    },
+    {
+      "name": "Principality Building Society",
+      "slug": "principality-building-society",
+      "totalOnSMP": 52,
+      "scraped": 45,
+      "avgRating": 4.44
+    },
+    {
+      "name": "Buckinghamshire Building Society",
+      "slug": "buckinghamshire-building-society",
+      "totalOnSMP": 724,
+      "scraped": 38,
+      "avgRating": 4.58
+    },
+    {
+      "name": "Harpenden Building Society",
+      "slug": "harpenden-building-society",
+      "totalOnSMP": 446,
+      "scraped": 34,
+      "avgRating": 3.26
+    },
+    {
+      "name": "Newcastle Building Society",
+      "slug": "newcastle-building-society",
+      "totalOnSMP": 28,
+      "scraped": 28,
+      "avgRating": 3.82
+    },
+    {
+      "name": "Tipton & Coseley Building Society",
+      "slug": "tipton-coseley-building-society",
+      "totalOnSMP": 26,
+      "scraped": 26,
+      "avgRating": 4.62
+    },
+    {
+      "name": "Furness Building Society",
+      "slug": "furness-building-society",
+      "totalOnSMP": 12,
+      "scraped": 12,
+      "avgRating": 4.25
+    },
+    {
+      "name": "Norwich & Peterborough Building Society",
+      "slug": "norwich-and-peterborough-building-society",
+      "totalOnSMP": 10,
+      "scraped": 10,
+      "avgRating": 3.3
+    },
+    {
+      "name": "Teachers Building Society",
+      "slug": "teachers-building-society",
+      "totalOnSMP": 10,
+      "scraped": 10,
+      "avgRating": 3.9
+    },
+    {
+      "name": "National Counties Building Society",
+      "slug": "national-counties-building-society",
+      "totalOnSMP": 9,
+      "scraped": 9,
+      "avgRating": 4.22
+    },
+    {
+      "name": "Market Harborough Building Society",
+      "slug": "market-harborough-building-society",
+      "totalOnSMP": 7,
+      "scraped": 7,
+      "avgRating": 3.86
+    },
+    {
+      "name": "Swansea Building Society",
+      "slug": "swansea-building-society",
+      "totalOnSMP": 6,
+      "scraped": 6,
+      "avgRating": 3.67
+    },
+    {
+      "name": "Penrith Building Society",
+      "slug": "penrith-building-society",
+      "totalOnSMP": 5,
+      "scraped": 5,
+      "avgRating": 4.2
+    },
+    {
+      "name": "Progressive Building Society",
+      "slug": "progressive-building-society",
+      "totalOnSMP": 5,
+      "scraped": 5,
+      "avgRating": 4.8
+    },
+    {
+      "name": "Manchester Building Society",
+      "slug": "manchester-building-society",
+      "totalOnSMP": 4,
+      "scraped": 4,
+      "avgRating": 3.5
+    },
+    {
+      "name": "Cambridge Building Society",
+      "slug": "cambridge-building-society",
+      "totalOnSMP": 0,
+      "scraped": 3,
+      "avgRating": 5.0
+    },
+    {
+      "name": "Chelsea Building Society",
+      "slug": "chelsea-building-society",
+      "totalOnSMP": 0,
+      "scraped": 3,
+      "avgRating": 2.33
+    },
+    {
+      "name": "Earl Shilton Building Society",
+      "slug": "earl-shilton-building-society",
+      "totalOnSMP": 0,
+      "scraped": 1,
+      "avgRating": 5.0
+    }
+  ]
+}

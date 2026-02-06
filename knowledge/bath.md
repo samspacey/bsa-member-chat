@@ -194,105 +194,105 @@ Available to sole traders, charities, partnerships, and incorporated organisatio
 
 *Sourced from Trustpilot (16 reviews, 2.1/5) and Smart Money People (2,509 reviews, 4.71/5). Trustpilot reviews are all unprompted; SMP reviews are a mix of prompted and unprompted. The stark rating gap reflects selection bias — unhappy customers seek out Trustpilot independently, while SMP reviews are actively solicited by Bath BS after interactions.*
 
-### Positive - Buy for Uni success story (daughter gets on property ladder)
+### Positive - Buy for Uni success story (daughter gets on property ladder) (Trustpilot)
 > "The Buy for Uni product gave us the flexibility we needed to have tenants or rent the property. Knowing she had full flexibility over the use of the property was a great peace of mind. My daughter secured a job after graduation and decided to take over the mortgage of the property on a repayment basis. I hope this boost to get on the property ladder will stand her in good stead. The BBS team were easy to contact and quickly responded to our questions."
 - **Rating:** 5/5
 - **Source:** Smart Money People
 - **Date:** ~2024
 - **Context:** Parent used Bath BS's signature Buy for Uni product to help daughter buy while at university. Daughter later took over the mortgage after graduating — the product worked exactly as intended.
 
-### Positive - Fast mortgage turnaround amid stamp duty rush
+### Positive - Fast mortgage turnaround amid stamp duty rush (Trustpilot)
 > "Very quick service. From application to mortgage offer just under 4 weeks, this at a time when all institutions were inundated with applications to beat the Labour stamp duty increases. I had been advised that there would be a delay because of the SD increases so was pleasantly surprised to receive my offer in such a timely manner. Well done BIBS, impressed with you."
 - **Rating:** 5/5
 - **Source:** Trustpilot
 - **Date:** April 2025
 - **Context:** Only positive Trustpilot review. Mortgage completed quickly despite industry-wide backlog caused by the stamp duty deadline rush. Shows Bath BS can deliver when processes work well.
 
-### Positive - University student mortgage in under 3 weeks
+### Positive - University student mortgage in under 3 weeks (Trustpilot)
 > "Friendly, knowledgeable and efficient service from all at the company. From initial contact to offer was less than 3 weeks, a great rate and good product perfect for a university student."
 - **Rating:** 5/5
 - **Source:** Smart Money People
 - **Date:** January 2026
 - **Context:** Another Buy for Uni success — fast turnaround and good rate. Highlights the niche product working well with efficient execution.
 
-### Positive - Bereavement support from staff
+### Positive - Bereavement support from staff (Trustpilot)
 > "My husband died on April 14th but I didn't feel up to contacting the Society at once. After a few weeks I did and the staff were extremely helpful."
 - **Rating:** 5/5
 - **Source:** Smart Money People
 - **Date:** ~2020
 - **Context:** Bereaved member praised compassionate handling during a difficult time. Demonstrates the personal, human service that differentiates Bath BS from larger providers.
 
-### Positive - "Treated like a person, not just a member"
+### Positive - "Treated like a person, not just a member" (Trustpilot)
 > "Local, convenient. Friendly staff and helpful. Rates are always competitive, hours are convenient. Visited the Oldfield branch and was served by Antonia. I am always treated as a person, not just a member."
 - **Rating:** 5/5
 - **Source:** Smart Money People
 - **Date:** February 2026
 - **Context:** Regular savings customer at Oldfield Park branch. Names specific staff member. Captures the personal, community-focused feel that consistently appears in positive reviews.
 
-### Positive - Intermediary praises communication and named staff
+### Positive - Intermediary praises communication and named staff (Trustpilot)
 > "As a Mortgage Intermediary it's important to have good contacts and timely communications and we recently received exemplary service from the team at Bath BS. Nick T was exceptional in the way that he continued to keep us informed of progress."
 - **Rating:** 5/5
 - **Source:** Smart Money People
 - **Date:** ~Late 2025
 - **Context:** Mortgage broker praising the intermediary team. Names a specific staff member. Bath BS's broker relationships are a key distribution channel for their specialist products.
 
-### Positive - One of few lenders for BTL at reasonable rate
+### Positive - One of few lenders for BTL at reasonable rate (Trustpilot)
 > "Bath were one of very few building society's prepared to offer a BTL mortgage at a reasonable rate. Good communication with them over the personal issues."
 - **Rating:** 5/5
 - **Source:** Smart Money People
 - **Date:** October 2025
 - **Context:** Buy-to-let borrower found Bath BS willing to lend where others wouldn't. Highlights their niche lending appetite and personal approach to individual circumstances.
 
-### Mixed - Great staff, terrible online/app experience
+### Mixed - Great staff, terrible online/app experience (Trustpilot)
 > "My issue is with BIB'S new Online and App service which they have recently launched over the last few months. Every time I go online or onto the app this site is invariably down or having maintenance done on it. This means that I then have to try to contact Bibs by phone along with 'hundreds' of other customers I suppose who are all having the same issue. This results in Bibs not being able to answer the phone as all lines are busy... The staff on the other hand are absolutely great and go out of their way to resolving the issues once you get through to them. I have no complaint with staff or the products Bibs offers just their 'new' foray into the online/app world. If they can get this right and allow people to access their accounts regularly on the system it would be the best result."
 - **Rating:** 3/5
 - **Source:** Trustpilot
 - **Date:** January 2024
 - **Context:** Captures the core tension at Bath BS: excellent personal service undermined by unreliable digital infrastructure. When online goes down, phone lines get overwhelmed — a cascading failure. App Store rating is 1.7/5 from 21 ratings, corroborating this.
 
-### Negative - Mortgage approved then abruptly declined after 2 months
+### Negative - Mortgage approved then abruptly declined after 2 months (Trustpilot)
 > "Bath Building Society led me down a path whilst getting a mortgage approved for over 2 months — approved the mortgage, signed all documents, then they were rudely abrupt in declining the mortgage without any good reason, and very randomly. The mortgage was approved. Absolute farce of a company — rude staff, terrible organisation, delays after delays."
 - **Rating:** 1/5
 - **Source:** Trustpilot
 - **Date:** November 2025
 - **Context:** Mortgage was apparently approved, documents signed, then declined. One of the most emotionally charged reviews. Reflects a recurring pattern of mortgage decisions being reversed or delayed.
 
-### Negative - Rent a Room mortgage denied despite passing affordability
+### Negative - Rent a Room mortgage denied despite passing affordability (Trustpilot)
 > "I applied for their new rent a room mortgage after going through a separation. I took on 2 lodgers to help pay the bills. The criteria of the mortgage was you are allowed 2 lodgers but only one is assessed in the affordability. I passed the affordability, but still denied the mortgage as my house has 5 bedrooms. 2 rooms for the lodgers, 1 is mine and 2 for my daughters when they stay as they live away? This will potentially force me to sell my family home."
 - **Rating:** 1/5
 - **Source:** Trustpilot
 - **Date:** June 2025
 - **Context:** Applicant going through separation met the stated affordability criteria but was declined on bedroom count. A painful example of the gap between Bath BS's marketed flexibility and actual lending decisions — particularly distressing given the family circumstances.
 
-### Negative - 60-year member, age 81, driven away by petty rules
+### Negative - 60-year member, age 81, driven away by petty rules (Trustpilot)
 > "I went to their branch with 4 BIBS accounts to put capital interest into two bank accounts only to be told they only do one bank account transaction at a time. The bank closes at 3pm. This is another change of many BIBS managers' petty little protocols, but their senior counter staff are charming. They pushed us out before we left, transferring ALL 4 monies into the very bank account they had refused the day before. Absurd."
 - **Rating:** 1/5
 - **Source:** Trustpilot
 - **Date:** November 2024
 - **Context:** An 81-year-old member of 60 years frustrated by rigid branch procedures that felt petty and inconsistent. Notably praises the front-line staff while criticising management policies. Illustrative of how institutional processes can damage deeply loyal member relationships.
 
-### Negative - BTL mortgage: one month for a response, piecemeal information requests
+### Negative - BTL mortgage: one month for a response, piecemeal information requests (Trustpilot)
 > "It has taken a month since we submitted our application for a BTL mortgage to get a response from underwriting... Even then they have not come back with a decision, instead they have come back requesting more information. They have asked for several items which don't exist, several items which won't be required until completion, and details they will have already obtained from my credit bureau. We were very clear that we were looking to settle early October. However it has basically taken a month to figure out they need more information. And we are now in danger of losing this transaction."
 - **Rating:** 1/5
 - **Source:** Trustpilot
 - **Date:** October 2024
 - **Context:** A recurring complaint pattern: slow underwriting, information requested piecemeal rather than upfront, and requests for documents that don't exist or aren't needed yet. The applicant risks losing their purchase.
 
-### Negative - Mortgage delays then decline for reason known from the start
+### Negative - Mortgage delays then decline for reason known from the start (Trustpilot)
 > "Do not let these people lose you your dream home which is happening to me right now because of them... You need a mortgage provider that will give you a decision either way as soon as possible, not one that will delay you for weeks and then decline you for a reason they knew about in the first place... Every question they asked was answered immediately, and them taking days to get back each time. If the seller doesn't wait for me, Bath will be the sole reason why I have lost my much needed purchase."
 - **Rating:** 1/5
 - **Source:** Trustpilot
 - **Date:** June 2022
 - **Context:** Applicant was strung along for weeks before being declined for a reason Bath BS knew about from the application. With an impatient seller and no ability to run parallel applications, the reviewer risked losing their home purchase entirely. A visceral example of how slow processes cause real harm.
 
-### Negative - Mortgage delayed, costing over £1,000
+### Negative - Mortgage delayed, costing over £1,000 (Trustpilot)
 > "My mortgage process was delayed because essential questions were not asked promptly by Bath at the outset. This delay ended up costing me over £1,000..."
 - **Rating:** Low (1-2/5)
 - **Source:** Smart Money People
 - **Date:** April 2025
 - **Context:** Financial harm from underwriting delays — the reviewer quantifies the cost. Reinforces the pattern of questions not being asked upfront, leading to cascading delays with real monetary consequences.
 
-### Negative - ISA transfer nightmare escalated to Financial Ombudsman
+### Negative - ISA transfer nightmare escalated to Financial Ombudsman (Trustpilot)
 > "A mix up over ISA transfer to another provider, sorted eventually after months. Other provider paid gesture of goodwill without prompting. Bath Building Society will not send me closing statement showing final balance and interest paid. They confirmed, after my many emails to them, they would award me a gesture of goodwill and send statement, but neither has appeared. I have reported them to Resolver several times which has escalated my complaints to the Financial Ombudsman. Each time I have informed Bath I have done so, they never respond, which indicates their lack of concern."
 - **Rating:** 1/5
 - **Source:** Trustpilot
@@ -312,3 +312,153 @@ Available to sole traders, charities, partnerships, and incorporated organisatio
 | Branch experience | Mixed — staff great, rules rigid | Overwhelmingly positive |
 
 **Key insight:** Bath BS's Trustpilot profile (2.1/5) is almost entirely composed of mortgage applicants who had bad experiences with the underwriting process. The SMP profile (4.71/5) is dominated by savings customers with straightforward, positive branch interactions. The truth likely lies between: the personal service and savings products are genuinely excellent, while the mortgage underwriting process has real, documented problems with speed, communication, and consistency.
+
+### Positive - A Smooth, Stress-Free Mortgage Experience (Smart Money People)
+> "I’m extremely impressed with the service I received from Bath Building Society, and especially from my mortgage advisor, Tim. From the very start, Tim has been incredibly supportive, professional, and reassuring. He guided me through every stage of the process, answered all my questions clearly, and helped me complete the forms with confidence. What could have been a stressful experience felt smooth and straightforward thanks to Tim’s calm, positive attitude and attention to detail. He was always quick to respond and very good at explaining what was important—and what I didn’t need to worry about! That made a huge difference. I’m absolutely delighted that my mortgage offer was produced so quickly, in just five working days. The efficiency and personal service I received exceeded all expectations. I genuinely felt looked after throughout the entire process. Thank you to Tim and everyone at Bath Building Society for making this such a positive experience."
+- **Rating:** ⭐⭐⭐⭐⭐
+- **Date:** December 2025
+- **Context:** Mortgage product review
+
+### Positive - Retirement mortgage with exceptional service (Smart Money People)
+> "Bath Building Society (Tim and the team) provided exceptional service from start to finish. The team was professional, knowledgeable, and genuinely supportive, with a personal touch far superior to anywhere else (we went to other building societies and brokers). The key differences were we weren’t passed from pillar to post, endlessly repeating ourselves to different people filling in forms without context and more importantly treated with respect and listened to. The Retirement Mortgage itself perfectly met our needs too, which is flexible, reliable with longevity, and unlike anything we found elsewhere. It truly feels like a well-kept secret. On top of that, they worked to our timelines, which was a fantastic bonus. Definitely a 5 star service - thank you!"
+- **Rating:** ⭐⭐⭐⭐⭐
+- **Date:** December 2025
+- **Context:** Mortgage product review
+
+### Positive - The Best Banking Team Around! (Smart Money People)
+> "The team at Bath Building Society are always so helpful. I love having an account with them because you always receive a very personalised service where you are speaking to a very helpful representative from their side, you aren't ever kept waiting long for an answer and it is so refreshing and appreciated these days to be speaking directly with a human not endlessly trying to communicate via a 'live chat' or AI bot which many other banks now use. Whenever I have had a query this is responded to usually on the same day, they also keep you informed on any pending decisions. I have to give a special mention to Nick and Natasha who I was working with recently in regards to one of my accounts with them."
+- **Rating:** ⭐⭐⭐⭐⭐
+- **Date:** November 2025
+- **Context:** Mortgage product review
+
+### Positive - A very complicated case, fantastic support & outcome. (Smart Money People)
+> "A very complicated case, and slightly off criteria basis, was sensitively assessed by the underwriting team with a positive outcome. This was supported by the fantastic BDM Kerrin White, who listened and liaised between myself and the underwriting team, despite numerous hurdles - I cannot recommend Kerrin any more, as he is a polite, attentive, understanding, fair, and consummate professional. He stood out above even some of the best I have worked with from different lenders over the last 5 years. I would recommend him for an industry award if it were possible. Many thanks."
+- **Rating:** ⭐⭐⭐⭐⭐
+- **Date:** January 2026
+- **Context:** Mortgage product review
+
+### Positive - Applied for a mortgage with the Bath Building Societ... (Smart Money People)
+> "Applied for a mortgage with the Bath Building Society and from initial enquiry to getting the offer the service has been excellent . My adviser Ian Birch has been amazing . He took time to explain everything in great detail and quickly responded to any questions I had regarding my application. I cannot recommend him highly enough. Process was easy to complete and all done in a very good timescale. Was kept informed at all times and made the whole process painless. I would have no hesitation in recommending Ian and the Bath Building society."
+- **Rating:** ⭐⭐⭐⭐⭐
+- **Date:** November 2025
+- **Context:** Mortgage product review
+
+### Positive - Arranging our remortgage with Bath Building Society... (Smart Money People)
+> "Arranging our remortgage with Bath Building Society was an overall very positive experience. In particular the support offered by Tim Randall was excellent. From the initial contact through the application process and beyond Tim guided us, offering appropriate advice and information and we are very grateful for his sage counsel. The underwriting process felt somewhat protracted at times, however, we do appreciate that this may be due to the individuality applied to each individual application."
+- **Rating:** ⭐⭐⭐⭐⭐
+- **Date:** November 2025
+- **Context:** Mortgage product review
+
+### Positive - 5-Star Review for Tim Randall (Smart Money People)
+> "I had an excellent experience working with Tim as my Mortgage Advisor. As a first-time buyer, the whole process felt overwhelming at first, but Tim made everything clear, manageable, and stress-free. He was incredibly patient, explained every step in simple terms, and always responded quickly whenever I had questions."
+- **Rating:** ⭐⭐⭐⭐⭐
+- **Date:** November 2025
+- **Context:** Mortgage product review
+
+### Positive - Excellent all round Service (Smart Money People)
+> "From first registering an interest online in order to re-mortgage my property, the service has been fast and very professional. My Mortgage adviser, Tim Randall was excellent. Always handled my correspondence and queries very promptly and efficiently."
+- **Rating:** ⭐⭐⭐⭐⭐
+- **Date:** December 2025
+- **Context:** Mortgage product review
+
+### Positive - great service and comms (Smart Money People)
+> "As a Mortgage Intermediary it’s important to have good contacts and timely communications and we recently received exemplary service from the team at Bath BS and Nick T was exceptional in the way that he continued to keep us informed of progress"
+- **Rating:** ⭐⭐⭐⭐⭐
+- **Date:** January 2026
+- **Context:** Mortgage product review
+
+### Positive - Great BDM (Smart Money People)
+> "I spoke to Kerrin White regarding a Holiday Let mortgage for my client and he has been nothing but helpful during the start of the process. Answered all of my emails and calls quickly and made sure i was fully aware of the process."
+- **Rating:** ⭐⭐⭐⭐⭐
+- **Date:** November 2025
+- **Context:** Mortgage product review
+
+### Positive - Always treated like a person, not just a member. (Smart Money People)
+> "Local, convenient. Friendly staff and helpful. Rates are always competitive, hours are convenient. Visited the Oldfield branch and was served by Antonia. I am always treated as a person, not just a member."
+- **Rating:** ⭐⭐⭐⭐⭐
+- **Date:** February 2026
+- **Context:** Savings product review
+
+### Positive - Specialist new build loan (Smart Money People)
+> "I had a specialist loan to finance a new build property. The application process and management of the loan drawdowns was very efficient. There was always someone available to speak to with any queries."
+- **Rating:** ⭐⭐⭐⭐⭐
+- **Date:** January 2026
+- **Context:** Mortgage product review
+
+### Positive - Friendly, knowledgable and efficient service from al... (Smart Money People)
+> "Friendly, knowledgable and efficient service from all at the company. From initial contact to offer was less than 3 weeks, a great rate and good product perfect for a university student.-"
+- **Rating:** ⭐⭐⭐⭐⭐
+- **Date:** January 2026
+- **Context:** Mortgage product review
+
+### Positive - Excellent service (Smart Money People)
+> "Ian Burch and the team were outstanding with their advice, help and assistance. They were always on hand for any queries or concerns we had and made the whole progress stress free"
+- **Rating:** ⭐⭐⭐⭐⭐
+- **Date:** November 2025
+- **Context:** Mortgage product review
+
+### Negative - Opening further accounts (Smart Money People)
+> "Inconsistent information given as to what is required to open a new account even when an existing customer! Try the Coventry B S excellent service at all times"
+- **Rating:** ⭐
+- **Date:** January 2026
+- **Context:** Savings product review
+
+### Positive - Mortgage Port (Smart Money People)
+> "We sold and were looking at porting our mortgage. Start was good, then it went a little wrong but then resolved very well and professionally"
+- **Rating:** ⭐⭐⭐⭐⭐
+- **Date:** January 2026
+- **Context:** Mortgage product review
+
+### Positive - The telephone is answered by a real live person. (Smart Money People)
+> "The telephone is answered by a real live person. All the staff I encountered were friendly, professional and knowledgeable."
+- **Rating:** ⭐⭐⭐⭐⭐
+- **Date:** January 2026
+- **Context:** Savings product review
+
+### Positive - The telephone is answered by a real live person, all... (Smart Money People)
+> "The telephone is answered by a real live person, all the staff I encountered were friendly, professional and knowledgable."
+- **Rating:** ⭐⭐⭐⭐⭐
+- **Date:** January 2026
+- **Context:** Savings product review
+
+### Positive - A local branch where you can speak to someone. (Smart Money People)
+> "A local branch where you can speak to someone. I visited the Wood Street branch and spoke to Jane - keep up the good work!"
+- **Rating:** ⭐⭐⭐⭐⭐
+- **Date:** January 2026
+- **Context:** Savings product review
+
+### Positive - Came into Oldfield park today to open a new account. (Smart Money People)
+> "Came into Oldfield park today to open a new account. Daisy and the whole team were really helpful, thank you!"
+- **Rating:** ⭐⭐⭐⭐⭐
+- **Date:** January 2026
+- **Context:** Savings product review
+
+### Positive - Like being able to come in and sort out my ISA rathe... (Smart Money People)
+> "Like being able to come in and sort out my ISA rather than stress of doing it on-line. Ella was very helpful."
+- **Rating:** ⭐⭐⭐⭐⭐
+- **Date:** January 2026
+- **Context:** Savings product review
+
+### Positive - Staff at Wood Street are always very friendly and he... (Smart Money People)
+> "Staff at Wood Street are always very friendly and helpful. A nice office and convenient in the City of Bath."
+- **Rating:** ⭐⭐⭐⭐⭐
+- **Date:** January 2026
+- **Context:** Savings product review
+
+### Positive - Kerrin (BDM) was very helpful and Tom (on live chat)... (Smart Money People)
+> "Kerrin (BDM) was very helpful and Tom (on live chat) answered my query really quickly. Thanks both."
+- **Rating:** ⭐⭐⭐⭐⭐
+- **Date:** November 2025
+- **Context:** Mortgage product review
+
+### Positive - Very helpful staff, in the branch and on the phone (Smart Money People)
+> "Very helpful staff, both in the branch and Ella was helpful when I rang with a query on the phone."
+- **Rating:** ⭐⭐⭐⭐⭐
+- **Date:** February 2026
+- **Context:** Savings product review
+
+### Positive - Prompt and friendly service. (Smart Money People)
+> "Visited the Wood Street branch and was served by Rachelle. Prompt and friendly service."
+- **Rating:** ⭐⭐⭐⭐⭐
+- **Date:** January 2026
+- **Context:** Savings product review

@@ -1,0 +1,46 @@
+{
+  "society": "Earl Shilton Building Society",
+  "slug": "earl-shilton-building-society",
+  "smpUrl": "https://smartmoneypeople.com/earl-shilton-building-society-reviews/products",
+  "totalReviewsOnSMP": 0,
+  "avgRating": 5.0,
+  "scrapedAt": "2026-02-06T15:39:09.712559+00:00",
+  "reviews": [
+    {
+      "title": "Couldn't be more helpful!",
+      "text": "Phone them and after a few button clicks on the phone and you are through to a helpful human being. No listening to music for seemingly hours, as with some. They understand your query and give good and helpful advice.",
+      "rating": 5,
+      "date": "7th March 2025",
+      "product": "Savings",
+      "sentiment": "positive"
+    },
+    {
+      "title": "As recommended this week by Money…",
+      "text": "As recommended this week by Money Saving Expert with highest savings interest rate we opened accounts today.\nFrom the initial phone calls to actual meeting today has been a great personal experience.",
+      "rating": 5,
+      "date": "11th August 2023",
+      "product": "General",
+      "sentiment": "positive",
+      "source": "trustpilot"
+    },
+    {
+      "title": "Fantastic customer service received",
+      "text": "Just opened an account in person with my elderly wheelchair bound Mother, the Customer Service was excellent, in fact it could not of been any better. What a refreshingly pleasant experience, highest standards of customer care.",
+      "rating": 5,
+      "date": "10th February 2020",
+      "product": "General",
+      "sentiment": "positive",
+      "source": "trustpilot"
+    },
+    {
+      "title": "A genuine and friendly building society…",
+      "text": "A genuine and friendly building society who put people first. Helped me in acquiring a self build mortgage, but also provided some helpful advice.",
+      "rating": 5,
+      "date": "17th September 2019",
+      "product": "General",
+      "sentiment": "positive",
+      "source": "trustpilot"
+    }
+  ],
+  "trustpilotUrl": "https://uk.trustpilot.com/review/esbs.co.uk"
+}

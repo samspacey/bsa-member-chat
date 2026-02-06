@@ -1,0 +1,642 @@
+{
+  "society": "Leeds Building Society",
+  "slug": "leeds-building-society",
+  "smpUrl": "https://smartmoneypeople.com/leeds-building-society-reviews/products",
+  "totalReviewsOnSMP": 82,
+  "avgRating": 3.66,
+  "scrapedAt": "2026-02-06T15:46:31.290896+00:00",
+  "reviews": [
+    {
+      "title": "Consistently good.",
+      "text": "We have had 2 mortgages with Leeds BS and they are always quick, responsive and provide great customer service.",
+      "rating": 5,
+      "date": "17th June 2024",
+      "product": "Mortgages",
+      "sentiment": "positive"
+    },
+    {
+      "title": "Phone hacked after giving my details",
+      "text": "Possible confidential information breech. My phone got hacked after my mortgage broker give my details to this company. They also reduced the offer to 50%, even though I work for the NHS.",
+      "rating": 1,
+      "date": "1st June 2024",
+      "product": "Mortgages",
+      "sentiment": "negative"
+    },
+    {
+      "title": "Great building society for mortgage",
+      "text": "I have a mortgage with Leeds Building Society with an awesome rate. I was able to fix my rate before the interest rates peaked. Leeds Building Society extended my offer despite the huge difference in the rate I was offered and the current rate",
+      "rating": 5,
+      "date": "29th March 2024",
+      "product": "Mortgages",
+      "sentiment": "positive"
+    },
+    {
+      "title": "Leek Building Society : first class !",
+      "text": "I would like to commend the professionalism, attitude and knowledge of your staff. My enquiries were always dealt with a timely manner. Our application was in many ways a difficult one; nevertheless, your staff should be congratulated on seeing matters through to a conclusion. Really, really appreciate all your hard work.",
+      "rating": 5,
+      "date": "19th March 2024",
+      "product": "Mortgages",
+      "sentiment": "positive"
+    },
+    {
+      "title": "Mortgage",
+      "text": "Keeps me updated every year, offers me good deals at the end of the term. Very friendly",
+      "rating": 5,
+      "date": "15th February 2024",
+      "product": "Mortgages",
+      "sentiment": "positive"
+    },
+    {
+      "title": "Amazing services and competent advisors",
+      "text": "I've been with Leeds Building Society for nearly 7 years. They helped me buy my first family house. They supported me all the way with brilliant advice. Even when I decided to pay off the help to buy, they made it possible. Will certainly recommend them.",
+      "rating": 5,
+      "date": "4th April 2023",
+      "product": "Mortgages",
+      "sentiment": "positive"
+    },
+    {
+      "title": "Mortgage services",
+      "text": "We have a mortgage with Leeds building society and their customer service is brilliant Very informative staff every time I phone and always go above and beyond",
+      "rating": 5,
+      "date": "3rd April 2023",
+      "product": "Mortgages",
+      "sentiment": "positive"
+    },
+    {
+      "title": "Best customer service",
+      "text": "I've had a mortgage with LBS for almost 8 years (3 products on 2 properties); as well as good interest rates, the customer service has always been excellent - even when I made a complaint about something that turned out not to be their fault, they were very helpful with providing information so that I could pursue the matter with the appropriate party.",
+      "rating": 5,
+      "date": "26th March 2023",
+      "product": "Mortgages",
+      "sentiment": "positive"
+    },
+    {
+      "title": "Impressive customer service",
+      "text": "I had the best experience renewing my mortgage product last year. My existing product was about to end and I was able to simply complete my application for a new product online, so long as I was not altering the amount or term. As I was interested in reducing the term I contacted an advisor. She answered every question I had and advised that I could reduce the term retrospectively without penalty. It's great to leave a call with the confidence that you're making the right decision.",
+      "rating": 5,
+      "date": "8th March 2023",
+      "product": "Mortgages",
+      "sentiment": "positive"
+    },
+    {
+      "title": "Shared ownership",
+      "text": "We were first time buyers with great affordability and good credit but due to the market we were declined by NatWest on “score”. Leeds offered us a great rate and do shared ownership which is great",
+      "rating": 4,
+      "date": "17th February 2023",
+      "product": "Mortgages",
+      "sentiment": "positive"
+    },
+    {
+      "title": "problem....",
+      "text": "The eternal problem with address confirmation.. I've been fighting for 2 weeks to confirm my wife's address.. first it was supposed to be P60 as they have in the letter, now it's not enough for them ... the worst bank I've come across ... I don't recommend it.",
+      "rating": 1,
+      "date": "23rd January 2023",
+      "product": "Mortgages",
+      "sentiment": "negative"
+    },
+    {
+      "title": "Excellent mortgage provider",
+      "text": "Recommended by Ethical Consumer Magazine so I switched when my last fixed term mortgage was up. Very easy switch and LBS have been excellent ever since.",
+      "rating": 5,
+      "date": "18th January 2023",
+      "product": "Mortgages",
+      "sentiment": "positive"
+    },
+    {
+      "title": "hassle free mortgage",
+      "text": "Purchased my first home during Covid with Leeds BS, no in person meetings required. Easy step by step system to get us sorted",
+      "rating": 4,
+      "date": "1st April 2022",
+      "product": "Mortgages",
+      "sentiment": "positive"
+    },
+    {
+      "title": "Very high SVR - permanently it seems",
+      "text": "They have had an SVR of well over 5% for the 15 years I have noted, not so good for those wishing to overpay large sums or avoid early repayment charges if potentially moving, beware..",
+      "rating": 1,
+      "date": "2nd February 2022",
+      "product": "Mortgages",
+      "sentiment": "negative"
+    },
+    {
+      "title": "Shocking service and bad advice",
+      "text": "I moved house and needed to port my existing mortgage across. Should have been simple. Not only has the process been like pulling teeth, it cost me thousands extra as I was given bad advice by LBS which was highlighted by my conveyancer. Consultants were pompous, unhelpful and sly. Steer well clear! I would have rated 0 stars in review but was not possible.",
+      "rating": 1,
+      "date": "16th June 2021",
+      "product": "Mortgages",
+      "sentiment": "negative"
+    },
+    {
+      "title": "Brilliant",
+      "text": "Ethical and great value with amazing customer service",
+      "rating": 5,
+      "date": "16th April 2021",
+      "product": "Mortgages",
+      "sentiment": "positive"
+    },
+    {
+      "title": "Hard witj",
+      "text": "Trying to remortgage is like fighting a war",
+      "rating": 3,
+      "date": "24th May 2019",
+      "product": "Mortgages",
+      "sentiment": "mixed"
+    },
+    {
+      "title": "Great service",
+      "text": "Always happy to help and reassuring when things took an unexpected turn. The staff member took time to look things over then said they would need to call me back and that same member phoned me back which was great and really meant a lot to me.",
+      "rating": 5,
+      "date": "8th February 2019",
+      "product": "Mortgages",
+      "sentiment": "positive"
+    },
+    {
+      "title": "Great",
+      "text": "Leeds were one of the only providers to offer shared ownership mortgages. Competitive rate and mortgage was approved so very happy indeed.",
+      "rating": 5,
+      "date": "10th August 2018",
+      "product": "Mortgages",
+      "sentiment": "positive"
+    },
+    {
+      "title": "Service generally good but SVR high",
+      "text": "The society seems more interested in attracting new business than charging a fair rate on their SVR",
+      "rating": 4,
+      "date": "1st December 2017",
+      "product": "Mortgages",
+      "sentiment": "positive"
+    },
+    {
+      "title": "terrible legal service",
+      "text": "My view of Leeds mortgage service is badly affected by the terrible service by TCS the law firm that LMS gave me. Leeds had the survey done quickly and approved the mortgage very soon after. Now 10 weeks later the LMS customer service seem incapable of getting the law firm to get a move on. I would definitely not use Leeds again or if I did use my own solicitor to do the legal work",
+      "rating": 1,
+      "date": "14th November 2017",
+      "product": "Mortgages",
+      "sentiment": "negative"
+    },
+    {
+      "title": "New mortgage",
+      "text": "We recently too out a mortgage with Leeds and although we got a good rate and a decent loan to value ratio the process took an exceedingly long time and felt like we had to jump through a lot of hoops",
+      "rating": 3,
+      "date": "27th July 2017",
+      "product": "Mortgages",
+      "sentiment": "mixed"
+    },
+    {
+      "title": "Good company",
+      "text": "My mortgage was intitially set up by a broker but I have recently changed tariffs and the customer service team were helpful in setting up a mortgage appointment, even noticing my recent birthday. I then received a call from an advisor on time on the allocated day. She went through everything with me in a calm and collected manner which made it easy to understand the different options available to me. I was made to feel like it was important the product was right for me instead of trying to sell me the highest priced product. Overall I was impressed by the service from Leeds Building Society.",
+      "rating": 4,
+      "date": "4th July 2017",
+      "product": "Mortgages",
+      "sentiment": "positive"
+    },
+    {
+      "title": "Gives you a chance !",
+      "text": "Helpful for shared ownership mortgages, one of the few places I could get one ! The rent throws the affordability calculator out of whack for most of the other banks which sucks as the point of shared ownership is meant to get you in the door. However interest is higher than other banks but I guess that's the price you pay!",
+      "rating": 3,
+      "date": "5th February 2017",
+      "product": "Mortgages",
+      "sentiment": "mixed"
+    },
+    {
+      "title": "Friendly and listening",
+      "text": "Leeds have always been prepared to go out of their way, to accept the unusual and listen, respond and act. All of this done in a friendly and un-pushy way, but still very businesslike and wishing to provide a product and a service",
+      "rating": 5,
+      "date": "14th January 2017",
+      "product": "Mortgages",
+      "sentiment": "positive"
+    },
+    {
+      "title": "AVOID paid deposit and another three 'lump sums'",
+      "text": "All is well once they get you on board. Requested 3 lump sum payments over the course of a few months on top of a huge deposit and near the end of the completion date for our home. Complete shambles of a company and would advise to invest your money elsewhere. Such a stressful time dealing going with this company. Really not worth it. Really slow incompetent staff who will request this, that, even though its been submitted. Would stay away",
+      "rating": 1,
+      "date": "15th November 2016",
+      "product": "Mortgages",
+      "sentiment": "negative"
+    },
+    {
+      "title": "Few bumps along the way",
+      "text": "We recently set up a mortgage with Leeds. Good points - they gave us a decent rate with a low deposit which helped us buy our dream house! Downsides - everything took forever, I mean months to sort out and they didn't set up our mortgage payments properly. Having said that the people on the phone are helpful and polite",
+      "rating": 3,
+      "date": "5th September 2016",
+      "product": "Mortgages",
+      "sentiment": "mixed"
+    },
+    {
+      "title": "Straight forward",
+      "text": "Always helpful customer service - and wonderful that they have Uk based call centre!",
+      "rating": 4,
+      "date": "5th September 2016",
+      "product": "Mortgages",
+      "sentiment": "positive"
+    },
+    {
+      "title": "Big faff to change to but good deal was worth it",
+      "text": "I changed my mortgage from Santander to get Leeds better rate. The process was more hassle than I was expecting and took ages but in the end it was worth it as I made huge savings",
+      "rating": 4,
+      "date": "11th May 2016",
+      "product": "Mortgages",
+      "sentiment": "positive"
+    },
+    {
+      "title": "No problems so far!",
+      "text": "All of the documentation when setting up our mortgage was very helpful and on the one instance we've had to contact them so far they were great. No issues setting it up, and no issues with any payments either.",
+      "rating": 5,
+      "date": "8th October 2015",
+      "product": "Mortgages",
+      "sentiment": "positive"
+    },
+    {
+      "title": "The epitome of bad digital design and bureaucracy.",
+      "text": "I've been lured in by reasonable though not outstanding rates more than once but each time I've regretted it. The whole design of their website and online forms is a masterclass in how not to do it. Nothing is intuitive- you click one thing and it links to another page, then more options, dead ends, errors etc. It's like wading through treacle. I wanted to withdraw some funds by faster payment, but couldn't get through to the right bit. I am very experienced in navigating online forms etc. I reluctantly accepted a paper cheque withdrawal. It took well over a week to arrive (Royal Mail's fault? I'm not so sure) Great difficulty in getting it to scan on my current account app, finally scanned but the following day it got rejected. The printing on the cheque was very feint. I had to make a journey to a physical bank branch. All this time I was earning 0% on a fair bit of money while Leeds still had my funds. Despite numerous messages with them, I still don't know whether I could have had a faster payment after all.",
+      "rating": 1,
+      "date": "23rd January 2026",
+      "product": "Savings",
+      "sentiment": "negative"
+    },
+    {
+      "title": "I have been a customer of Leeds Building Society sin...",
+      "text": "I have been a customer of Leeds Building Society since 2022, and I have consistently found that Leeds Building Society offers highly competitive savings rates, which has allowed me to grow my savings effectively and with peace of mind. On the years, I have needed to contact their customer service team with various queries. Each time, I was met with outstanding service – the staff were always knowledgeable, attentive, and genuinely willing to help. It is clear that customer satisfaction is a priority for them, as my questions have always been answered promptly and thoroughly. Thanks to their excellent savings options and the consistently high standard of customer care, I plan to continue banking with Leeds Building Society for many years to come. I would highly recommend them to anyone seeking a reliable and rewarding place to save.",
+      "rating": 5,
+      "date": "19th January 2026",
+      "product": "Savings",
+      "sentiment": "positive"
+    },
+    {
+      "title": "A Happy Customer",
+      "text": "Two members of staff on the front desk were extremely helpful and arranged an appointment for the next day.Saw Pam the next day right on time. She was very friendly and extremely helpful. Really patient and accommodating guiding me to what would be best savings wise for me. One happy customer. Thanks.",
+      "rating": 5,
+      "date": "21st May 2025",
+      "product": "Savings",
+      "sentiment": "positive"
+    },
+    {
+      "title": "Shambles",
+      "text": "Opened 5 Cash ISAs for family members. Did all the online checks and set up all the passwords. Received the welcome pack to say all opened and a PIN to activate to the accounts. Went in and did this. Went to go back in to put money in and none of the accounts worked. Was told I need to go into the branch with new ID for each member to open the accounts again. I had spent about 6 hours to this point setting them up. Gave up in the end. Shambles.",
+      "rating": 1,
+      "date": "21st May 2025",
+      "product": "Savings",
+      "sentiment": "negative"
+    },
+    {
+      "title": "Very poor administration and customer service",
+      "text": "Requested a new savings account but to be sent the interest from my existing account. Despite giving written instructions and a phone call also told my request would be actioned. They failed to follow my instructions and I had to cancel the account. To make matters worse they sent me a cheque rather than electronic transfer unlike the other three providers I was with. Woeful administration and glacier like slow responses. Find a better financial institution.",
+      "rating": 1,
+      "date": "14th May 2025",
+      "product": "Savings",
+      "sentiment": "negative"
+    },
+    {
+      "title": "Been with Leeds Building Society since I was a child...",
+      "text": "Been with Leeds Building Society since I was a child (then Leeds and Holbeck ) Always friendly and helpful",
+      "rating": 5,
+      "date": "4th April 2025",
+      "product": "Savings",
+      "sentiment": "positive"
+    },
+    {
+      "title": "Been with Leeds Building Society since a child.",
+      "text": "I have been with Leeds Building Society since I was a child (formerly Leeds and Holbeck Building Society. The still have places where you can go in and sort out your savings. Always very friendly and trustworthy",
+      "rating": 5,
+      "date": "28th February 2025",
+      "product": "Savings",
+      "sentiment": "positive"
+    },
+    {
+      "title": "Excellent customer service",
+      "text": "Excellent customer service and advice",
+      "rating": 5,
+      "date": "31st January 2025",
+      "product": "Savings",
+      "sentiment": "positive"
+    },
+    {
+      "title": "Been with them since I was a young girl",
+      "text": "Been with the building society since I was a young girl. Always friendly and helpful and professional Always found them very personable and able to tailor accounts to my needs",
+      "rating": 5,
+      "date": "10th October 2024",
+      "product": "Savings",
+      "sentiment": "positive"
+    },
+    {
+      "title": "Not great customer service slow to respond and stric...",
+      "text": "Not great customer service slow to respond and strict on their penalties",
+      "rating": 2,
+      "date": "10th September 2024",
+      "product": "Savings",
+      "sentiment": "negative"
+    },
+    {
+      "title": "Been with the Building society for over 60 years.",
+      "text": "Been with the Building society since it was Leeds and Holbeck and I was a very young child (over 60 years). Always found them very professional and personable. Recently went to update my accounts to the best interest ones. Lesley was very informative and helpful at the Morley Branch",
+      "rating": 5,
+      "date": "31st July 2024",
+      "product": "Savings",
+      "sentiment": "positive"
+    },
+    {
+      "title": "Good interest rate and service.",
+      "text": "Good interest rate and service. No issues with application or after care.",
+      "rating": 5,
+      "date": "28th February 2024",
+      "product": "Savings",
+      "sentiment": "positive"
+    },
+    {
+      "title": "Good customer service.",
+      "text": "Good customer service. Quick to answer queries",
+      "rating": 5,
+      "date": "24th January 2024",
+      "product": "Savings",
+      "sentiment": "positive"
+    },
+    {
+      "title": "I had recently lost my mother who had been caring fo...",
+      "text": "I had recently lost my mother who had been caring for the past 10 years. I had opened a Savings account in order to receive my small inheritance from the sale of her house,which was being divided 5 ways between my siblings. I was very distressed during this time and staff showed me care and compassion by dealing with me sympathetically when I was very emotional, and took the time to listen and was a shoulder to cry on literally, providing me with a private room in which to sit. I couldn't have got through the difficult weeks of bereavement without the support from your wonderful and caring staff!! I cannot thank them enough!",
+      "rating": 5,
+      "date": "23rd January 2024",
+      "product": "Savings",
+      "sentiment": "positive"
+    },
+    {
+      "title": "Amateurs",
+      "text": "Put money into an isa for a one year fix. On maturity I wanted my money transferred to another company. Everything was set up to have money transfered with the new company. Leeds bs then sent everything to my current account blaming the new company for not informing them which is total rubbish. Investigation is on going. Don't deal with these cowboys!",
+      "rating": 1,
+      "date": "4th January 2024",
+      "product": "Savings",
+      "sentiment": "negative"
+    },
+    {
+      "title": "isa transfer",
+      "text": "this was not a straight forward transfer and jamez of the Morley branch dealt with task professionally and with a sense of humour. thank you janet&john Leeds 12",
+      "rating": 5,
+      "date": "28th September 2023",
+      "product": "Savings",
+      "sentiment": "positive"
+    },
+    {
+      "title": "Reliable For 25 years",
+      "text": "Thankfully I still enjoy mostly Branch interaction with the company. This suits me as there less likelihood of me making a mistake if talking to a human!!",
+      "rating": 4,
+      "date": "13th September 2023",
+      "product": "Savings",
+      "sentiment": "positive"
+    },
+    {
+      "title": "Excellent experience at Leicester Branch",
+      "text": "Staff could not have been more helpful. Really easy to open an account Would return again and would have no hesitation recommending the Leicester Branch to anyone.",
+      "rating": 5,
+      "date": "5th August 2023",
+      "product": "Savings",
+      "sentiment": "positive"
+    },
+    {
+      "title": "Nice and easy in branch",
+      "text": "Always able to speak to a real person in a real branch",
+      "rating": 5,
+      "date": "4th August 2023",
+      "product": "Savings",
+      "sentiment": "positive"
+    },
+    {
+      "title": "FEELING REALLY BULLIED BY LEEDS BS",
+      "text": "After a review on Trustpilot revealing Leeds BS instant access savings rate was 1.9% and between 2 and 3 times that available elsewhere; Also that Martin Lewis stated if getting less than 4% \"ditch and switch\", Leeds have demanded review be taken down! Clearly bothered at people being given this information! I've been with Leeds BS for nearly 30 years and feel that, rather than being treated as a loyal customer, I've lost out substantially on interest and now feel they are trying strong arm tactics versus an OAP to hide their awful approach to loyal customers/long term members.",
+      "rating": 1,
+      "date": "30th June 2023",
+      "product": "Savings",
+      "sentiment": "negative"
+    },
+    {
+      "title": "LEEDS BS LOYALTY PENALTY",
+      "text": "It must be c.30 years since I started saving with the then Leeds and Holbeck Building Society and I could rely on them to treat me fairly on interest. THEN, after a period caring 24/7 for a relative, with little time to check interest rates, I discovered they had side lined my account and I had missed about £3000 in interest. I shrugged my shoulders and moved to a headline rate account and, after a couple of years I find they have AGAIN side lined my account, paying an extremely uncompetitive rate of interest. So, I've mainly transferred my savings to another building society which not only pays almost 2.5 times as much interest,but guarantees the interest rate for the future. SO IF YOUVE BEEN WITH LEEDS BS FOR A WHILE, CHECK YOUR SAVINGS RATE, AND MOVE TO A SOCIETY THAT TREATS YOU FAIRLY!",
+      "rating": 1,
+      "date": "2nd June 2023",
+      "product": "Savings",
+      "sentiment": "negative"
+    },
+    {
+      "title": "Brilliant service & unexpected gift",
+      "text": "I opened a children's saving account for my daughter and despite not being advertised they sent a email a few days later to say that they had planted a tree in my little girl's name. I thought this was a lovely touch and good CSR from Leeds Building society",
+      "rating": 5,
+      "date": "31st May 2023",
+      "product": "Savings",
+      "sentiment": "positive"
+    },
+    {
+      "title": "Customer service",
+      "text": "They have no consideration for their customers. I'll be withdrawing my investment ASAP !!",
+      "rating": 1,
+      "date": "8th April 2023",
+      "product": "Savings",
+      "sentiment": "negative"
+    },
+    {
+      "title": "Good luck with the call back!",
+      "text": "Tried calling Hull branch for a week to simply ask a question re: appointment. No answer. So I rang hub office who said i would get a call back within 2 hours, didn't call back all week dispite me trying Hull office all week, no response. So I opened my ISA at a rival building society.",
+      "rating": 1,
+      "date": "6th April 2023",
+      "product": "Savings",
+      "sentiment": "negative"
+    },
+    {
+      "title": "Good customer service by phone",
+      "text": "I generally check my ISA online but have recently made two phone calls to customer services and was pleasantly surprised to be answered quickly, have my issues dealt with promptly, with everything explained to my satisfaction by someone who didn't just read the script. Much better than average UK customer service these days!",
+      "rating": 4,
+      "date": "5th April 2023",
+      "product": "Savings",
+      "sentiment": "positive"
+    },
+    {
+      "title": "Absolutely excellent",
+      "text": "10_10 customer service absolutely excellent highly recommended",
+      "rating": 5,
+      "date": "28th February 2023",
+      "product": "Savings",
+      "sentiment": "positive"
+    },
+    {
+      "title": "Savings",
+      "text": "Very helpful & informative. Didn’t over do it on sales with other available products.",
+      "rating": 5,
+      "date": "21st February 2023",
+      "product": "Savings",
+      "sentiment": "positive"
+    },
+    {
+      "title": "No answer to telephone call.",
+      "text": "I have waited two hours to speak somebody and still no answer. Perhaps they are on strike. .",
+      "rating": 1,
+      "date": "10th November 2022",
+      "product": "Savings",
+      "sentiment": "negative"
+    },
+    {
+      "title": "impossible to speak to someone",
+      "text": "set up a new account online, needed to speak to someone to verify a couple of things before i transfered the funds ,i eventually gave up waiting",
+      "rating": 1,
+      "date": "10th October 2022",
+      "product": "Savings",
+      "sentiment": "negative"
+    },
+    {
+      "title": "Helpful online and in bank",
+      "text": "Have banked with them for years know my monies safe friendly and helpful staff",
+      "rating": 5,
+      "date": "7th August 2022",
+      "product": "Savings",
+      "sentiment": "positive"
+    },
+    {
+      "title": "I only want my money back.... never again",
+      "text": "Worst building society to try and get your own money out The questions they ask are ridiculous! I only want my money back.... you used it over 4 years so that's it worse experience !",
+      "rating": 1,
+      "date": "12th March 2022",
+      "product": "Savings",
+      "sentiment": "negative"
+    },
+    {
+      "title": "Worst building society to try and get your own money out",
+      "text": "Worst building society to try and get your own money out The questions they ask are ridiculous! I only want my money back.... you used it over 4 years so that's it worse experience !",
+      "rating": 1,
+      "date": "12th March 2022",
+      "product": "Savings",
+      "sentiment": "negative"
+    },
+    {
+      "title": "Good Rates",
+      "text": "0.80 for 1 year bond probably the best on the high street",
+      "rating": 5,
+      "date": "12th January 2022",
+      "product": "Savings",
+      "sentiment": "positive"
+    },
+    {
+      "title": "Simple and effective",
+      "text": "Great to use, fantastic staff, no issues at all. Highly recommend",
+      "rating": 5,
+      "date": "22nd January 2021",
+      "product": "Savings",
+      "sentiment": "positive"
+    },
+    {
+      "title": "Worst building society to try and get your own money out of",
+      "text": "The questions they ask are ridiculous! It took us nearly a week because my husband forgot his postcode he is 78.... He answered everything else we took our money out closed accounts.Far too many questions, I know you have to answer some, but they went too far",
+      "rating": 1,
+      "date": "27th July 2020",
+      "product": "Savings",
+      "sentiment": "negative"
+    },
+    {
+      "title": "Excellent Customer Service",
+      "text": "I am always treated politely , and with friendly smiles and courtesy . I never have to wait long , and the products and interest rates are very attractive .",
+      "rating": 5,
+      "date": "15th April 2019",
+      "product": "Savings",
+      "sentiment": "positive"
+    },
+    {
+      "title": "Friendly, helpful and informative",
+      "text": "Great staff in our local branch, friendly, helpful and caring.",
+      "rating": 5,
+      "date": "10th January 2019",
+      "product": "Savings",
+      "sentiment": "positive"
+    },
+    {
+      "title": "Astounded by the independent award claimed",
+      "text": "Astounded by the independent award claimed for best savings provider displayed on the leeds buildingsciety site. This society hardly ever comes up with savings rates to compare with others yet alone beat them. When they do their online application system is tiresome with, even after you have entered all your details, forms then also to be printed; completed then sent. If you fail to see a select option button on the final screen as my wife did recently for her ISA to be transferred in from another society there is no way to go back then select it. The documents they have prepared to be available for download, such as the applications, are not suffixed correctly so you yourself have to alter the file extent before you can open them. I have told them about this problem 2 years ago but they have not corrected matters so still are making the same mistakes. When you do have accounts with them they regularly unilaterally decide to close them then reissue those accounts as a new product. Unlike most other finacial companies they do not allow you to manipulate yourself any non-online accounts, it has improved more recently where you can send them a secure message to give instructions. Their secure message system is also not one of the best as messages can be sent but you do not have an inbox. They have been told about their failings but they seem unable to listen or understand they could possibly be at fault. Use them only if you need to or they have a better product than elsewhere then tolerate the defects.",
+      "rating": 1,
+      "date": "15th December 2018",
+      "product": "Savings",
+      "sentiment": "negative"
+    },
+    {
+      "title": "They all are kind and have good attitudes to customers",
+      "text": "Overall, there are good advantages I can give some points . Firstly, the place is accessible to reach and secondly when all employees faced with their customers, they showed me up their smiles and led to there where their clients want to quickly, and finally their kindness and friendly efforts are clearly shown in the front of the door.",
+      "rating": 5,
+      "date": "8th December 2018",
+      "product": "Savings",
+      "sentiment": "positive"
+    },
+    {
+      "title": "great!",
+      "text": "Easy to set up online,secure and good rates of interest!",
+      "rating": 5,
+      "date": "19th November 2018",
+      "product": "Savings",
+      "sentiment": "positive"
+    },
+    {
+      "title": "Regular Savings Account",
+      "text": "I have had one of these with the Leeds for many years now. The savings rates have always been very good. OK, the savings do build up slowly, but with good rates its worth the effort every month. I have usually 'phoned when I've had a problem or enquiry and the staff have been very helpful and friendly. I registered for online banking a few weeks ago. Then they started to change their security system and chaos ensued. I shall have to 'phone those helpful staff again, alas.",
+      "rating": 4,
+      "date": "8th March 2018",
+      "product": "Savings",
+      "sentiment": "positive"
+    },
+    {
+      "title": "Awesome",
+      "text": "I loved the how friendly and helpful",
+      "rating": 5,
+      "date": "22nd January 2018",
+      "product": "Savings",
+      "sentiment": "positive"
+    },
+    {
+      "title": "Remortgage from hell",
+      "text": "Their custom services requests are forwarded to LMS - their subsidary to deal with mortgages. Never waited less than 30 minutes to in a queue to speak to somebody. At the end the person was very polite, but absolutely unhelpful. The only way to move things forward was to raise a complaint. Even with a complaint the provided service was very poor. Their comunication with the solicitors appointed by them was close to being funny. Mistakes were made at the every stage of the process, costing quite a lot to the customer.",
+      "rating": 1,
+      "date": "12th April 2017",
+      "product": "Savings",
+      "sentiment": "negative"
+    },
+    {
+      "title": "Good communications",
+      "text": "I have a Regular saver account with Leeds Building Society. They wrote to me about two months ago to advise that the account was to be withdrawn. then reminded me about 4 weeks later -advising that i couldn't deposit any more money and what steps to take - cancel direct debits etc. They also advised of the new account that they would be bring ing out. Staff in branch were very helpful and knowledgeable and at no point was i pressured to open another account (but I did!)",
+      "rating": 5,
+      "date": "12th February 2017",
+      "product": "Savings",
+      "sentiment": "positive"
+    },
+    {
+      "title": "Good savings accounts and interest offered",
+      "text": "Good range of regular and ISA savings accounts available with competitive interest rates and bonus rates. Excellent customer service and timely responses to paperwork requests",
+      "rating": 4,
+      "date": "7th February 2017",
+      "product": "Savings",
+      "sentiment": "positive"
+    },
+    {
+      "title": "good service",
+      "text": "Opened an ISA with them as the rate was good. The service was professional and polite and I was surprised to get a pass book as nowhere else I have dealt with gives them.",
+      "rating": 4,
+      "date": "28th March 2016",
+      "product": "Savings",
+      "sentiment": "positive"
+    },
+    {
+      "title": "OLD FASHIONED COMPANY",
+      "text": "OLd fashioned (and I mean that in a good way) in that they still issue pass books. Rate on the savings account good and staff very helpful",
+      "rating": 5,
+      "date": "24th December 2015",
+      "product": "Savings",
+      "sentiment": "positive"
+    },
+    {
+      "title": "Easy to use",
+      "text": "great account and easy to set up.They give you a pass book which shows how much you have put in and the rate yuo get",
+      "rating": 5,
+      "date": "31st August 2015",
+      "product": "Savings",
+      "sentiment": "positive"
+    },
+    {
+      "title": "good account",
+      "text": "Opened account last year and have found the rate god, staff friendly and the only company I have dealt with that still use a pass book",
+      "rating": 5,
+      "date": "30th August 2015",
+      "product": "Savings",
+      "sentiment": "positive"
+    }
+  ]
+}

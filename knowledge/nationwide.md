@@ -215,84 +215,234 @@
 - Digital-first challengers: Monzo, Starling, Revolut, Chase UK
 - Nationwide's unique position: has the scale and product range of a major bank but the mutual structure and member focus of a building society
 
-## Specific Trustpilot Reviews
+## Specific Customer Reviews
 
 *Source: uk.trustpilot.com/review/www.nationwide.co.uk — collected February 2026. Nationwide is rated "Poor" (2/5) on Trustpilot, though this skews negative vs. independent surveys where it ranks #1.*
 
-### Positive - Bedford branch served tea and biscuits during savings appointment
+### Positive - Bedford branch served tea and biscuits during savings appointment (Trustpilot)
 > "My Wife and I went to the Bedford branch to get advice about re-investing a bond. Two young ladies, Ripa and Numa, asked if they could help me. I said 'Yes two teas and a biscuit please'. I always appreciate responses to my humour and we were taken to an office and our tea, and biscuits were brought in. After explaining what we could invest in, and various options, we went ahead with what was offered. We have been with Nationwide for many years, and Bedford branch has always helped us with our accounts. I am quite shocked at the low rating for Nationwide, but I can only be honest with my reviews, and maybe head Office could give a pat on the back to the Bedford branch for excellent service to customers."
 - **Rating:** 5/5
 - **Date:** January 2026
 - **Context:** Long-standing member praised the personal, warm service at Bedford branch — staff played along with his joke and brought actual tea during a bond reinvestment appointment.
 
-### Positive - Walked out of Lloyds, walked into Nationwide — accounts opened on the spot
+### Positive - Walked out of Lloyds, walked into Nationwide — accounts opened on the spot (Trustpilot)
 > "After a very frustrating morning at Lloyds in Kingston trying to open bank accounts for my sons, we walked into Nationwide around the corner without an appointment. Alice, the customer service staff member who assisted us, was friendly, patient, professional, and genuinely helpful from start to finish. She helped both my sons open their accounts on the spot using their passports, explained everything clearly, and treated us with warmth and respect throughout the process. The whole experience felt sensible, efficient, and truly customer-centred — the complete opposite of what we had just experienced elsewhere. Because of this outstanding service, I also decided to open my own account with Nationwide at the same time."
 - **Rating:** 5/5
 - **Date:** January 2026
 - **Context:** Family had a bad experience at Lloyds, walked into Nationwide Kingston branch on the off-chance. Staff member Alice opened accounts for both sons immediately. Parent was so impressed they opened their own account too.
 
-### Positive - Army veteran values high street branches for face-to-face banking
+### Positive - Army veteran values high street branches for face-to-face banking (Trustpilot)
 > "Former Army veteran. Royal Welsh. Last week opened an account at Nationwide in Wrexham North Wales. Talk about staff being helpful — The ladies behind the counter, Stacey, Andrea, Sheila, they couldn't do enough to help me. No messing with new account, I was really impressed at the set up at Nationwide building society. Staff very professional and very efficient. And I learned that Nationwide are committed to having branches on high street till 2030. For in this day and age, online banking is for this younger generation — not for an over 50s like myself. Over 50s plus need the likes of Nationwide to stay on the high street so we can do our banking face to face with real people. I totally recommend banking with Nationwide. Cymru am Byth."
 - **Rating:** 5/5
 - **Date:** January 2026
 - **Context:** Over-50 Welsh Army veteran values the Branch Promise and in-person service. Named three specific staff members in Wrexham. Represents a demographic that relies on physical branches.
 
-### Positive - Fraud department caught international card theft twice
+### Positive - Fraud department caught international card theft twice (Trustpilot)
 > "I have been with Nationwide for over 17 years and have had no issues at all. I buy vinyl records from all over the world and have been made aware by the bank on 2 occasions when someone has tried to use my card details in the USA and Europe. This was flagged by the fraud dept, who called me to check if the transaction was genuine. When I confirmed it was not me, my card was stopped and replaced within 7 days. I have received honest guidance about investing and on one occasion made aware of another bank that had a better deal than the one they offered."
 - **Rating:** 5/5
 - **Date:** January 2026
 - **Context:** Long-term member who makes frequent international purchases (vinyl records). Fraud team proactively caught two instances of card misuse abroad. Also praised Nationwide for honestly pointing him to a competitor's better deal.
 
-### Positive - Mortgage sorted in 4 days after other bank failed three times
+### Positive - Mortgage sorted in 4 days after other bank failed three times (Trustpilot)
 > "Nationwide building society sorted my mortgage within 4 days. I am highly delighted with their service. When my bank failed me 3 times to buy a house — that I banked with for 38 years. I will be switching from my current bank. 5 stars from me. Well done Nationwide and thank you."
 - **Rating:** 5/5
 - **Date:** January 2026
 - **Context:** Customer's bank of 38 years failed their mortgage application three times. Nationwide approved and completed the mortgage in just 4 days.
 
-### Positive - Staff showed empathy during bereavement
+### Positive - Staff showed empathy during bereavement (Trustpilot)
 > "I just want to say a massive thank you to the lady I spoke to about my switch issue. I got overwhelmed on the phone unexpectedly because I recently lost my brother. She was so empathetic and polite! I also want to thank the switching team for showing their empathy by helping resolve my issue. Thank you, I am forever grateful!"
 - **Rating:** 5/5
 - **Date:** January 2026
 - **Context:** Customer dealing with account switching issue became unexpectedly emotional on the phone due to recent bereavement. Staff responded with genuine empathy rather than just processing the request.
 
-### Negative - Switching nightmare: £175 bonus denied, £520 vanished from closed account
+### Negative - Switching nightmare: £175 bonus denied, £520 vanished from closed account (Trustpilot)
 > "I decided to do a switch, as I'd seen on the TV that they were a great building society winning Which 2025. I liked the fact I would be rewarded with £175. My switch has gone through — I am apparently not eligible for the switch reward. Went to set up standing orders... Can't do it, I need a card reader, and I haven't got a pin number. Can't set up any payments at all. Tried adding money through my Monzo account — a post office van collecting from Nationwide and personally delivering my money to Monzo would have been quicker! I'm now closing my account. EDIT — I have raised a complaint and no one has contacted me. I went into the bank today and £520 has disappeared from my current account that is now closed! Which seems to be spinning around Nationwide's hemisphere and not with me. Two days I have been left with nothing."
 - **Rating:** 1/5
 - **Date:** February 2026
 - **Context:** Switched after seeing Which? award advertising. Denied the £175 bonus, couldn't set up payments without a card reader, and when trying to close the account, £520 went missing for days. References coming from Monzo and finding Nationwide's processes archaic by comparison.
 
-### Negative - Credit card blocked during family emergency in Colombia, no notification
+### Negative - Credit card blocked during family emergency in Colombia, no notification (Trustpilot)
 > "In December 2025, I had to travel urgently to Bogotá, Colombia due to a family emergency. I needed to buy flights immediately because I had to take my father to the United States. When I attempted to purchase the tickets, my Nationwide credit card was suddenly rejected without any explanation. I received no email, no text message, no call — absolutely no notification. By the time I was finally able to buy the tickets, the prices had increased, I had to travel later than planned, and the flight I originally needed was already full. I raised a formal complaint. I have been a Nationwide customer for 20 years. I have never missed a payment. Their response was unacceptable. A consultant named Nina asked me to call her, only to tell me that next time I should carry another credit card. She claimed the block was 'to protect me' — but it felt more like they were protecting themselves. In the end, they refused any compensation — not even a goodwill gesture!"
 - **Rating:** 1/5
 - **Date:** December 2025
 - **Context:** 20-year member had credit card blocked while trying to buy emergency flights for a sick father in Colombia. No notification sent. Complaint response was to "carry another card next time." No compensation offered despite increased costs.
 
-### Negative - £9,000 funeral transfer blocked, treated like a criminal
+### Negative - £9,000 funeral transfer blocked, treated like a criminal (Trustpilot)
 > "I attempted to transfer £9,000 to my sister's Halifax account to pay for the funeral expenses for my mother who is terminally ill. This transfer was blocked and I received a very curt phone call from Nationwide demanding to know what the payment was for. The caller refused to provide any information about my account so I could confirm it was a genuine call. He suggested I ring the call centre directly. I told the caller that this was my money and I was free to spend it how I wished. The caller refused to release the block. Eventually I told him and he had the cheek to suggest that because my sister who is married had a different surname to me, the transfer was dodgy! The Nationwide interrogator took no account of my distressed state and several times threatened to put the phone down on me. Basically Nationwide treated me as a lying, money laundering criminal."
 - **Rating:** 1/5
 - **Date:** January 2026
 - **Context:** Customer trying to send funeral money for a terminally ill mother had the payment blocked. Caller questioned the different surname (sister is married). Staff threatened to end the call despite the customer's distress. After leaving NatWest then Santander due to branch closures, they had hoped for better.
 
-### Negative - Home insurance nightmare over 1960s underpinning
+### Negative - Home insurance nightmare over 1960s underpinning (Trustpilot)
 > "Our house was underpinned in 1960, we have lived here for 24 years and never experienced any issues with subsidence. I took out home insurance with Nationwide and had ticked the box stating it had been underpinned. I noticed the policy documents stated I had declared the property had never suffered from subsidence, so I called to check my cover was valid. They referred this to their underwriters who seemed to suggest I had misled them. They asked for copies of the surveyor's report — which I supplied. They responded by saying I had redacted the report — which was certainly not the case. I am now told they can't cancel the policy due to an ongoing investigation and they can't give me a date when that will be completed. I asked to raise a complaint and was told they couldn't do so whilst the investigation was ongoing!"
 - **Rating:** 1/5
 - **Date:** January 2026
 - **Context:** Honest customer proactively called to verify their insurance cover was correct. Was then accused of misleading the insurer and redacting documents. Unable to cancel the policy or raise a complaint. Has since insured elsewhere but the Nationwide policy remains in limbo.
 
-### Negative - 18-year mortgage customer declined with no explanation
+### Negative - 18-year mortgage customer declined with no explanation (Trustpilot)
 > "We have been mortgage customers with Nationwide for 18 years and recently submitted a new application as part of a planned house move. Following their valuation, they declined to support the mortgage, stating the property was unsuitable for lending due to renovation works required. However, we had already commissioned a RICS Level 3 Building Survey, which confirmed the property is structurally sound. We appealed with a detailed rationale, evidence of available funds, and relevant expertise, but the appeal was declined. We were not given any further explanation. Disappointingly, our mortgage adviser did not offer further guidance or support after the decline. As a result, we have moved our mortgage to another lender, who had no concerns about the property."
 - **Rating:** 1/5
 - **Date:** February 2026
 - **Context:** Long-standing mortgage customer (18 years) had a house move application declined based on Nationwide's valuation, contradicted by a professional RICS survey. No explanation given, no support from adviser. Another lender approved it without issue.
 
-### Negative - ISA transfer took 59 days instead of 15, missed investment opportunity
+### Negative - ISA transfer took 59 days instead of 15, missed investment opportunity (Trustpilot)
 > "I am absolutely disgusted with the service I have received from Nationwide. I've been a member for over 21 years. They cancelled my ISA transfer request without notifying me or even notifying my other provider. Three weeks later, I had to chase them, and it ended up taking 59 days for an ISA transfer which should have taken 15 days. I raised a formal complaint — I was told I would be contacted two days later by their complaint department, but they never contacted me. I ended up waiting eight working days for someone to eventually get in touch when their policy states five working days. I've now gone to the ombudsman claiming £650 compensation. Their errors made me lose out on an investment opportunity which to date would have generated me £5,301."
 - **Rating:** 1/5
 - **Date:** January 2026
 - **Context:** 21-year member's ISA transfer was cancelled without notification, took 59 days instead of 15. Complaint department repeatedly failed to call back. Customer escalated to Financial Ombudsman, claiming the delay cost them thousands in a missed investment.
 
-### Negative - Card readers still required in 2026
+### Negative - Card readers still required in 2026 (Trustpilot)
 > "It's 2026, time to get rid of card readers. You have banks that offer online-only current accounts that use FaceID. Even with the 'remove the card reader' feature enabled I am still asked to use it for open banking payments. I don't feel more secure, I do feel more inconvenienced. The review would be 5 stars if they got rid of the card reader entirely."
 - **Rating:** 2/5
 - **Date:** January 2026
 - **Context:** Customer has enabled the biometric/app-based alternative but still gets prompted for the card reader during open banking payments. Would otherwise rate 5 stars — the card reader is the sole frustration. Represents a common complaint theme across many reviews.
+
+### Positive - Great bank, so no surprise the mortgages are good too (Smart Money People)
+> "Been with Nationwide for accounts and savings and enjoyed it. See my bank account review for them. So when it came to getting a mortgage, it was likely to be Nationwide. They were actually the 3rd cheapest option for us, but we still went with them as we both had good experiences with them. The mortgage allows overpayments, a choice of how it's processed, and only takes £500 to trigger (much less than a previous mortgage I had). They also base the overpay limit on the original mortgage value, not the current; allowing you to pay more without hitting a penalty."
+- **Rating:** ⭐⭐⭐⭐⭐
+- **Date:** September 2024
+- **Context:** Mortgage product review
+
+### Positive - Excellent rates, knowledgeable staff (Smart Money People)
+> "Cheap mortgage rate, good overpayment terms. Fabulous in branch (mine is in North Herts) Slow to answer the phone at times, but you ALWAYS get someone who knows the answer to your query. Good opening hours. They're like the informed, capable adults of the call centre world. (AVIVA pensions call centre manager - take note!) Good app, strong seeming security, low mortgage rates. Plus its a building society so ethically you know they get a tick."
+- **Rating:** ⭐⭐⭐⭐⭐
+- **Date:** March 2021
+- **Context:** Mortgage product review
+
+### Positive - Excellent product (Smart Money People)
+> "We have held our mortgage with Nationwide for over 22 years now. We have always received excellent mortgage advice and have been on a lifetime tracker for many years. This product has always performed well and given the ups and downs of the economy, even in recent times with high Bank of England interest rates our increase on mortgage cost have only been modest. Excellent online and in branch support."
+- **Rating:** ⭐⭐⭐⭐⭐
+- **Date:** January 2023
+- **Context:** Mortgage product review
+
+### Positive - Always always give high praise to nationwide for the... (Smart Money People)
+> "Always always give high praise to nationwide for their mortgages and the application process. We were made to feel like a lost cause by Halifax because my partner had a £1000 credit card he had forgotten about, we were told nobody would touch us, we went to nationwide the next week and were accepted right there and then, the advisor wasn’t pushy, was very informative and kept in touch throughout."
+- **Rating:** ⭐⭐⭐⭐⭐
+- **Date:** January 2026
+- **Context:** Mortgage product review
+
+### Positive - Needed help to set up a cash ISA, being a bit of a... (Smart Money People)
+> "Needed help to set up a cash ISA, being a bit of a "dinasour" with technology, went into branch. Having the patience to listen and help made the process much easier. Have always found the staff in our branch of Nationwide will go that extra mile, especially with us older people. Have recommended Nationwide to friends and family, some of whom are now customers."
+- **Rating:** ⭐⭐⭐⭐⭐
+- **Date:** April 2025
+- **Context:** Savings product review
+
+### Positive - Arranged an account opening meeting at Edinburgh Sou... (Smart Money People)
+> "Arranged an account opening meeting at Edinburgh South St Davids Street branch. Very convenient and comfortable seated introduction and efficiently ran through the digital application and checking my ID. I signed on the dotted line and less than a week later I had a current account with a £200 joining bonus and a cash ISA. Painless!"
+- **Rating:** ⭐⭐⭐⭐⭐
+- **Date:** February 2024
+- **Context:** Savings product review
+
+### Positive - Nationwide App (Smart Money People)
+> "Nationwide have a great App — I can see exactly what’s going on with my mortgage. I also have a flex plus account with them and it’s so convenient. I was stuck once -struggling to pay the mortgage and Nationwide arranged a mortgage holiday — it was easy to arrange and didn’t cost us anything g as we’d made overpayments."
+- **Rating:** ⭐⭐⭐⭐⭐
+- **Date:** January 2025
+- **Context:** Mortgage product review
+
+### Positive - Nationwide offered us a very competitive mortgage ra... (Smart Money People)
+> "Nationwide offered us a very competitive mortgage rate at a good price, and they have been completely transparent and helpful with their customer support. I have been able to access my mortgage very easily on the app, and see a detailed breakdown of my payments and interest. Definitely recommend."
+- **Rating:** ⭐⭐⭐⭐⭐
+- **Date:** April 2024
+- **Context:** Mortgage product review
+
+### Positive - Very helpful in structuring a mortgage (Smart Money People)
+> "Very helpful in structuring a mortgage for a new house purchase, carrying forward an existing fixed-rate mortgage from our existing property. Good communications throughout, options clearly explained and all processed in a timely manner. with an interest rate that we're happy with."
+- **Rating:** ⭐⭐⭐⭐⭐
+- **Date:** January 2026
+- **Context:** Mortgage product review
+
+### Negative - Slow poor mistakes (Smart Money People)
+> "Don’t use online to close joint accounts. Service is poor. Post is slow. Communication is poor. When it goes wrong it’s impossible to correct. Took over one month to get them to issue cheque to correct address. I had to contact them five times and go in branch."
+- **Rating:** ⭐
+- **Date:** March 2023
+- **Context:** Savings product review
+
+### Positive - Cheap and flexible (Smart Money People)
+> "I was looking for a cheap and flexible saving account. The team at nationwide came back to me very sickly with great advice and a perfect solution for me. Everything was super clear and easy to understand (which is not always the case with banking services!)."
+- **Rating:** ⭐⭐⭐⭐⭐
+- **Date:** February 2025
+- **Context:** Savings product review
+
+### Positive - Nationwide usually provides competitive rates for it... (Smart Money People)
+> "Nationwide usually provides competitive rates for its ISA products, especially in 2024. It also allowed multiple ISA accounts under a single “ISA”, which was important before the rule change allowing multiple ISA account openings within the same year."
+- **Rating:** ⭐⭐⭐⭐⭐
+- **Date:** April 2024
+- **Context:** Savings product review
+
+### Positive - Great customer service (Smart Money People)
+> "Had a great experience getting a new mortgage deal, phone call was at a time to suit us and all done over the phone. Very simple and great communication - text messages and emails which were sent very quickly. Also a great rate for us. Would reccomend"
+- **Rating:** ⭐⭐⭐⭐⭐
+- **Date:** November 2017
+- **Context:** Mortgage product review
+
+### Positive - Their customers matter (Smart Money People)
+> "I’ve been with nationwide a few times years now and from savings to normal banking, they have been brilliant. The App works efficiently and their customer service has always been five star. they even give you money back from the shareholders. Amazing"
+- **Rating:** ⭐⭐⭐⭐⭐
+- **Date:** April 2025
+- **Context:** Savings product review
+
+### Positive - Fixed-rate mortgage with Nationwide (Smart Money People)
+> "I have a fixed-rate mortgage with Nationwide and am very happy with it so far: the interest rate was competitive, the app works well, customer service has been great (in branch) when I needed it, and not least it’s a bank with some ethical values."
+- **Rating:** ⭐⭐⭐⭐⭐
+- **Date:** February 2025
+- **Context:** Mortgage product review
+
+### Positive - Simple, easy and great customer service (Smart Money People)
+> "Had almost no problems with my saving account just applied online and all postal information was prompt and informative. My one query was answered by a lovely call handler who cleared up my issue in a super friendly way. Would recommend."
+- **Rating:** ⭐⭐⭐⭐⭐
+- **Date:** April 2023
+- **Context:** Savings product review
+
+### Positive - Flexible overpayments (Smart Money People)
+> "Tracker deal allows unlimited overpayments with no charges. Also as I am a current account holder, received a cashback bonus. Good products, incentives and customer service. Their website is also very intuitive and easy to navigate."
+- **Rating:** ⭐⭐⭐⭐⭐
+- **Date:** November 2017
+- **Context:** Mortgage product review
+
+### Positive - Great rate for getting on property ladder! (Smart Money People)
+> "I took a mortgage with Nationwide and got a good rate for seven years and I'm still so happy I made this decision and was able to get on the property ladder when other banks don't even come close to offering the same level of help."
+- **Rating:** ⭐⭐⭐⭐⭐
+- **Date:** January 2026
+- **Context:** Mortgage product review
+
+### Positive - Nationwide (Smart Money People)
+> "Went in without an appointment but was still seen straight away at my local Haverfordwest branch. Was assisted by talking through my options of savings and helped me understand my choosen account would offer best intrest rate."
+- **Rating:** ⭐⭐⭐⭐⭐
+- **Date:** February 2025
+- **Context:** Savings product review
+
+### Positive - Good customer service (Smart Money People)
+> "Over the course of the mortgage I get regular updates and they (occasionally) put the rate down even when the BoE interest rates stay the same. Communication is clear and I get invited to the AGMs and opportunities to vote."
+- **Rating:** ⭐⭐⭐⭐⭐
+- **Date:** March 2024
+- **Context:** Mortgage product review
+
+### Positive - BEST SWITCH I EVER MADE (Smart Money People)
+> "Switched to this bank about two years ago.Had some great offers and taken advantage of their high interest rates on cash isa's.prevoiusly with the Halifax for years.That banks gone stale and not interested in the customers"
+- **Rating:** ⭐⭐⭐⭐⭐
+- **Date:** January 2026
+- **Context:** Savings product review
+
+### Positive - Great products and fantastic customer service! (Smart Money People)
+> "I was able to reactivate a very old savings account, transfer it into a modern Regular Saver, open a current account and take out a 1-year Fixed Rate ISA........ all with one visit to my local branch."
+- **Rating:** ⭐⭐⭐⭐⭐
+- **Date:** May 2024
+- **Context:** Savings product review
+
+### Positive - Great saving options (Smart Money People)
+> "In the current context Nationwide continues to offer generous interest and savings options. Love their recent offering, a lottery style savings account the seems to run similar to bonus bond scheme."
+- **Rating:** ⭐⭐⭐⭐⭐
+- **Date:** March 2021
+- **Context:** Savings product review
+
+### Positive - Savings pots (Smart Money People)
+> "I love the freedom of opening different savings pots with Nationwide and naming them to different things. Transferring is so easy and the Flex Instant Saver as an industry average rate currently."
+- **Rating:** ⭐⭐⭐⭐⭐
+- **Date:** March 2024
+- **Context:** Savings product review
+
+### Positive - It was very easy to set up a spousal isa with Natoin... (Smart Money People)
+> "It was very easy to set up a spousal isa with Natoinwide during a stressful period with the death of my wife the staff were very helpful both on the telephone and when I visited the local branch."
+- **Rating:** ⭐⭐⭐⭐⭐
+- **Date:** January 2026
+- **Context:** Savings product review

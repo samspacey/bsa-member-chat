@@ -4,6 +4,21 @@ import { useState, useRef, useEffect, useCallback } from "react";
 import ReactMarkdown from "react-markdown";
 import societiesData from "../societies.json";
 
+interface BenchmarkScore {
+  factor: string;
+  score: number;
+  average: number;
+  rank: number;
+  reviewCount: number;
+  positiveCount: number;
+  negativeCount: number;
+}
+
+interface BenchmarkData {
+  society: string;
+  scores: BenchmarkScore[];
+}
+
 interface Message {
   role: "user" | "assistant";
   content: string;
@@ -41,6 +56,21 @@ interface ArchetypeInfo {
 }
 
 const societies: Society[] = societiesData as Society[];
+
+function getSuggestedQuestions(archetypeId: string, shortName: string): string[] {
+  const common = [
+    `What do you think of ${shortName}?`,
+    "What would you change?",
+    "What would interest you in the next 5 years?",
+  ];
+  const specific: Record<string, string[]> = {
+    loyalist: ["Tell me about your branch visits", "How do you feel about technology?"],
+    "digital-native": ["How's the app?", "How do you compare to other banks?"],
+    family: ["How do you manage the family finances?", "What about your children's savings?"],
+    "business-owner": ["How's the relationship with your branch?", "What could we do better?"],
+  };
+  return [...common, ...(specific[archetypeId] || [])];
+}
 
 const archetypes: ArchetypeInfo[] = [
   {
@@ -97,9 +127,18 @@ export default function Home() {
   const [isLoading, setIsLoading] = useState(false);
   const [reviews, setReviews] = useState<Review[]>([]);
   const [showReviews, setShowReviews] = useState(false);
+  const [hasUserSent, setHasUserSent] = useState(false);
   const [highlightedReview, setHighlightedReview] = useState<number | null>(
     null
   );
+  const [showBenchmark, setShowBenchmark] = useState(false);
+  const [benchmarkData, setBenchmarkData] = useState<BenchmarkData | null>(null);
+  const [benchmarkLoading, setBenchmarkLoading] = useState(false);
+  const [benchmarkEmail, setBenchmarkEmail] = useState("");
+  const [benchmarkEmailSent, setBenchmarkEmailSent] = useState(false);
+  const [benchmarkEmailSending, setBenchmarkEmailSending] = useState(false);
+  const [benchmarkEmailError, setBenchmarkEmailError] = useState("");
+  const [searchQuery, setSearchQuery] = useState("");
   const messagesEndRef = useRef<HTMLDivElement>(null);
   const reviewRefs = useRef<Record<number, HTMLDivElement | null>>({});
 
@@ -125,6 +164,51 @@ export default function Home() {
     },
     []
   );
+
+  const fetchBenchmark = useCallback(async (societyId: string) => {
+    setBenchmarkLoading(true);
+    try {
+      const res = await fetch(`/api/benchmark?societyId=${societyId}`);
+      const data = await res.json();
+      setBenchmarkData(data);
+    } catch {
+      setBenchmarkData(null);
+    } finally {
+      setBenchmarkLoading(false);
+    }
+  }, []);
+
+  const sendBenchmarkEmail = async () => {
+    if (!benchmarkEmail || !selectedSociety) return;
+
+    // Validate email
+    if (!benchmarkEmail.includes("@") || !benchmarkEmail.includes(".")) {
+      setBenchmarkEmailError("Please enter a valid email address");
+      return;
+    }
+
+    setBenchmarkEmailSending(true);
+    setBenchmarkEmailError("");
+
+    try {
+      const res = await fetch("/api/benchmark-pdf", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          email: benchmarkEmail,
+          societyId: selectedSociety.id,
+        }),
+      });
+
+      if (!res.ok) throw new Error("Failed to generate report");
+
+      setBenchmarkEmailSent(true);
+    } catch {
+      setBenchmarkEmailError("Something went wrong. Please try again.");
+    } finally {
+      setBenchmarkEmailSending(false);
+    }
+  };
 
   const scrollToReview = (reviewId: number) => {
     setShowReviews(true);
@@ -169,6 +253,7 @@ export default function Home() {
   const goBackToPersonas = () => {
     setSelectedArchetype(null);
     setMessages([]);
+    setHasUserSent(false);
     setScreen("persona");
   };
 
@@ -178,16 +263,24 @@ export default function Home() {
     setMessages([]);
     setReviews([]);
     setShowReviews(false);
+    setHasUserSent(false);
+    setShowBenchmark(false);
+    setBenchmarkData(null);
+    setBenchmarkEmail("");
+    setBenchmarkEmailSent(false);
+    setBenchmarkEmailSending(false);
+    setBenchmarkEmailError("");
+    setSearchQuery("");
     setInput("");
     setScreen("society");
   };
 
-  const sendMessage = async () => {
-    if (!input.trim() || !selectedSociety || !selectedArchetype || isLoading)
+  const sendMessageText = async (text: string) => {
+    if (!text.trim() || !selectedSociety || !selectedArchetype || isLoading)
       return;
 
-    const userMessage = input.trim();
-    setInput("");
+    const userMessage = text.trim();
+    setHasUserSent(true);
     setMessages((prev) => [...prev, { role: "user", content: userMessage }]);
     setIsLoading(true);
 
@@ -224,6 +317,13 @@ export default function Home() {
     }
   };
 
+  const sendMessage = async () => {
+    if (!input.trim()) return;
+    const text = input.trim();
+    setInput("");
+    await sendMessageText(text);
+  };
+
   // Screen 1: Society Selection
   if (screen === "society") {
     return (
@@ -242,31 +342,79 @@ export default function Home() {
             <h2 className="text-xl font-semibold text-gray-800 mb-6 text-center">
               Choose a building society
             </h2>
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4">
-              {societies.map((society) => (
+
+            {/* Search input */}
+            <div className="relative max-w-lg mx-auto mb-6">
+              <div className="absolute inset-y-0 left-0 pl-4 flex items-center pointer-events-none">
+                <span className="text-gray-400 text-lg">🔍</span>
+              </div>
+              <input
+                type="text"
+                value={searchQuery}
+                onChange={(e) => setSearchQuery(e.target.value)}
+                placeholder="Search for a building society..."
+                className="w-full bg-white border border-gray-300 rounded-lg pl-11 pr-10 py-3 text-gray-900 focus:ring-2 focus:ring-blue-500 focus:border-transparent focus:outline-none"
+              />
+              {searchQuery && (
                 <button
-                  key={society.id}
-                  onClick={() => selectSociety(society)}
-                  className="bg-white p-5 rounded-xl shadow-sm hover:shadow-md transition-all border border-gray-200 text-left group"
-                  style={{ borderLeftWidth: "4px", borderLeftColor: society.color }}
+                  onClick={() => setSearchQuery("")}
+                  className="absolute inset-y-0 right-0 pr-4 flex items-center text-gray-400 hover:text-gray-600 transition-colors"
                 >
-                  <div className="flex items-start gap-3">
-                    <span className="text-3xl flex-shrink-0">{society.emoji}</span>
-                    <div className="min-w-0">
-                      <h3 className="text-base font-semibold text-gray-900 group-hover:text-gray-700 truncate">
-                        {society.shortName}
-                      </h3>
-                      <p className="text-xs text-gray-500 mt-0.5">
-                        {society.region} · {society.size}
-                      </p>
-                      <p className="text-sm text-gray-600 mt-1.5 leading-snug">
-                        {society.tagline}
-                      </p>
-                    </div>
-                  </div>
+                  <span className="text-lg">✕</span>
                 </button>
-              ))}
+              )}
             </div>
+
+            {(() => {
+              const query = searchQuery.toLowerCase().trim();
+              const filtered = query
+                ? societies.filter(
+                    (s) =>
+                      s.name.toLowerCase().includes(query) ||
+                      s.shortName.toLowerCase().includes(query) ||
+                      s.region.toLowerCase().includes(query)
+                  )
+                : societies;
+
+              if (filtered.length === 0) {
+                return (
+                  <div className="text-center py-12">
+                    <p className="text-gray-400 text-lg mb-2">No societies found</p>
+                    <p className="text-gray-400 text-sm">
+                      Try a different search term
+                    </p>
+                  </div>
+                );
+              }
+
+              return (
+                <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4">
+                  {filtered.map((society) => (
+                    <button
+                      key={society.id}
+                      onClick={() => selectSociety(society)}
+                      className="bg-white p-5 rounded-xl shadow-sm hover:shadow-md transition-all border border-gray-200 text-left group"
+                      style={{ borderLeftWidth: "4px", borderLeftColor: society.color }}
+                    >
+                      <div className="flex items-start gap-3">
+                        <span className="text-3xl flex-shrink-0">{society.emoji}</span>
+                        <div className="min-w-0">
+                          <h3 className="text-base font-semibold text-gray-900 group-hover:text-gray-700 truncate">
+                            {society.shortName}
+                          </h3>
+                          <p className="text-xs text-gray-500 mt-0.5">
+                            {society.region} · {society.size}
+                          </p>
+                          <p className="text-sm text-gray-600 mt-1.5 leading-snug">
+                            {society.tagline}
+                          </p>
+                        </div>
+                      </div>
+                    </button>
+                  ))}
+                </div>
+              );
+            })()}
           </div>
 
           <div className="text-center text-gray-400 text-sm">
@@ -502,23 +650,57 @@ export default function Home() {
 
           {/* Input */}
           <div className="border-t border-gray-200 bg-white p-4">
-            <div className="max-w-4xl mx-auto flex gap-4">
-              <input
-                type="text"
-                value={input}
-                onChange={(e) => setInput(e.target.value)}
-                onKeyDown={(e) => e.key === "Enter" && sendMessage()}
-                placeholder="Type your message..."
-                className="flex-1 border border-gray-300 rounded-lg px-4 py-3 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent"
-                disabled={isLoading}
-              />
-              <button
-                onClick={sendMessage}
-                disabled={isLoading || !input.trim()}
-                className="bg-blue-600 text-white px-6 py-3 rounded-lg font-medium hover:bg-blue-700 disabled:bg-gray-300 disabled:cursor-not-allowed transition-colors"
-              >
-                Send
-              </button>
+            {/* Suggested question chips */}
+            {!hasUserSent && selectedArchetype && selectedSociety && (
+              <div className="max-w-4xl mx-auto mb-3 flex gap-2 overflow-x-auto pb-1 scrollbar-thin">
+                {getSuggestedQuestions(selectedArchetype.id, selectedSociety.shortName).map((q) => (
+                  <button
+                    key={q}
+                    onClick={() => sendMessageText(q)}
+                    disabled={isLoading}
+                    className="bg-gray-100 hover:bg-gray-200 text-gray-700 text-sm px-3 py-1.5 rounded-full border border-gray-200 cursor-pointer transition-colors whitespace-nowrap flex-shrink-0 disabled:opacity-50 disabled:cursor-not-allowed"
+                  >
+                    {q}
+                  </button>
+                ))}
+              </div>
+            )}
+            <div className="max-w-4xl mx-auto">
+              <div className="flex gap-4">
+                <input
+                  type="text"
+                  value={input}
+                  onChange={(e) => setInput(e.target.value)}
+                  onKeyDown={(e) => e.key === "Enter" && sendMessage()}
+                  placeholder="Type your message..."
+                  className="flex-1 border border-gray-300 rounded-lg px-4 py-3 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent"
+                  disabled={isLoading}
+                />
+                <button
+                  onClick={sendMessage}
+                  disabled={isLoading || !input.trim()}
+                  className="bg-blue-600 text-white px-6 py-3 rounded-lg font-medium hover:bg-blue-700 disabled:bg-gray-300 disabled:cursor-not-allowed transition-colors"
+                >
+                  Send
+                </button>
+              </div>
+              {/* Benchmark button — show after 2+ user messages */}
+              {selectedSociety && messages.filter(m => m.role === "user").length >= 2 && (
+                <div className="mt-3 text-center">
+                  <button
+                    onClick={() => {
+                      if (!benchmarkData && selectedSociety) {
+                        fetchBenchmark(selectedSociety.id);
+                      }
+                      setShowBenchmark(true);
+                    }}
+                    className="inline-flex items-center gap-2 px-4 py-2 text-sm font-medium text-gray-600 bg-gray-50 hover:bg-gray-100 border border-gray-200 rounded-full transition-colors"
+                  >
+                    <span>📊</span>
+                    See how {selectedSociety.shortName} benchmarks
+                  </button>
+                </div>
+              )}
             </div>
           </div>
         </div>
@@ -604,6 +786,205 @@ export default function Home() {
           </div>
         )}
       </div>
+
+      {/* Benchmark Modal */}
+      {showBenchmark && (
+        <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/50 backdrop-blur-sm p-4">
+          <div className="bg-white rounded-2xl shadow-2xl w-full max-w-2xl max-h-[90vh] overflow-hidden flex flex-col">
+            {/* Modal Header */}
+            <div className="px-6 py-5 border-b border-gray-100 flex items-center justify-between flex-shrink-0">
+              <div className="flex items-center gap-3">
+                {selectedSociety && (
+                  <span className="text-3xl">{selectedSociety.emoji}</span>
+                )}
+                <div>
+                  <h2 className="text-lg font-bold text-gray-900">
+                    Benchmarking Report
+                  </h2>
+                  <p className="text-sm text-gray-500">
+                    {selectedSociety?.name} vs industry average
+                  </p>
+                </div>
+              </div>
+              <button
+                onClick={() => setShowBenchmark(false)}
+                className="text-gray-400 hover:text-gray-600 text-2xl leading-none p-1"
+              >
+                ✕
+              </button>
+            </div>
+
+            {/* Modal Body */}
+            <div className="flex-1 overflow-y-auto px-6 py-5">
+              {benchmarkLoading && (
+                <div className="flex items-center justify-center py-12">
+                  <div className="text-center">
+                    <div className="animate-spin h-8 w-8 border-4 border-blue-200 border-t-blue-600 rounded-full mx-auto mb-3"></div>
+                    <p className="text-sm text-gray-500">Analysing reviews across all societies...</p>
+                  </div>
+                </div>
+              )}
+
+              {!benchmarkLoading && benchmarkData && (
+                <div className="space-y-4">
+                  {benchmarkData.scores.map((s) => {
+                    const diff = s.score - s.average;
+                    const absDiff = Math.abs(diff);
+                    let colorClass: string;
+                    let barColor: string;
+                    let badge: string;
+
+                    if (diff >= 1.0) {
+                      colorClass = "text-emerald-700";
+                      barColor = "bg-emerald-500";
+                      badge = "Above avg";
+                    } else if (diff > -1.0) {
+                      colorClass = "text-amber-700";
+                      barColor = "bg-amber-400";
+                      badge = "Near avg";
+                    } else {
+                      colorClass = "text-red-600";
+                      barColor = "bg-red-500";
+                      badge = "Below avg";
+                    }
+
+                    const scorePercent = Math.min(100, (s.score / 10) * 100);
+                    const avgPercent = Math.min(100, (s.average / 10) * 100);
+
+                    // Ordinal suffix
+                    const ordinal = (n: number) => {
+                      const s = ["th", "st", "nd", "rd"];
+                      const v = n % 100;
+                      return n + (s[(v - 20) % 10] || s[v] || s[0]);
+                    };
+
+                    return (
+                      <div key={s.factor} className="group">
+                        <div className="flex items-center justify-between mb-1.5">
+                          <span className="text-sm font-medium text-gray-800">
+                            {s.factor}
+                          </span>
+                          <div className="flex items-center gap-2">
+                            <span className={`text-xs font-medium ${
+                              diff >= 1.0 ? "text-emerald-600 bg-emerald-50 border-emerald-200" :
+                              diff > -1.0 ? "text-amber-600 bg-amber-50 border-amber-200" :
+                              "text-red-600 bg-red-50 border-red-200"
+                            } px-2 py-0.5 rounded-full border`}>
+                              {badge}
+                            </span>
+                            <span className="text-xs text-gray-400">
+                              {ordinal(s.rank)} of 10
+                            </span>
+                          </div>
+                        </div>
+
+                        {/* Bar chart */}
+                        <div className="relative h-7 bg-gray-100 rounded-full overflow-hidden">
+                          {/* Score bar */}
+                          <div
+                            className={`absolute inset-y-0 left-0 ${barColor} rounded-full transition-all duration-500`}
+                            style={{ width: `${scorePercent}%` }}
+                          />
+                          {/* Average marker line */}
+                          <div
+                            className="absolute inset-y-0 w-0.5 bg-gray-500 z-10"
+                            style={{ left: `${avgPercent}%` }}
+                            title={`Average: ${s.average}`}
+                          />
+                          {/* Score label inside bar */}
+                          <div className="absolute inset-0 flex items-center px-3">
+                            <span className={`text-xs font-bold ${scorePercent > 15 ? "text-white" : "text-gray-700"}`}>
+                              {s.score.toFixed(1)}
+                            </span>
+                          </div>
+                        </div>
+
+                        {/* Details row */}
+                        <div className="flex items-center justify-between mt-1">
+                          <span className="text-[11px] text-gray-400">
+                            Avg: {s.average.toFixed(1)} · {s.reviewCount} review{s.reviewCount !== 1 ? "s" : ""} matched
+                          </span>
+                          {absDiff > 0 && (
+                            <span className={`text-[11px] font-medium ${colorClass}`}>
+                              {diff > 0 ? "+" : ""}{diff.toFixed(1)} vs avg
+                            </span>
+                          )}
+                        </div>
+                      </div>
+                    );
+                  })}
+                </div>
+              )}
+
+              {!benchmarkLoading && !benchmarkData && (
+                <div className="text-center py-12 text-gray-500">
+                  <p>Unable to load benchmark data.</p>
+                </div>
+              )}
+
+              {/* Email capture section */}
+              {!benchmarkLoading && benchmarkData && (
+                <div className="mt-6 pt-5 border-t border-gray-100">
+                  {!benchmarkEmailSent ? (
+                    <div>
+                      <h3 className="text-sm font-semibold text-gray-800 mb-2">
+                        📧 Get this report as a PDF
+                      </h3>
+                      <p className="text-xs text-gray-500 mb-3">
+                        We&apos;ll send you a professionally formatted PDF of this benchmark report.
+                      </p>
+                      <div className="flex gap-2">
+                        <input
+                          type="email"
+                          value={benchmarkEmail}
+                          onChange={(e) => {
+                            setBenchmarkEmail(e.target.value);
+                            setBenchmarkEmailError("");
+                          }}
+                          placeholder="your@email.com"
+                          className="flex-1 border border-gray-300 rounded-lg px-3 py-2 text-sm text-gray-900 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent"
+                          onKeyDown={(e) => e.key === "Enter" && sendBenchmarkEmail()}
+                          disabled={benchmarkEmailSending}
+                        />
+                        <button
+                          onClick={sendBenchmarkEmail}
+                          disabled={benchmarkEmailSending || !benchmarkEmail.trim()}
+                          className="px-4 py-2 text-sm font-medium text-white bg-blue-600 hover:bg-blue-700 rounded-lg transition-colors disabled:bg-gray-300 disabled:cursor-not-allowed whitespace-nowrap"
+                        >
+                          {benchmarkEmailSending ? "Sending..." : "Send Report"}
+                        </button>
+                      </div>
+                      {benchmarkEmailError && (
+                        <p className="text-xs text-red-500 mt-2">{benchmarkEmailError}</p>
+                      )}
+                    </div>
+                  ) : (
+                    <div className="text-center py-3">
+                      <div className="inline-flex items-center gap-2 px-4 py-2 bg-emerald-50 text-emerald-700 rounded-lg border border-emerald-200">
+                        <span>✅</span>
+                        <span className="text-sm font-medium">Report sent! Check your inbox.</span>
+                      </div>
+                    </div>
+                  )}
+                </div>
+              )}
+            </div>
+
+            {/* Modal Footer */}
+            <div className="px-6 py-4 border-t border-gray-100 flex-shrink-0 flex items-center justify-between">
+              <p className="text-[11px] text-gray-400">
+                Scores derived from customer review sentiment analysis
+              </p>
+              <button
+                onClick={() => setShowBenchmark(false)}
+                className="px-5 py-2 text-sm font-medium text-gray-700 bg-gray-100 hover:bg-gray-200 rounded-lg transition-colors"
+              >
+                Close
+              </button>
+            </div>
+          </div>
+        </div>
+      )}
     </main>
   );
 }

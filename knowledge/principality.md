@@ -212,99 +212,250 @@
 9. **Community cash access innovation** — OneBanx partnership bringing shared banking to underserved areas
 10. **Strong financial position** — £14bn+ assets, well-capitalised (CET1 19.8%), Fitch BBB+ rated
 
-## Specific Trustpilot Reviews
+## Specific Customer Reviews
 
 *Reviews sourced from uk.trustpilot.com/review/principality.co.uk on 4 February 2026. Quotes are verbatim or closely paraphrased from the original reviews.*
 
-### Positive - Emergency savings closure handled with empathy
+### Positive - Emergency savings closure handled with empathy (Trustpilot)
 > "Due to emergency tree works, I have had to close a savings account with Principality BS. The problem was handled excellently and with empathy by their support rep. He was able to transfer my money quickly and easily over the phone. Impressed and will be looking to invest again ASAP with PBS."
 - **Rating:** 5/5
 - **Date:** January 2026
 - **Context:** Customer needed to urgently close a savings account due to tree works on their property. Phone-based resolution was quick and compassionate.
 
-### Positive - Mortgage advisor Gemma went above and beyond
+### Positive - Mortgage advisor Gemma went above and beyond (Trustpilot)
 > "Never thought I would leave a review for a mortgage company. Spoke to Gemma today who took the time to help me through some difficulties I was having. She went above and beyond showing a level of compassion, patience and understanding I have not experienced speaking to a stranger on the phone. She's a credit to Principality."
 - **Rating:** 5/5
 - **Date:** September 2025
 - **Context:** Customer was having mortgage difficulties and received exceptional personal support from a named staff member over the phone.
 
-### Positive - 50+ years of building society experience, Principality is the best
+### Positive - 50+ years of building society experience, Principality is the best (Trustpilot)
 > "All the staff are most efficient, special thanks to Hayley and Holly for outstanding customer service. Having dealt with Building Societies for over 50 years, Principality is without doubt the Market Leader for customer service. Both Hayley and Holly are a credit to Principality. I will always invest with them and can highly recommend the company to all and sundry."
 - **Rating:** 5/5
 - **Date:** November 2025
 - **Context:** Long-standing customer with decades of building society experience rates Principality as the best for customer service, naming specific branch staff.
 
-### Positive - Beginner saver finds products accessible and habit-forming
+### Positive - Beginner saver finds products accessible and habit-forming (Trustpilot)
 > "As someone new to saving, I've found their approach very beginner-friendly — clear terms, helpful guidance, and a genuine sense that they want to support people starting their savings journey. Their regular saver has been a great way to build the habit. The only small challenge I've found is with account referencing: instead of direct account numbers, you use reference codes to identify your accounts. If you've opened more than one, it can get a bit confusing."
 - **Rating:** 4/5
 - **Date:** September 2025
 - **Context:** First-time saver praises the regular saver product as a gateway to building saving habits. Minor criticism of the reference-code system for identifying accounts.
 
-### Positive - Excellent maturity process and quick statement turnaround
+### Positive - Excellent maturity process and quick statement turnaround (Trustpilot)
 > "An excellent interest rate for the six-month regular saver account and a very prompt and helpful response when I inquired what would happen at maturity. On maturity, my nominated account was credited quicker than expected, and when I inquired about receiving a statement, I was advised a response would be received within two days. However, an email response provided the document within a few hours of my request."
 - **Rating:** 5/5
 - **Date:** October 2025
 - **Context:** Customer praises the end-to-end regular saver experience — from rates to maturity process to documentation speed.
 
-### Positive - Decades-long customer bewildered by negative reviews
+### Positive - Decades-long customer bewildered by negative reviews (Trustpilot)
 > "From my university days decades ago until the present day, their management of customers' affairs and competence has been brilliant. Their website is clearer and easier to use than any other bank/BS website. Staff answer the phone promptly and are knowledgeable and polite. Savings interest rates are very competitive. What distinguishes the Principality from most other financial institutions is that customer experience is great across all generations."
 - **Rating:** 5/5
 - **Date:** June 2025
 - **Context:** Long-term customer (decades) actively defends Principality against negative reviews, praising consistency across website, phone, and rates.
 
-### Positive - 14-year mortgage ran smoothly, rarely needed to call
+### Positive - 14-year mortgage ran smoothly, rarely needed to call (Trustpilot)
 > "Been with this company 14 years. When I have had to contact them, rarely, as it ran smoothly, I have had excellent Customer Service. I last spoke to Sabina, she was more than helpful."
 - **Rating:** 5/5
 - **Date:** April 2025
 - **Context:** Mortgage customer completing their term after 14 years — the fact they rarely needed to contact Principality is itself the compliment.
 
-### Negative - Maturity day blocked by unannounced maintenance
+### Negative - Maturity day blocked by unannounced maintenance (Trustpilot)
 > "I have always had a high opinion of PBS until today. I had a maturity today and was advised last week that the funds would be transferred into my nominated account today. I logged into my account this morning to find a notice saying that there was maintenance being done today so no transactions! I am absolutely disgusted! This was surely a known-about and pre-planned event so why didn't PBS advise me of this beforehand? I am missing out on interest for each day that now goes by."
 - **Rating:** 1/5
 - **Date:** January 2026
 - **Context:** Customer's savings matured on the same day Principality scheduled system maintenance, blocking fund transfers. No advance warning was given, causing lost interest and anger.
 
-### Negative - Worst banking experience: locked out of own savings
+### Negative - Worst banking experience: locked out of own savings (Trustpilot)
 > "Worst possible banking experience of my life. Deposited money each month, never been able to access it. Spoke to CS, sent a reset code in the post, security answers were changed over and over online and yet not one correct answer was ever accepted. Ring to highlight my issues with the account and the lady simply said 'we'll close the account for you then.' Zero customer service skills and a building society that clearly doesn't care."
 - **Rating:** 1/5
 - **Date:** November 2025
 - **Context:** Customer was unable to access their savings account for an extended period due to persistent security answer issues. When they called for help, CS offered to close the account rather than resolve the access problem.
 
-### Negative - Document verification "stuck in 1988"
+### Negative - Document verification "stuck in 1988" (Trustpilot)
 > "Tried to open a simple saving account. They refused my documents. I sent new ones, they okayed my passport but do not accept online banking statements! Not sure in what century they live in! You need to go back to 1988! Sorry I am not 60 years old and keep my money under my mattress. In a world that cares about the environment this should not even be a thing!"
 - **Rating:** 2/5
 - **Date:** December 2025
 - **Context:** Prospective new customer abandoned the account opening process after Principality refused to accept digital bank statements as proof of address. Also criticised phone staff communication.
 
-### Negative - Bridgend branch manager refused to release customer's own funds
+### Negative - Bridgend branch manager refused to release customer's own funds (Trustpilot)
 > "I sold my home and bought a renovation project of a chapel. Julie the branch manager did NOT believe me. My solicitor transferred a large amount of funds from my sale into my account. I called in on Saturday to put notice for £20,000 cash and it was fine. I called in on Monday and had a bad experience with Julie — she did not want to give me my money. I called in with my daughter on Tuesday and we had a heated conversation as she would not release my funds. She was very obnoxious and rude, and told me to close my account and she would give me a cheque."
 - **Rating:** 1/5
 - **Date:** September 2025
 - **Context:** Customer with a large deposit from a property sale was repeatedly blocked from withdrawing their own funds by a named branch manager over multiple days. Filed a formal complaint.
 
-### Negative - Mortgage approved then reversed, lost money
+### Negative - Mortgage approved then reversed, lost money (Trustpilot)
 > "I had worst experience with them. I lost my money because of their fake promise. I lost my money because of their admin errors. Initially they approved my mortgage and after making all arrangements they rejected. They didn't even give a proper explanation for that. They don't even know what they were doing."
 - **Rating:** 1/5
 - **Date:** August 2025
 - **Context:** Mortgage applicant claims Principality initially approved their mortgage, then reversed the decision after the customer had already made financial arrangements. No clear explanation was provided.
 
-### Negative - Misleading regular saver interest information
+### Negative - Misleading regular saver interest information (Trustpilot)
 > "I saved £200 each month for 6 months. That is total £1,200 and expecting to receive the return based on 7.36% interest. But only received £18... that's it. The information on their website is incomplete, vague and misleading. I compare the details with FirstDirect, and FirstDirect correctly displayed the return that one can get after saving."
 - **Rating:** 1/5
 - **Date:** October 2025
 - **Context:** Customer misunderstood how interest on a regular saver works (calculated on each monthly deposit, not the total lump sum). They blame Principality's website for not making this clear, noting that competitors explain it better.
 
-### Negative - 40-year customer leaves after ISA payment confusion
+### Negative - 40-year customer leaves after ISA payment confusion (Trustpilot)
 > "Up to this year I had been a PBS customer for some 40 years. I opened a 1-year fixed rate ISA and tried to pay further funds into it this week to receive a terse email saying they were returning the additional monies as the product was now closed. I checked when opening the account if I could pay further monies in during the course of the tax year and was told I could. Incompetence and poor customer service — won't be looking to invest with them any longer."
 - **Rating:** 1/5
 - **Date:** June 2025
 - **Context:** A four-decade customer was given incorrect information about ISA top-up rules at account opening, then had funds returned with a curt message. Lost a loyal long-term member.
 
-### Mixed - Savings process excellent, but security is outdated
+### Mixed - Savings process excellent, but security is outdated (Trustpilot)
 > "Only one thing needs to change: Security. They need to move away from text login access as this is totally vulnerable to sim swap fraud. They need either a biometric app and/or authenticator. Savings review: Whole process of account set up and maturity is slick and smooth with auto product renewal being an outstanding option. Funds don't go missing for a day or two like some other societies. Even weekend maturities have been faultless. Rates have been market leading."
 - **Rating:** 4/5
 - **Date:** August 2025
 - **Context:** Knowledgeable customer praises savings operations but flags a specific security vulnerability (SMS-based login susceptible to SIM swap attacks). Wants biometric/authenticator login.
+
+
+### Negative - Unfair to disabled people (Smart Money People)
+> "I started to invest with the Principality when we were planning our move to Wales. I saved steadily and by the time we moved had a good sum in my investment accounts. I had both passbook and online accounts and found that initially, the staff were friendly and helpful. However, when I had a stroke, it became difficult for me to manage my online accounts. My speech and mobility were poor and I realised that my various savings were not in the best accounts for me. The Principality were poor at communicating my options to me. When I went into the branch, I asked for help and explained that I had had a stroke. Whilst they were quite willing to update my husband's passbook without any form of ID, they bizarrely required ID from me before they would discuss my accounts. They wanted a bank statemnt, which I had not brought with me. When I told them that my Halifax statements were online on my phone and I could send a copy to their printer, the staffer pretended that she could not understand what I was saying. I felt humiliated and went home. I then went back a couple of weeks later and went into the branch with my passbooks and asked for them to be updated. The three staffers just talked to each other about their families, their slimming club and so on. They did not speak to me directly, One of them referred to me as "this customer". So I decided to close my accounts on the spot, which I did. I took the cheques across the road to the Nationwide and bought bonds and such like with them. When I got home I contacted the Principality to complain. They said that they could not see the problem. Eventually, they sent me a little food hamper of stuff that I could not eat because I am a vegan. They sent me an email saying that as far as they were concerned, the matter was closed."
+- **Rating:** ⭐⭐
+- **Date:** May 2023
+- **Context:** Savings product review
+
+### Negative - Refused Mortgage (Smart Money People)
+> "We had an issue over seven and a half years ago and our Mortgage Broker said Principality were a good lender and should have no problems. We passed our AIP no problems and were up front with our issue from many years ago and even showed the issue was resolved. Our credit score was good otherwise we would not have passed. We met all their lending criteria and they decided to turn us down. They would not even give a reason to the Broker why. What's the point in having a lending criteria and then move the goalposts? Really disappointed with them. We all make mistakes in the past and we addressed ours and have been clean for many years... just seems some lenders hold on to the past even though it was many years ago. Hi just an update guys. I spoke to the Broker who spoke to a manager directly at Principality and after looking in to it, she agreed we did meet the criteria but was not able to overturn the decision. They have now amended their criteria so it doesn't happen again. Absolutely shocking from Principality. Just to let you know I was able to get a Mortgage with another high street lender with a fantastic rate who didn't judge us on our past from seven years ago."
+- **Rating:** ⭐
+- **Date:** December 2017
+- **Context:** Mortgage product review
+
+### Positive - Principality is 'simply the best'! (Smart Money People)
+> "My husband Tom and I have been customers of the Principality Building Society for 3 years. The website provides clear information and is easy to navigate. The highlight of the service is the ability to speak to an experienced member of staff directly on the phone. Telephone calls are answered quickly and professionally. Unlike some other financial institutions which direct you to an automated chat line or keep passing you from one department to another, this does not happen with the Principality Building Society. We have 12 month regular savers accounts. When the savers mature, we start new ones but do not need to set up a new account and new standing orders. We continue with what we have previously set up. It is a simple user friendly system which limits unnecessary work on our behalf. Nothing seems too much trouble on the phone. Principality Building Society set the gold standard in excellent customer relations and interpersonal skills and should serve as a role model to certain other financial institutions."
+- **Rating:** ⭐⭐⭐⭐⭐
+- **Date:** January 2026
+- **Context:** Savings product review
+
+### Positive - Efficient, simple to use with no fuss (Smart Money People)
+> "I have been a customer of the Principality for a few years now with a Cash Isa and Instant Saver accounts and have found them to be very easy to contact and knowledgeable. Our nearest branch is open from Monday - Saturday, so it is fairly easy to call in. The staff are friendly and easy to talk to about any banking issues that I may have. I have never had a bad experience with them and recommend anyone to give them a chance. The staff at the Principality are efficient and they explain exactly what their banking products do and how they work in plain, simple language without all the jargon for a quick sale. The Principality does everything that you'd want a building society to do."
+- **Rating:** ⭐⭐⭐⭐⭐
+- **Date:** April 2017
+- **Context:** Savings product review
+
+### Positive - Alternative products with great rates (Smart Money People)
+> "Principality's products are available to the whole of the UK, I started with a regular saver that had a high rate, and since then they've had 6 month and Christmas savers; both products not found with many other banks. The website is well designed and easy to navigate, and the few times I've needed to call; they were friendly and helpful. The only downsides is they still don't have an app despite the home page showing a webpage on a phone that could be confused for an app. Also their bank.green score could better, as they use Barclays in the background which is the worst for ethical-environmental concerns. These two issues stop it being a 5 star building society."
+- **Rating:** ⭐⭐⭐⭐
+- **Date:** November 2024
+- **Context:** Savings product review
+
+### Positive - Excellent., local customer service, always very helpful and friendly (Smart Money People)
+> "I have had a principality building society acccount for many years and have always found them to be very personable and helpful towards any questions I may have. I am served as quickly as possible and they are happy to have a quick chat, which helps build rapport. They are professional In their approach. Also, the are a local company and I am proud to support a company that has its ethics and goals aligned with its customers."
+- **Rating:** ⭐⭐⭐⭐⭐
+- **Date:** February 2017
+- **Context:** Savings product review
+
+### Positive - Good service and high interest rate account (Smart Money People)
+> "Good account with a very good interest rate,website is a bit slow to work with and it appears whatever you say you will be contacted by phone to confirm instructions before the maturity date. Building soc. has regular good interest rates and consistently features in best account literature. . ."
+- **Rating:** ⭐⭐⭐⭐⭐
+- **Date:** June 2025
+- **Context:** Savings product review
+
+### Negative - T & Cs on website not current. (Smart Money People)
+> "I wished to close my 2 year ficed rate bond after 1 year but was told I couldnt despite current website information stating with loss of 180 days interest I could. https://www.principality.co.uk/savings-accounts/fixed-term-savings-and-bonds/fixed-term-bond-account-terms"
+- **Rating:** ⭐
+- **Date:** July 2021
+- **Context:** Savings product review
+
+### Positive - Pacesetter. (Smart Money People)
+> "Very little 'phone-waiting time, then ... a miracle! Contact is made with a most friendly, polite and helpful 'humanoid', capable of providing a solution, without having to refer to anyone else. - A template for the vast majority of similar institutions to follow!"
+- **Rating:** ⭐⭐⭐⭐⭐
+- **Date:** January 2026
+- **Context:** Savings product review
+
+### Positive - Their regular savers are market leading. (Smart Money People)
+> "Their regular savers are market leading. The maturity process is best in market. They even transmit matured funds on none working days. They offer using some of funds to start off a new policy that day so you lose no days of investing."
+- **Rating:** ⭐⭐⭐⭐⭐
+- **Date:** January 2026
+- **Context:** Savings product review
+
+### Positive - Very Good Customer Service (Smart Money People)
+> "Can’t rave about their customer service enough. Have always been able to have a transparent conversation regarding our options. Only thing is they’re more expensive than a lot of other mortgages not the most competitive on rates"
+- **Rating:** ⭐⭐⭐⭐
+- **Date:** April 2021
+- **Context:** Mortgage product review
+
+### Positive - Nice Security (Smart Money People)
+> "Switch banks/Building Societies quite a bit, and I think this is the first time that I ever have had to confirm my address to set up a saver, maybe it was because I havent banked with them before but even so, I appreciate it."
+- **Rating:** ⭐⭐⭐⭐⭐
+- **Date:** March 2021
+- **Context:** Savings product review
+
+### Positive - Excellent online Cash ISA with 12 month bonus (Smart Money People)
+> "I have held a cash ISA with Principality for several years but noticed a new online ISA account with a bonus rate for 12 months. Upon request, they transferred my existing ISA to the new account with a minimum of fuss."
+- **Rating:** ⭐⭐⭐⭐⭐
+- **Date:** February 2024
+- **Context:** Savings product review
+
+### Negative - 5 Year ISA On-Line Application Doesn't Work (Smart Money People)
+> "Processing an on-line 5 year ISA application gives error code 4530 and won't let you complete. Like a twot it tried it twice on an iPad and once on a windows laptop, same error code so a good waste of half an hour"
+- **Rating:** ⭐
+- **Date:** March 2018
+- **Context:** Savings product review
+
+### Positive - excellent service I received from the Branch (Smart Money People)
+> "I wanted to put away a small amount of money each month for 6 months and this account offered very good interest rates. What made the experience even better was the excellent service I received from the Branch"
+- **Rating:** ⭐⭐⭐⭐⭐
+- **Date:** January 2026
+- **Context:** Savings product review
+
+### Positive - A nice wee saver (Smart Money People)
+> "Good product for receiving a decent interest rate in exchange for regular savings which they can hold for a fixed period of time. Easy to set up online. Staff on the phone friendly and helpful to deal with."
+- **Rating:** ⭐⭐⭐⭐⭐
+- **Date:** February 2020
+- **Context:** Savings product review
+
+### Positive - Excellent (Smart Money People)
+> "Excellent service. The staff at our local branch are welcoming, professional and organised. They are also very knowledgeable about the wide range of products that the branch can offer. Thank you"
+- **Rating:** ⭐⭐⭐⭐⭐
+- **Date:** November 2018
+- **Context:** Savings product review
+
+### Positive - Great product (Smart Money People)
+> "Easy to set up, website is easy to navigate around. The staff in our local prestatyn branch are polite, friendly, organised and professional. They are also very knowledgeable. Well worth a look"
+- **Rating:** ⭐⭐⭐⭐⭐
+- **Date:** February 2023
+- **Context:** Savings product review
+
+### Positive - Friendly staff (Smart Money People)
+> "You can't get better customer service than the staff at principality. The mortgage advisor is very helpful and offered good unbiased opinions to help us make our decision regarding or mortgage"
+- **Rating:** ⭐⭐⭐⭐⭐
+- **Date:** May 2017
+- **Context:** Mortgage product review
+
+### Positive - Large withdrawal swiftly dealt with. (Smart Money People)
+> "Needed to withdraw large some of money, this was swiftly paid into my bank account unlike some other building societies that are painfully slow with large withdrawals."
+- **Rating:** ⭐⭐⭐⭐⭐
+- **Date:** February 2025
+- **Context:** Savings product review
+
+### Positive - Easy to access account (Smart Money People)
+> "Easy account to access online. Online banking easy to set up. The process of moving money in and out of the account is simple but there is ample security."
+- **Rating:** ⭐⭐⭐⭐⭐
+- **Date:** January 2020
+- **Context:** Savings product review
+
+### Positive - Consistently competitive interest rates (Smart Money People)
+> "Principality offer consistently competitive interest rates. Opening and operating an account is easy and helpful support is provided when required."
+- **Rating:** ⭐⭐⭐⭐⭐
+- **Date:** January 2026
+- **Context:** Savings product review
+
+### Positive - Customer Service above all (Smart Money People)
+> "Principality is a company that can always be relied on to help with their knowledgeable contact centre and helpful admin team alongside good rates."
+- **Rating:** ⭐⭐⭐⭐⭐
+- **Date:** January 2020
+- **Context:** Savings product review
+
+### Positive - Good Product (Smart Money People)
+> "Excellent service, polite, organised and professional staff. Great product, easy to set up and easy to understand. Thank you"
+- **Rating:** ⭐⭐⭐⭐⭐
+- **Date:** November 2019
+- **Context:** Savings product review
+
+### Mixed - Good but no app available in 2021!?! (Smart Money People)
+> "A bit behind the times but then again it's a building society. Rates are usually pretty tempting and customer services.ok."
+- **Rating:** ⭐⭐⭐
+- **Date:** March 2021
+- **Context:** Savings product review
 
 ---
 *Knowledge base compiled: February 2026. Data sourced from principality.co.uk, Trustpilot, Wikipedia, news reports, and financial results announcements.*

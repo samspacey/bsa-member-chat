@@ -158,99 +158,250 @@ Skipton is a significant and innovative mortgage lender with a strong first-time
 9. **Community Commitment** — 1% of Group profits donated to charity; member voting on charitable giving
 10. **National Branch Presence** — 82 branches from Aberdeen to Plymouth, combined with comprehensive digital channels
 
-## Specific Trustpilot Reviews
+## Specific Customer Reviews
 
 *Sourced from uk.trustpilot.com/review/www.skipton.co.uk — selected for specificity and storytelling value.*
 
-### Positive - First mortgage experience, consistently helpful phone support
+### Positive - First mortgage experience, consistently helpful phone support (Trustpilot)
 > "Always been helpful each time I've called for more information and also when we were setting up our first mortgage. Never had someone on the other end of the phone who was disheartening or dismissive, answer all questions I have or concerns. Call wait times always been short too which is a bonus."
 - **Rating:** 5/5
 - **Date:** January 2026
 - **Context:** Long-term member praising consistent quality of phone support across multiple interactions, including during their first mortgage process.
 
-### Positive - Dream home made real despite underwriting hiccup
+### Positive - Dream home made real despite underwriting hiccup (Trustpilot)
 > "You have made our dreams come true! There was a hiccup with the underwriters which was very stressful at the time but now we're moved in it feels all worth it! Thank you for the thoughtful goodie gift box."
 - **Rating:** 4/5
 - **Date:** November 2025
 - **Context:** New mortgage customer who experienced stress during underwriting but was won over by the end result and Skipton's "welcome home" gift box.
 
-### Positive - Accidental LISA transfer reversed without penalty
+### Positive - Accidental LISA transfer reversed without penalty (Trustpilot)
 > "Accidentally transferred money into my Lifetime ISA, contacted to explain the situation and Jasmine got my funds sent back without having to face a withdrawal penalty."
 - **Rating:** 5/5
 - **Date:** January 2026
 - **Context:** Member made an accidental deposit into their LISA. Staff member Jasmine was able to reverse it without the usual government withdrawal penalty — a potentially costly mistake resolved quickly.
 
-### Positive - Real humans on web chat, not chatbots
+### Positive - Real humans on web chat, not chatbots (Trustpilot)
 > "Had a query on a savings account so tried the online chat. The call handler wasn't a chatbot which was a good start & she was able to answer my query clearly. Good to deal with in my experience & have decent ethical standards. Savings rates are consistently OK too."
 - **Rating:** 5/5
 - **Date:** January 2026
 - **Context:** Member specifically values that Skipton's web chat is staffed by real people, not automated bots. Also praises ethical standards and competitive savings rates.
 
-### Positive - Face-to-face branch service, treated like a valued customer
+### Positive - Face-to-face branch service, treated like a valued customer (Trustpilot)
 > "Great service, impartial information, pleasant knowledgeable staff. Treated like a valued customer. Good face to face information — that's what most people want."
 - **Rating:** 5/5
 - **Date:** February 2026
 - **Context:** Branch visit where member felt genuinely valued and appreciated the in-person, impartial advice from knowledgeable staff.
 
-### Positive - Fantastic customer service and good range, but digital needs work
+### Positive - Fantastic customer service and good range, but digital needs work (Trustpilot)
 > "The customer service is fantastic and unlike a lot of BS now they have branches all over. Skipton offer good rates as a saver and a good range of products. The only reason I didn't give 5 stars is Skipton's online services. The app and website need to be updated — making payments can be awkward, only being able to have 2 nominated accounts rather than payees is again not great. Why you have to pay into a Barclays account first with a reference is beyond me! It can often take hours for this to show in your savings account. Overall Skipton Building Society are fantastic."
 - **Rating:** 4/5
 - **Date:** July 2025
 - **Context:** Balanced review from a satisfied saver who loves the branch network and customer service but highlights specific digital banking frustrations — limited payees, indirect payment routing via Barclays, and slow deposits.
 
-### Negative - Older customer locked out, no smartphone, nearest branch 45 miles away
+### Negative - Older customer locked out, no smartphone, nearest branch 45 miles away (Trustpilot)
 > "Another company treating customers appallingly for having the temerity to want access to our own money. I do not have a 'smart' phone so can't use the app. I called their 'help' desk, was told to use the app even though I'd explained why I couldn't... Then, I was told to go to a branch even though the nearest is 45 miles away. Note to Skipton, some of us live in the real world where we have to work for a living... As I pointed out to the young man who called me, the way older people are discriminated against is appalling. Update: I have tried this email address to be told by someone called a 'Social Media Community Specialist' (no, me neither) that I will have to email several forms of ID. Furthermore, I was addressed as 'Hi there'. Perhaps Skipton are trying to get down with the kids. This is no way to run a financial institution."
 - **Rating:** 1/5
 - **Date:** January 2026
 - **Context:** Customer without a smartphone unable to access their own savings. Repeatedly told to use the app or visit a branch 45 miles away. Raises concerns about digital exclusion and age discrimination. Escalated to CEO before partial resolution.
 
-### Negative - £802/month still being taken for a mortgage that no longer exists
+### Negative - £802/month still being taken for a mortgage that no longer exists (Trustpilot)
 > "I have spoken with their customer services over the period of a month, lodged two complaints and today sent their internal form to complain to their CEO. They keep taking £802 from my bank account for a mortgage I no longer have with them for a house I no longer own. Help! I am being ignored by them for what feels like borderline theft, as they yet again take money that is not theirs."
 - **Rating:** 1/5
 - **Date:** January 2026
 - **Context:** Former mortgage customer whose direct debit of £802/month continued being collected after the mortgage was closed and the property sold. Multiple complaints and escalations over a month failed to stop the payments.
 
-### Negative - ISA transfer nightmare with unauthorised fixed-term and £299 penalty threat
+### Negative - ISA transfer nightmare with unauthorised fixed-term and £299 penalty threat (Trustpilot)
 > "I invested quite a considerable amount of money with this building society... The first involved an inter-banking transaction where all I needed was the bank's transaction details — it took hours of phone calls and an official complaint to eventually get the information. No one seems to know what they are doing... The next involved a straightforward ISA transfer at the end of a fixed term ISA. Without my authority they transferred it to another fixed term, denied the other finance company sent them paperwork and now state that as it's over the 21 days I would suffer a £299 penalty!! The cheek of it, penalising a customer because they can't do their job properly."
 - **Rating:** 1/5
 - **Date:** November 2025
 - **Context:** Member experienced two separate failures — one involving a simple inter-bank transfer that required a formal complaint, and another where their ISA was moved to a new fixed term without consent, then threatened with an early withdrawal penalty.
 
-### Negative - Chester branch, 50-mile round trip for a simple transfer, walked out
+### Negative - Chester branch, 50-mile round trip for a simple transfer, walked out (Trustpilot)
 > "Chester Branch (1 other customer in branch). I asked to move my money from a savings account to an ISA. This could not be done without an appointment on another day. I told the manager that it was a 50-mile round trip from North Wales to the branch and it was not worth the bother. So closed my savings account and got a cheque for 8K to put somewhere else."
 - **Rating:** 1/5
 - **Date:** December 2025
 - **Context:** Member drove 50 miles round trip to make a simple savings-to-ISA transfer, only to be told they needed a separate appointment. Closed their account on the spot and left with an £8,000 cheque.
 
-### Negative - Locked out of app for a year, phone support useless
+### Negative - Locked out of app for a year, phone support useless (Trustpilot)
 > "Awful blippy app, like Fort Knox trying to get your own money. Terrible and stressful, I have been trying to access my account for a YEAR. Phone support useless, they just send out codes in the post that don't work. I HATE THEM."
 - **Rating:** 1/5
 - **Date:** December 2025
 - **Context:** Customer unable to access their account via the app for an entire year. Repeated attempts at resolution via phone only resulted in posted security codes that didn't work. Extreme frustration and loss of trust.
 
-### Negative - Cheque-only closure, lost 12 days' access to own money
+### Negative - Cheque-only closure, lost 12 days' access to own money (Trustpilot)
 > "I was only offered a cheque when I closed my online savings account. They sent it 2nd class and then I had to wait 2 days for Lloyds to clear it. Overall I lost 12 days access to my money due to this archaic way of paying clients who close an account."
 - **Rating:** 1/5
 - **Date:** January 2026
 - **Context:** Member closing an online savings account was given no electronic transfer option — only a cheque sent by 2nd class post. Total delay of 12 days before funds were accessible, highlighting an outdated process.
 
-### Negative - Disabled pensioner's 104-mile round trip for Power of Attorney registration
+### Negative - Disabled pensioner's 104-mile round trip for Power of Attorney registration (Trustpilot)
 > "I am a 70-plus year old disabled pensioner with glaucoma and who needs 2 sticks to walk. Both my wife and I wished to log our Power of Attorneys with Skipton branch in North Berwick Scotland... North Berwick is a round trip from our home of some 104 miles. So returned with the documents this week to be told that we have to make an appointment and fill in a four-page document! My wife has to fill in forms for me. So misinformation from the branch and again more miles and time required... Various emails back and forth and still no further forward: they suggested I go online but my wife hates computers and we have poor connection where we live."
 - **Rating:** 2/5
 - **Date:** January 2026
 - **Context:** Elderly disabled couple given incorrect information on first branch visit about POA registration requirements. Made a 104-mile round trip only to be told they needed an appointment and additional paperwork. Digital alternatives not viable due to poor connectivity and lack of computer confidence.
 
-### Mixed - 15-year loyal mortgage customer disappointed by misleading savings product
+### Mixed - 15-year loyal mortgage customer disappointed by misleading savings product (Trustpilot)
 > "I received an email about the Regular Member Saver account and thought the interest rate looked decent. However, it wasn't made clear upfront that this was a fixed-term product. You have to wait a full year until maturity, and any withdrawal before then closes the account entirely... The app itself is clunky, outdated, and actually crashed while I was adding money. This made me worry that the funds might not have gone through... As a loyal mortgage customer with Skipton for 15 years, this experience has left me disappointed and for the first time I am considering moving my mortgage when my deal is up next year."
 - **Rating:** 3/5
 - **Date:** April 2025
 - **Context:** Long-standing 15-year mortgage customer tried a savings product, found the terms misleading, the app crashed during a deposit, and the registration process took 12 days. Now considering leaving altogether — illustrates how a poor savings experience can erode mortgage loyalty.
 
-### Mixed - Great app and web interface, but systematic ISA transfer failures
+### Mixed - Great app and web interface, but systematic ISA transfer failures (Trustpilot)
 > "Skipton Building Society has a great app and web interface and offers some good savings accounts... It's very easy to open a new Cash ISA and transfer an existing Cash ISA internally. The Member Bonus Saver pays a good rate. Unfortunately experienced systematic problems transferring Cash ISAs to new providers (now happened twice)... Due to technical anomalies at Skipton, even though the problem is at their end, they ask you to submit another transfer request. Hi Jasmin, why would I want to discuss this further with you? Have System Problem Reports been raised and investigated for root cause analysis?"
 - **Rating:** 3/5
 - **Date:** December 2025
 - **Context:** Technically-minded member appreciates Skipton's digital platform for internal use but has experienced repeated systematic failures when transferring ISAs to other providers. Frustrated that the standard "email us" response doesn't address root cause. Highlights a pattern of ISA transfer issues.
+
+
+### Negative - Total failure to do their jobs constant cut and paste mentality zero adjustments for disabled customers (Smart Money People)
+> "Terrible just terrible toward diverse customers... Where to start! Firstly they don't understand anything relating to disabled customers. Managers don't even deal with complaints always front line customer service advisor teams instead. Front line staff in the contact centre clearly have no disability awareness training and the same for departments behind the scenes as constant failures to even look at disability needs throughout all dealings. Clear a customer financially ok but then faff about no end to avoid having to lend. Weeks and months of endless LIVING HELL stress with constantly being passed about and cut and paste generic responses no regard for disabled customers accessibility needs or circumstances at all. Clearly don't understand the Equality Act at all. Even told me to go elsewhere! What a disgrace. For a company that advertises when your money is in a good place so are you... Clearly not living up to your values! Treating customers as individuals would be a good start. Quite happy to give lots of money to Mental Health UK as their charity partner but have zero regards for the distress of their failure to make disability accommodations has on their own members and customers. Don't even include full information in the complaints when submitted and issue final responses before they even compile the full information. "This is our final response" only to then read down the page where it says if we have missed any information please let us know... How can you issue a final reply without even referencing the content of the complaint??? Or even having used the full information you were supplied with...???!!!! Shambles doesn't even sum this up. HR seriously need to start educating about disability and train their staff on what the Equality Act means. So sad as you would think that with a presence and perception to the public of local service they would do well."
+- **Rating:** ⭐
+- **Date:** April 2020
+- **Context:** Mortgage product review
+
+### Negative - DIP granted but full application declined after 2 week wait for decision!!! (Smart Money People)
+> "Vey unhappy and annoyed that it took two weeks for them to tell me they were declining my full mortgage application. Underwriter made assumptions that I was upsizing and therefore made the assumptions that my outgoings will increase because if this. Nonsense! My current home is over 100 years old and the new premise was a new build and no bigger than what I live in now so will be far more energy efficient. Also quoted unrealistic figures when trying to justify her reasons for declining the mortgage. My husband and I both have very good credit scores as we have checked this with Experian and our records show we never miss or make any late payments. I can't understand how anyone with a ccj or bad debt can get mortgages but someone with a good record can't. The whole process has been long, drawn out and extremely stressful. Avoid at all costs!!!!!"
+- **Rating:** ⭐
+- **Date:** October 2016
+- **Context:** Mortgage product review
+
+### Positive - I had a twelve month fixed rate bond that matured w... (Smart Money People)
+> "I had a twelve month fixed rate bond that matured while I was hospitalised I was unable to get in touch with the skipton, when I was eventually discharged from hospital I went to my local branch to give instructions only to find out that the skipton had second guessed my intentions and reinvested my money into another twelve months bond which is exactly what I wanted .I know that other banks deposit your money into a measly account paying a very low rate of interest but not the skipton ,they did what was best for the customer"
+- **Rating:** ⭐⭐⭐⭐
+- **Date:** March 2025
+- **Context:** Savings product review
+
+### Negative - Long standing customer who has had good service up u... (Smart Money People)
+> "Long standing customer who has had good service up until now. I renewed an isa bond which pays the interest monthly to an external account and worked fine up untill I renewed in March. Now the interest isnt showing and the online chat just says the admin dept are dealing with it and will take 15 working days. Really unhappy about it. If I owed them money on a mortgage it would be different I'm sure. Other than complaining does anyone know of the procedure for taking this further?"
+- **Rating:** ⭐⭐
+- **Date:** April 2025
+- **Context:** Savings product review
+
+### Positive - Initially started an account from Accrington branch... (Smart Money People)
+> "Initially started an account from Accrington branch the lady ( sorry can't remember her name now was very good at explaining what was on offer we chose an account convenient for us. Sadly Accrington branch closed went into Clitheroe and one of the ladies Ann was someone I knew from my school class over 50 years ago! Also young girl Laura who is lovely. We are happy with Skipton very friendly informative and would highly recommend to family and friends"
+- **Rating:** ⭐⭐⭐⭐⭐
+- **Date:** March 2025
+- **Context:** Savings product review
+
+### Positive - Fantastic Mortgage Provider (Smart Money People)
+> "We have recently taken out a mortgage with Skipton. Their communication with our Financial Advisor was excellent. We were treated fairly and fast. The mortgage we have has a good rate. I am pleased with the easy access to view the mortgage information. Communication and notifications for the first payment were excellent we knew exactly what was happening. Very happy and would fully recommend Skipton.."
+- **Rating:** ⭐⭐⭐⭐⭐
+- **Date:** March 2023
+- **Context:** Mortgage product review
+
+### Positive - Amazing experience with SBS (Smart Money People)
+> "I got a colleague Mortgage through SBS and the whole experience from start to end, me & my partner are first time buyers so never experienced buying a mortgage before. Everything was clear in the conversations and when we had any question's they were answered straight away, the process was really fast and we got the mortgage cheaper than we thought we would"
+- **Rating:** ⭐⭐⭐⭐⭐
+- **Date:** March 2025
+- **Context:** Mortgage product review
+
+### Positive - Straightforward and easy (Smart Money People)
+> "We took out a mortgage through a broker and Skipton delivered the best offer by a long shot. They honored the timeframes they gave and the process was absolutely painless. The app is very easy to use to monitor payments. I have contacted their customer support for something small and had a good experience."
+- **Rating:** ⭐⭐⭐⭐⭐
+- **Date:** February 2023
+- **Context:** Mortgage product review
+
+### Positive - Flexible and Sensible approach to lending (Smart Money People)
+> "Our situation was unusual in that my wife worked for the family business and took a wage cut during Covid. Skipton looked at matters for us from a personal viewpoint - we felt like they considered us a people, not just number crunching. Overall an amazing experience with friendly people who care."
+- **Rating:** ⭐⭐⭐⭐⭐
+- **Date:** February 2021
+- **Context:** Mortgage product review
+
+### Positive - Simple and efficient (Smart Money People)
+> "Opening a savings account online was very simple and efficient. Initial rates are good compared to market and they offer better rates once established as a member. There are also still branches!"
+- **Rating:** ⭐⭐⭐⭐⭐
+- **Date:** March 2025
+- **Context:** Savings product review
+
+### Positive - Skipton with a professional company smile. (Smart Money People)
+> "I have been with the Skipton Building Society in Perth for many years. The professional staff members are a joy to talk to and are so friendly. Always greeted with a smile and extremely helpful."
+- **Rating:** ⭐⭐⭐⭐⭐
+- **Date:** January 2026
+- **Context:** Savings product review
+
+### Negative - Conspiracers (Smart Money People)
+> "Dont trust lots of fatal errors will let you down never admit no matter how vital they dont care will let you down reiterate lies to all including F O S avoid ."
+- **Rating:** ⭐
+- **Date:** April 2021
+- **Context:** Mortgage product review
+
+### Positive - Helpful, friendly and efficient (Smart Money People)
+> "Really pleased with their efficiency and customer service. Helpful and clear on the phone and quick with paperwork. The app is intuitive. Fab rates on savings"
+- **Rating:** ⭐⭐⭐⭐⭐
+- **Date:** February 2025
+- **Context:** Mortgage product review
+
+### Positive - nt twelve months ago. (Smart Money People)
+> "Opened an account twelve months ago. Always polite service when l have to visit. Noticed other staff being really helpful + patience to help others."
+- **Rating:** ⭐⭐⭐⭐⭐
+- **Date:** March 2025
+- **Context:** Savings product review
+
+### Positive - Really excellent customer service, they always expla... (Smart Money People)
+> "A good range of savings products from a building society you can trust. Really excellent customer service, they always explain things so clearly."
+- **Rating:** ⭐⭐⭐⭐⭐
+- **Date:** April 2025
+- **Context:** Savings product review
+
+### Positive - So easy to transact with (Smart Money People)
+> "I have a couple of savings accounts with Skipton. They are extremely responsive. Offer good interest rates and the App is so easy to use."
+- **Rating:** ⭐⭐⭐⭐⭐
+- **Date:** March 2025
+- **Context:** Savings product review
+
+### Positive - Good service and one of the few bank/building societ... (Smart Money People)
+> "Good service and one of the few bank/building societies that still have many branches in towns and cities around the United Kingdom"
+- **Rating:** ⭐⭐⭐⭐⭐
+- **Date:** March 2025
+- **Context:** Savings product review
+
+### Positive - easy to use and great rates. (Smart Money People)
+> "easy to use and great rates. Simple online website. Extra benefits for members are worthwhile and I have taken some up."
+- **Rating:** ⭐⭐⭐⭐⭐
+- **Date:** June 2025
+- **Context:** Savings product review
+
+### Positive - Friendly, efficient, to the point without pressure t... (Smart Money People)
+> "Friendly, efficient, to the point without pressure to make decisions, well informed staff and confident in the process."
+- **Rating:** ⭐⭐⭐⭐⭐
+- **Date:** March 2025
+- **Context:** Savings product review
+
+### Positive - Approachable and caring service (Smart Money People)
+> "We were very impressed with how helpful and approachable they were, we decided to renew our mortgage with them."
+- **Rating:** ⭐⭐⭐⭐⭐
+- **Date:** March 2025
+- **Context:** Mortgage product review
+
+### Positive - Customer service (Smart Money People)
+> "My interactions with all the staff at Skipton has been positive. The make me feel important and valued."
+- **Rating:** ⭐⭐⭐⭐⭐
+- **Date:** March 2025
+- **Context:** Savings product review
+
+### Positive - Excellent ! (Smart Money People)
+> "Great service and advice. Couldnt have done more to support me at a very difficult time."
+- **Rating:** ⭐⭐⭐⭐
+- **Date:** January 2019
+- **Context:** Mortgage product review
+
+### Positive - Great service (Smart Money People)
+> "Fantastic service at the Taunton branch with excellent rates on their ISA products."
+- **Rating:** ⭐⭐⭐⭐⭐
+- **Date:** April 2025
+- **Context:** Savings product review
+
+### Mixed - Man I spoke too could not speak English well and fou... (Smart Money People)
+> "Man I spoke too could not speak English well and found it.difficult to understand"
+- **Rating:** ⭐⭐⭐
+- **Date:** March 2025
+- **Context:** Savings product review
+
+### Mixed - Long wait times for customer service (Smart Money People)
+> "Long wait times for customer service and early exit fees still really high"
+- **Rating:** ⭐⭐⭐
+- **Date:** April 2024
+- **Context:** Mortgage product review
 
 ---
 *Last updated: February 2026. Sources: Skipton.co.uk, Skipton Group Annual Results 2024, Wikipedia, Trustpilot, Mortgage Finance Gazette, GBNews, Mortgage Introducer, Grokipedia.*

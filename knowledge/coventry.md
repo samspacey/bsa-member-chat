@@ -223,96 +223,246 @@ Note: CBS and Co-op Bank continue to operate as separate brands for the time bei
 11. **Financial strength** — CET1 ratio of 28.0% (standalone, 2024); very low arrears (0.33%); strong credit ratings
 12. **Ethical banking (via Co-op Bank)** — the group now encompasses the UK's most prominent ethical bank, with a customer-led Ethical Policy unique in UK banking
 
-## Specific Trustpilot Reviews
+## Specific Customer Reviews
 
 > Source: Trustpilot (uk.trustpilot.com/review/www.coventrybuildingsociety.co.uk). Reviews collected February 2026. Overall rating: 4.0/5 ("Great") from ~1,859 reviews. All reviews are unprompted and publicly posted. Coventry BS actively responds to every review.
 
-### Positive - Outstanding ISA transfer experience
+### Positive - Outstanding ISA transfer experience (Trustpilot)
 > "My call was answered incredibly quickly and the advisor was both helpful and knowledgeable. My ISA transfer was completed in record time and full supporting paperwork was received promptly afterwards. Coupled with the fact that the interest rates on offer were very competitive, it is hard to see how my experience could have been bettered."
 - **Rating:** 5/5
 - **Date:** January 2026
 - **Context:** Virginia transferred an ISA by phone and was impressed by the speed, staff knowledge, and competitive rates. The entire process was seamless.
 
-### Positive - UK-based phone support saves the day
+### Positive - UK-based phone support saves the day (Trustpilot)
 > "I wanted to open a new account but unusually I had problems doing this online. Called customer service who explained there was a system error and they offered to open the new account whilst I was on the telephone. My call was answered very quickly. The customer service was based in the UK. Tom was most helpful and patient even though he had a lot of info that legally he had to tell me. The new account was showing in my online account before I had finished the call."
 - **Rating:** 5/5
 - **Date:** January 2026
 - **Context:** Member encountered an online system error but was rescued by quick, UK-based phone support. Both she and her husband had the same great experience with different advisors (Tom and Katie).
 
-### Positive - Loyal branch members praise personal service
+### Positive - Loyal branch members praise personal service (Trustpilot)
 > "My wife and myself have been a member of the Coventry Building Society for many years. It is very important to have the Tamworth branch for ourselves to have a person to person contact who always help us make the most of our savings. The staff in the Tamworth branch are very professional and makes us feel special... We would like to give our personal thanks to Maria as she is such a nice lady and very efficient and professional."
 - **Rating:** 5/5
 - **Date:** January 2026
 - **Context:** Ian and Ruth Tilley, long-time members, value the face-to-face relationship at their local Tamworth branch. They emphasised the importance of the branch for older members and singled out staff member Maria by name.
 
-### Positive - Oxford branch compared favourably to Barclays
+### Positive - Oxford branch compared favourably to Barclays (Trustpilot)
 > "The city centre Oxford branch of Coventry Building Society remains open and routine transactions can easily be conducted there with pleasant staff and minimal wait. This contrasts with my experience with Barclays, for example, where neither Oxford centre nor Witney branches is interested in walk-in customers, even those with a long relationship with the bank."
 - **Rating:** 5/5
 - **Date:** January 2026
 - **Context:** Member specifically contrasted CBS's accessible, welcoming branch service against the declining in-person experience at major high street banks.
 
-### Positive - App and digital transformation praised
+### Positive - App and digital transformation praised (Trustpilot)
 > "I've been a member of Coventry Building Society for just over 5 years, and I've recently opened a new savings account using the iPhone mobile app — I was genuinely blown away. The process was incredibly easy and a huge improvement compared to previous experiences. The app is clear, intuitive, and very user-friendly. I especially appreciated the confirmation of payee check, which gave me real confidence that I'd entered all the details correctly."
 - **Rating:** 5/5
 - **Date:** January 2026
 - **Context:** Shane, a 5-year member, noticed a significant improvement in the app experience. He praised both the digital journey and the consistent quality of branch and phone service.
 
-### Positive - App issue resolved with excellent human touch
+### Positive - App issue resolved with excellent human touch (Trustpilot)
 > "I had an issue with a recent withdrawal transaction, that I believe was primarily down to a poor design within the app. Upon phoning customer service, I spoke with Andrea in the Milton Keynes branch. Andrea was exceptionally kind and understanding of my query, eventually being able to fully resolve the issue. I was obviously disappointed that the problem arose in the first place, however Andrea dealt with it in an extremely efficient manner."
 - **Rating:** 4/5
 - **Date:** January 2026
 - **Context:** Dave experienced an app design flaw but praised how staff member Andrea turned the situation around with efficient, courteous service — illustrating the "digital first, human always" approach.
 
-### Positive - Long-time member values UK call centre
+### Positive - Long-time member values UK call centre (Trustpilot)
 > "I've been with Coventry for a long time — competitive rates and a great customer service centre service (phone) who are so helpful, very friendly, clear, easy to understand and UK based, unlike many competitors where complications always seem to happen. It makes life so much easier. A refreshing change! I hope it stays that way!"
 - **Rating:** 5/5
 - **Date:** February 2026
 - **Context:** Anthony, a long-standing member, specifically highlighted the UK-based call centre as a key differentiator, contrasting it favourably with competitors' offshore support.
 
-### Negative - Interest rate cuts exceeding base rate
+### Negative - Interest rate cuts exceeding base rate (Trustpilot)
 > "Another interest rate reduction in excess of the base rate cut. They did it in August and are doing it again in Jan26, this time by an even greater cut. CBS say the Bank of England reduced interest rates by 0.25% so they are reducing the interest rates on savings, but not by 0.25% but by a whopping 0.45%. This is not doing 'what's right for our members', but what is right for their profits."
 - **Rating:** 1/5
 - **Date:** January 2026
 - **Context:** Tony was angry that CBS reduced savings rates by 0.45% when the BoE base rate only fell 0.25%. A recurring complaint from multiple reviewers who feel the mutual is prioritising margins over members.
 
-### Negative - "Absolute charlatans" on rate reductions
+### Negative - "Absolute charlatans" on rate reductions (Trustpilot)
 > "Just received an email from CBS advising that, following the 0.25% Bank of England base rate reduction they had reduced the rate on my savings by 0.30%. CBS claim 'we always aim to do what's right for our members' so why have they reduced my interest rate by 20% MORE than the base rate reduction? Taken across all the savings invested with them they are making £millions more profit at our expense. Absolute charlatans."
 - **Rating:** 1/5
 - **Date:** January 2026
 - **Context:** John was furious about the disproportionate rate cut and announced he was closing accounts and moving savings. He later edited his review to criticise CBS's response as a "copy-and-paste" reply that didn't address the core issue.
 
-### Negative - Fixed ISA auto-renewal trap
+### Negative - Fixed ISA auto-renewal trap (Trustpilot)
 > "Warning: if you open a fixed ISA with Coventry BS and you do not transfer it out at the end, they will roll it into another fixed ISA with punitive penalties without providing the terms and conditions detailing these penalties. They took almost £1,400 in penalties from my ISA when I transferred it to another provider. At no point following my ISA maturing was I notified that the new ISA account was fixed or would have various penalties applied."
 - **Rating:** 1/5
 - **Date:** November 2025
 - **Context:** K lost nearly £1,400 in penalties when trying to transfer out after an ISA auto-renewed into another fixed term. They stated intent to escalate to the Financial Ombudsman. Multiple reviewers reported similar experiences with automatic fixed ISA rollovers.
 
-### Negative - Bond maturity instructions ignored
+### Negative - Bond maturity instructions ignored (Trustpilot)
 > "Have had a fixed rate bond with the Coventry B.S. for 3 years, no problem, until it matured on 31st Dec 2025. Returned their form asking for all moneys to be returned to my current account, which they assured me would be in my account by close of business on 5th Jan 2026. Have phoned them today and they have reinvested it in another 3 year bond. They admitted they received my instructions on the 24th Dec. Don't know why they didn't follow them."
 - **Rating:** 1/5
 - **Date:** January 2026
 - **Context:** Christine sent maturity instructions well in advance but CBS reinvested her money into a new 3-year bond anyway. She had to close the unwanted bond and wait for funds to be returned.
 
-### Negative - Online registration nightmare
+### Negative - Online registration nightmare (Trustpilot)
 > "Everything went wrong — couldn't log in so they said I needed to re-register, tried that it didn't work so then they say they need to send activation code, still can't get into account. Went to branch in Southam for help, she said it takes 30 mins to help me, she hadn't got time! So I'm still not online. I applied for new bank account, took 4 mins with TSB. Why is Coventry BS so hard to get ONLINE?!"
 - **Rating:** 1/5
 - **Date:** January 2026
 - **Context:** Sue couldn't access online services despite multiple attempts and was turned away by her local branch due to time constraints. She compared CBS unfavourably with TSB's simple onboarding.
 
-### Negative - Anxiety and intimidating branch staff
+### Negative - Anxiety and intimidating branch staff (Trustpilot)
 > "I always find most (not all) of the staff in my local Coventry branch condescending and intimidating. I have previously suffered badly with anxiety and am just starting to do my banking independently. I don't expect to be put on the spot and quizzed about my own accounts... when I wasn't 100% sure of what I needed to answer, I was met with another intimidating response that made me feel confused and overwhelmed. I have recently switched to using Coventry's online banking, really so that I can avoid going into this branch."
 - **Rating:** 2/5
 - **Date:** June 2025
 - **Context:** Lucy, who suffers from anxiety, described feeling talked down to and intimidated during branch visits. She switched to online banking specifically to avoid the branch experience — a stark contrast to the many positive branch reviews.
 
-### Negative - Disability accessibility failings
+### Negative - Disability accessibility failings (Trustpilot)
 > "Trying to move my daughter's cash ISA has been a complete nightmare — it's been over a month and it's still not been completed. Even when you make a complaint you're met with cold attitudes trying to fob you off. When questioned about their disability training, which apparently all customer-facing staff have had, they know nothing about it and brush over the subject and expect you to accept £75 as goodwill."
 - **Rating:** 1/5
 - **Date:** December 2025
 - **Context:** Jon may complained about poor handling of a disabled customer's ISA transfer and felt the disability training was insufficient. CBS offered £75 goodwill which the reviewer found inadequate.
 
-### Negative - Misleading application process
+### Negative - Misleading application process (Trustpilot)
 > "I completed an online application for the 4 Access Saver 4.3% account on 30 November 2025. After hearing nothing further, I contacted Coventry Building Society twice to chase the paperwork. During my second call on 12 December 2025, I was told that the product had been withdrawn a week earlier. At no point was I notified of this, despite having an active application in progress."
 - **Rating:** 1/5
 - **Date:** December 2025
 - **Context:** Andi applied online for a savings account but CBS withdrew the product while the application was still pending without any notification. By the time they found out, competitive alternative rates had also disappeared elsewhere.
+
+### Positive - Great service and staff (Smart Money People)
+> "I applied for a mortgage with Coventry Building Society and I was very impressed by their service. They were quick, efficient and helpful throughout the process. They offered me a competitive rate and flexible terms. They communicated clearly and regularly with me and answered all my questions. I would recommend them to anyone looking for a mortgage. This review is based on information from various sources1234. It is not intended to be a substitute for your own research or personal experience. Please note that your experience may vary depending on your circumstances and preferences. Received message. Here is a possible review on Coventry Building Society mortgage services: I applied for a mortgage with Coventry Building Society and I was very impressed by their service. They were quick, efficient and helpful throughout the process. They offered me a competitive rate and flexible terms. They communicated clearly and regularly with me and answered all my questions. I would recommend them to anyone looking for a mortgage. This review is based on information from various sources . It is not intended to be a substitute for your own research or personal experience. Please note that your experience may vary depending on your circumstances and preferences."
+- **Rating:** ⭐⭐⭐⭐
+- **Date:** March 2023
+- **Context:** Mortgage product review
+
+### Negative - I have recently opened a Junior ISA for my child, an... (Smart Money People)
+> "I have recently opened a Junior ISA for my child, and it was really funny because they said there would be no app or website to control or just check the the account. You have to, literally either walk to your nearest branch or phone them up! I laughted and asked them if they thought it was 1986. It's very old fashioned! It's a way of putting it. I have now read some reviews of how people have been treated unfairly and it's really made me think."
+- **Rating:** ⭐⭐
+- **Date:** May 2025
+- **Context:** Savings product review
+
+### Negative - Feeble Staff Training (Smart Money People)
+> "Don't even think of applying for a mortgage with these people if you are a company director. They have absolutely no idea how Ltd companies operate. If you're a sole director and your company has shareholder funds just under a million this does not compute with the Coventry. Feeble training of underwriters and ludicrous questions. They feel they are doing you a favour not providing a service."
+- **Rating:** ⭐
+- **Date:** November 2019
+- **Context:** Mortgage product review
+
+### Positive - Competitive Interest Rates (Smart Money People)
+> "I have a limited access cash ISA with Coventry Building Society and after the last Bank of England base rate cut I was expecting my rate to fall by 0.25% in line with all my other accounts with other banks/building societies. However the rate only fell by 0.15% which was a pleasant surprise. I think Coventry Building Society do try to offer the best possible rates."
+- **Rating:** ⭐⭐⭐⭐⭐
+- **Date:** January 2026
+- **Context:** Savings product review
+
+### Negative - TERRIBLE COMPANY AVOID AND DO NOT USE !!!! (Smart Money People)
+> "shocking company offered us a mortgage held till october then when we came back to finalise told us we could still have it then two weeks later someone higher up said we couldnt !! shocking has put us back two weeks and we may lose the house now AVOID USING THESE PEOPLE"
+- **Rating:** ⭐
+- **Date:** August 2022
+- **Context:** Mortgage product review
+
+### Positive - Good Rates for existing Customers (Smart Money People)
+> "Unlike a lot of companies who get you in with low rates for a fixed term, we were pleasantly surprised to get comparably good rates for a new fixed term mortgage, meaning we didn't have to remortage completely and we saved on the cost of moving to another company."
+- **Rating:** ⭐⭐⭐⭐
+- **Date:** April 2023
+- **Context:** Mortgage product review
+
+### Positive - A good account for small savers (Smart Money People)
+> "Opening an account online was a quick and easy experience. The interest rate is excellent and the added bonus of a monthly prize draw mad it even more attractive. The limit on monthly deposits is not very high but otherwise the account is very flexible."
+- **Rating:** ⭐⭐⭐⭐⭐
+- **Date:** September 2024
+- **Context:** Savings product review
+
+### Negative - Mortgage fraud (Smart Money People)
+> "Coventry building society used a forged mortgage to steal an OAPs home. He died a scared broken old man. Coventry building society does it really take 10 years to show him the unsigned mortgage he never signed. How long before this is taken down?"
+- **Rating:** ⭐
+- **Date:** August 2022
+- **Context:** Mortgage product review
+
+### Positive - Competitive rates (Smart Money People)
+> "They keep you informed about rate changes and are as quick to raise them as they are drop them when the base rate changes. They have competitive interest rates and I like being a member of a building society rather than a customer of a bank."
+- **Rating:** ⭐⭐⭐⭐⭐
+- **Date:** August 2024
+- **Context:** Savings product review
+
+### Positive - Friendly, quick service. (Smart Money People)
+> "Friendly, quick service. Great products with good solid rates . A well known , trust name with branches on the High Street. Clear to understand product information and good communication about rate changes and maturity."
+- **Rating:** ⭐⭐⭐⭐⭐
+- **Date:** February 2025
+- **Context:** Savings product review
+
+### Positive - Simple to use, excellent interest rates, and much more (Smart Money People)
+> "Simple to use, excellent interest rates, great communications, helpful advice - profits go back to investors and into the local community rather than to a bunch of hifalutin directors and/or alien trust and hedge funds"
+- **Rating:** ⭐⭐⭐⭐⭐
+- **Date:** April 2025
+- **Context:** Savings product review
+
+### Negative - Refuse porting to sting you with ERC (Smart Money People)
+> "Portable mortgage but when trying to port they offer 15% less than current mortgage, quoting changes in their lending policies. I guess a good way to sting (ex)customers with an early exit fee. Never again CBS."
+- **Rating:** ⭐
+- **Date:** June 2024
+- **Context:** Mortgage product review
+
+### Mixed - Branch experience great, online poor (Smart Money People)
+> "Branch is great and accessible. Sadly online access leaves a lot to be disputed. Clunky, difficult to use and lots of repetition and waiting around. Even telephone banking is not as easy as it could be."
+- **Rating:** ⭐⭐⭐
+- **Date:** February 2025
+- **Context:** Savings product review
+
+### Positive - Pleasant surprise for existing customer (Smart Money People)
+> "Customer service were good at dealing with my re-mortgage queries, and it was a pleasant surprise to find that re-mortgage rates for existing customers were better than those for new clients."
+- **Rating:** ⭐⭐⭐⭐⭐
+- **Date:** March 2024
+- **Context:** Mortgage product review
+
+### Negative - Bad experience (Smart Money People)
+> "I have applied for a mortgage 3 weeks ago and still waiting for a decision. Keep asking stupid and irrelevant questions. Do not recommend, don't waste your time and money with them."
+- **Rating:** ⭐
+- **Date:** May 2019
+- **Context:** Mortgage product review
+
+### Positive - Competitive Cash ISA (Smart Money People)
+> "The four access cash ISA pays a competitive interest rate. Coventry Building Society are good at communicating any changes to the interest rate. They now have an app as well."
+- **Rating:** ⭐⭐⭐⭐⭐
+- **Date:** November 2024
+- **Context:** Savings product review
+
+### Positive - Dropped off a little on interest rates but still good (Smart Money People)
+> "I like saving with a building society rather than a bank. Coventry haven't been quite as competitive for interest rates this year but they are good at communication."
+- **Rating:** ⭐⭐⭐⭐⭐
+- **Date:** March 2025
+- **Context:** Savings product review
+
+### Positive - Good overall (Smart Money People)
+> "Quick customer service reply, good range of regular savings accounts and saving accounts. Easy to access. Transfers out happen next day but website easy to use."
+- **Rating:** ⭐⭐⭐⭐⭐
+- **Date:** March 2025
+- **Context:** Savings product review
+
+### Positive - Offer competitive interest rates on cash ISAs. (Smart Money People)
+> "Offer competitive interest rates on cash ISAs. Easily allow you to switch to another cash ISA they have recently launched. Good communication."
+- **Rating:** ⭐⭐⭐⭐⭐
+- **Date:** March 2025
+- **Context:** Savings product review
+
+### Positive - Great value, great service (Smart Money People)
+> "Cheap rates speak for themselves, but Coventry also provides superb customer experience and the best complaints handling I've ever experienced"
+- **Rating:** ⭐⭐⭐⭐⭐
+- **Date:** January 2019
+- **Context:** Mortgage product review
+
+### Positive - Fantastic customer service (Smart Money People)
+> "Fantastic customer service and wonderful help in-branch. Staff proactively offer relevant additional information and are very friendly."
+- **Rating:** ⭐⭐⭐⭐⭐
+- **Date:** February 2025
+- **Context:** Savings product review
+
+### Positive - Good mortgage , simpler than other banks to pass the... (Smart Money People)
+> "Good mortgage , simpler than other banks to pass the checks. Also like that it's easy to check the current balance with their app."
+- **Rating:** ⭐⭐⭐⭐⭐
+- **Date:** March 2025
+- **Context:** Mortgage product review
+
+### Negative - Early exit fees were ridiculously high with my product. (Smart Money People)
+> "Early exit fees were ridiculously high with my product. I didn’t find the self service features like the app very easy to use."
+- **Rating:** ⭐⭐
+- **Date:** April 2024
+- **Context:** Mortgage product review
+
+### Positive - Changing ,saving accounts!. (Smart Money People)
+> "Changing accounts,was done seamlessly and efficiently,assistants very professional,friendly and financially competent!"
+- **Rating:** ⭐⭐⭐⭐⭐
+- **Date:** January 2026
+- **Context:** Savings product review
+
+### Positive - Excellent communication and products (Smart Money People)
+> "Excellent mortgage products to suit every lender and their comunication makes you feel like you are a valued customer."
+- **Rating:** ⭐⭐⭐⭐⭐
+- **Date:** March 2025
+- **Context:** Mortgage product review

@@ -1,0 +1,88 @@
+{
+  "society": "Manchester Building Society",
+  "slug": "manchester-building-society",
+  "smpUrl": "https://smartmoneypeople.com/manchester-building-society-reviews/products",
+  "totalReviewsOnSMP": 4,
+  "avgRating": 3.5,
+  "scrapedAt": "2026-02-06T15:50:00.225384+00:00",
+  "reviews": [
+    {
+      "title": "Poor customer service",
+      "text": "I had a mortgage with the nanchester, but when I ran into financial diffukcuties they did not want to know. They were not helpful and they just wanted to reprocess my house without any payment plan. Even though I was in the process of selling a second property they just kept applying charges ... My second property was sold and I was able to settle my mortgage with the Manchester I now have a mortgage with another company and things are just great do not give your business to the Manchester",
+      "rating": 1,
+      "date": "27th April 2019",
+      "product": "Mortgages",
+      "sentiment": "negative"
+    },
+    {
+      "title": "Great interest for the product and very easy to open...",
+      "text": "Great interest for the product and very easy to open account and managed on line, no hassle at all.",
+      "rating": 5,
+      "date": "23rd January 2026",
+      "product": "Savings",
+      "sentiment": "positive"
+    },
+    {
+      "title": "Every little bit helps",
+      "text": "Brilliant company always helpful and great customer service",
+      "rating": 4,
+      "date": "8th June 2017",
+      "product": "Savings",
+      "sentiment": "positive"
+    },
+    {
+      "title": "Solid staff that want to help you",
+      "text": "My local branch in Manchester has the best bank staff I've seen. Would recommend them.",
+      "rating": 4,
+      "date": "1st October 2014",
+      "product": "Savings",
+      "sentiment": "positive"
+    },
+    {
+      "title": "Savings Team - Manchester BS excelled ..",
+      "text": "Manchester BS excelled in service, through a postal application to a branch only based regular saver. I'm hearing and mobility impaired and can't get to one under my own steam.  Many thanks to the team, but particularly to Mohammed: he kindly pre-populated the application form. Customer service is an area where local mutuals can really make a difference, especially when compared to the industry giants.",
+      "rating": 5,
+      "date": "9th December 2025",
+      "product": "General",
+      "sentiment": "positive",
+      "source": "trustpilot"
+    },
+    {
+      "title": "Excellent service and customer care",
+      "text": "Opened an account today with Mohammed and the service was absolutely outstanding from start to finished.  I have only just moved to Manchester so it was tricky to sort out my ID but we got there in the end.  Mohammed was helpful and courteous from the start and I would recommend them wholeheartedly.",
+      "rating": 5,
+      "date": "6th November 2025",
+      "product": "General",
+      "sentiment": "positive",
+      "source": "trustpilot"
+    },
+    {
+      "title": "Opened an account yesterday gaining…",
+      "text": "Opened an account yesterday gaining 5.5%. I don’t have a lot to save so this will really help.",
+      "rating": 5,
+      "date": "16th October 2025",
+      "product": "General",
+      "sentiment": "positive",
+      "source": "trustpilot"
+    },
+    {
+      "title": "So far so good",
+      "text": "I have been dealing with the team at the new manchester branch over the past few days & so far i have to say they were very welcome, very friendly, professional & they explained everything very well. \n\nAn easy processes helped by a team who were execllent",
+      "rating": 5,
+      "date": "7th October 2025",
+      "product": "General",
+      "sentiment": "positive",
+      "source": "trustpilot"
+    },
+    {
+      "title": "Interesting website providing more…",
+      "text": "Interesting website providing more glitz than practicality and limited userfriendlyness. Instant access account has appalling interest rate so it seems they are not interested in ordinary people who want to put just a few pounds away. Have put funds elsewhere at more than double the interest rate and instant access",
+      "rating": 1,
+      "date": "6th October 2025",
+      "product": "General",
+      "sentiment": "negative",
+      "source": "trustpilot"
+    }
+  ],
+  "trustpilotUrl": "https://uk.trustpilot.com/review/www.themanchester.co.uk"
+}

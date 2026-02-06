@@ -29,6 +29,12 @@ yarn-error.log*
 # Vercel
 .vercel
 
+# Lead data
+data/leads.json
+
+# Generated PDFs
+data/pdfs/
+
 # TypeScript
 *.tsbuildinfo
 next-env.d.ts

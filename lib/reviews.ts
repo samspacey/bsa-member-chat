@@ -134,10 +134,12 @@ export function parseReviews(knowledge: string): Review[] {
   if (sectionStart === -1) return reviews;
 
   const reviewSection = knowledge.substring(sectionStart);
-  const parts = reviewSection.split(/### (Positive|Negative) - /);
+  const parts = reviewSection.split(/### (Positive|Negative|Mixed) - /);
 
   for (let i = 1; i < parts.length; i += 2) {
-    const sentiment = parts[i].toLowerCase() as "positive" | "negative";
+    const rawSentiment = parts[i].toLowerCase();
+    // Treat "mixed" as "negative" for filtering purposes (3-star reviews)
+    const sentiment = (rawSentiment === "positive" ? "positive" : "negative") as "positive" | "negative";
     const block = parts[i + 1];
     if (!block) continue;
 

@@ -227,124 +227,275 @@ Ecology's core purpose is "to improve the environment and society by enabling su
 
 **Overall ratings:** Trustpilot 4.5/5 (41 reviews) | Smart Money People 4.91/5 (669 reviews)
 
-### Positive - Straw bale house mortgage
+### Positive - Straw bale house mortgage (Trustpilot)
 > "I approached Ecology Building Society nine years ago for a mortgage to build a straw bale house and have been with them ever since, moving my savings over as well. I love the fact they support people like me to build their dreams in a green and natural way."
 - **Rating:** 5/5
 - **Source:** Trustpilot
 - **Date:** August 2025
 - **Context:** Self-builder got a mortgage for an unconventional eco build that mainstream lenders wouldn't touch. Became a long-term savings customer too.
 
-### Positive - Land purchase for tree planting
+### Positive - Land purchase for tree planting (Trustpilot)
 > "This company is a true representation of how businesses should endeavour to help people to look after the planet. They offered me a mortgage, despite my age, to help with the purchase of land for planting trees. Such faith in the restoration of the English countryside for the next generation. Priceless!"
 - **Rating:** 5/5
 - **Source:** Trustpilot
 - **Date:** December 2024
 - **Context:** Older borrower given a mortgage for land purchase specifically for tree planting — a highly unusual lending proposition that most societies wouldn't consider.
 
-### Positive - Housing co-op mortgage over 20 years
+### Positive - Housing co-op mortgage over 20 years (Trustpilot)
 > "Our housing co-op took a mortgage with Ecology Building Society almost 20 years ago. A man called Jon sorted it out for us. We're now building 29 new houses and need a new mortgage — guess what? Jon has sorted it for us."
 - **Rating:** 5/5
 - **Source:** Smart Money People
 - **Date:** March 2022
 - **Context:** Long-standing relationship with a housing co-op, same dedicated staff member handling their account across two decades. Shows personal service and community housing expertise.
 
-### Positive - Barn conversion dream home
+### Positive - Barn conversion dream home (Trustpilot)
 > "When we went for a mortgage with the bank we use for all our banking, one that says it supports people like us — farmers wanting to build a home and going that extra mile for us — and then they turned us down. And so did all the other normal banks, just because our barn conversion was a little unique and different. It was Ecology who gave us a mortgage and made our dream come true. It was easy and simple and more importantly sensible. Just common sense!"
 - **Rating:** 5/5
 - **Source:** Smart Money People
 - **Date:** March 2022
 - **Context:** Farmers rejected by mainstream banks for a barn conversion. Ecology took a common-sense approach to a project others saw as too unusual.
 
-### Positive - 450-year-old house rescue
+### Positive - 450-year-old house rescue (Trustpilot)
 > "The Ecology supports the sympathetic preservation of old buildings and granted a mortgage on our 450-year-old home after a major building society withdrew its offer at the last minute on questionable grounds."
 - **Rating:** 5/5
 - **Source:** Smart Money People
 - **Date:** April 2021
 - **Context:** Heritage property purchase where another building society pulled out at the last minute. Ecology stepped in for an extremely old property.
 
-### Positive - Community house loan
+### Positive - Community house loan (Trustpilot)
 > "The Ecology Building Society provided a large loan for us to buy back half of a historic building that has been home to a changing community over 50 years. We have a social and environmental approach to sharing while we also all get on with our own lives. A grand house built for a rich family has been home to up to 19 people of all ages and backgrounds at a time. Without the Ecology we could not have done this."
 - **Rating:** 5/5
 - **Source:** Smart Money People
 - **Date:** March 2022
 - **Context:** Community living group buying back part of a historic shared house. Shows Ecology's willingness to lend for alternative living arrangements.
 
-### Positive - Best ethical bank search
+### Positive - Best ethical bank search (Trustpilot)
 > "I was looking for an ethical bank that is transparent about where it invests my money and only invests it into companies and/or projects that are good for the planet and communities, and Ecology came out top. The process of joining was smooth and all done digitally/via photos of paper documents... The only criticism I have is I would really like them to be a bigger company with high street branches, debit cards and an app, so that I could move all of my banking over to them."
 - **Rating:** 5/5
 - **Source:** Trustpilot
 - **Date:** October 2025
 - **Context:** Detailed review from an ethically-motivated saver. Praises transparency and digital onboarding but wishes they offered full banking services.
 
-### Positive - 40-year savings member
+### Positive - 40-year savings member (Trustpilot)
 > "I've been saving with Ecology Building Society for 40 years. I really like that they were 'green' before it was trendy and they haven't watered down their values. It's great to talk to a real human being on the phone if I need to and the staff have always been friendly and efficient."
 - **Rating:** 5/5
 - **Source:** Trustpilot
 - **Date:** July 2025
 - **Context:** One of the longest-serving members, saving since near the society's founding in 1981. Values their consistency and human customer service.
 
-### Positive - 20-year saver, Yorkshire pride
+### Positive - 20-year saver, Yorkshire pride (Trustpilot)
 > "I've been with the Ecology for over 20 years, and always glad to be a customer. One of the very few financial institutions that has a genuinely ethical and responsible approach. No gimmicks or special offers, just simple savings products with decent interest rates. In the past, the online banking was cumbersome, but it's now fine. So good to know your money is supporting other people who need loans to buy, build and renovate properties, rather than going to pay banker bonuses. Also a small company based here in Yorkshire, so what is not to like."
 - **Rating:** 5/5
 - **Source:** Smart Money People
 - **Date:** June 2025
 - **Context:** Long-term saver who acknowledges past online banking issues but says they've improved. Values the simplicity and ethical investment of savings.
 
-### Positive - Self-build eco home
+### Positive - Self-build eco home (Trustpilot)
 > "We needed a self-build mortgage for an unusual house built to high thermal efficiency standards. Elsewhere was often 'computer says no'. Ecology took the time to understand the concept and then couldn't have been more helpful. Great people, great philosophy. All lenders are not equal!"
 - **Rating:** 5/5
 - **Source:** Smart Money People
 - **Date:** March 2022
 - **Context:** Self-builder with a high-spec eco home that mainstream lenders rejected automatically. Ecology's manual underwriting approach was the differentiator.
 
-### Positive - Self-build finance support
+### Positive - Self-build finance support (Trustpilot)
 > "They were the only Building Society that would finance our unusual eco project and provided support and took an interest right through to completion. We were invited to present our project to other members at their AGM in order to help those members in their own projects... They provided finance up front which meant that we didn't have to get a bridging loan which is common practice for self-builders."
 - **Rating:** 5/5
 - **Source:** Smart Money People
 - **Date:** April 2021
 - **Context:** Self-builders who received upfront finance (avoiding bridging loans) and were later invited to present at the AGM. Shows community engagement beyond just lending.
 
-### Negative - Mortgage application nightmare
+### Negative - Mortgage application nightmare (Trustpilot)
 > "If you value your sanity avoid this mortgage provider. They state on their website that they will lend to more unusual builds — this is not true. They are the most incompetent company I have ever had the misfortune to come across. They take at least 14 days to answer emails, lose emails, employ incompetent surveyors and string you along for months only to decline on a technicality that was not even correct."
 - **Rating:** 1/5
 - **Source:** Trustpilot
 - **Date:** February 2024
 - **Context:** Frustrated mortgage applicant for an unusual build — the very type Ecology markets itself for. Complained about very slow email responses (14+ days), lost communications, and eventual decline after months.
 
-### Negative - Repeated paperwork and timeout
+### Negative - Repeated paperwork and timeout (Trustpilot)
 > "Avoid this company at all costs. They string you along for months, take ages to reply, then ask for the same paperwork over and over and finally say you've been timed out and you will have to reapply and pay and do it all over again."
 - **Rating:** 1/5
 - **Source:** Trustpilot
 - **Date:** August 2025
 - **Context:** Applicant experienced extremely slow processing, repeated document requests, and was ultimately told to start over. Ecology responded saying they couldn't find the person in their records.
 
-### Negative - Account setup bureaucracy
+### Negative - Account setup bureaucracy (Trustpilot)
 > "My daughter tried to set up an account with Ecology, and ended up not bothering. They wanted her to send her passport and driving licence to them in the post as they claimed they had not been certified, which she refused to do. Bizarre company with bad practices and what seems like an age to get any sort of reply from them."
 - **Rating:** 1/5
 - **Source:** Trustpilot
 - **Date:** April 2025
 - **Context:** Prospective saver's daughter abandoned the application due to requirement to post original ID documents. Ecology acknowledged this and said they're working on more digital options.
 
-### Negative - Slow application processing
+### Negative - Slow application processing (Trustpilot)
 > "I applied, via my account, for a regular saver. I thought that as an existing member my application would sail through and be available immediately, or the next day, as is the norm for most building societies. Wrong — after waiting a week I had to phone up to enquire about the application, and was informed it is still sitting on the system and had not been actioned."
 - **Rating:** 2/5
 - **Source:** Trustpilot
 - **Date:** March 2024
 - **Context:** Existing member frustrated by week-long delay to open a simple additional savings account, plus need for paper signature. Titled review "Snails move faster."
 
-### Negative - Misleading mortgage process
+### Negative - Misleading mortgage process (Trustpilot)
 > "Misleading application process, lack of updates, unprofessional customer service. Waste of time."
 - **Rating:** 1/5
 - **Source:** Smart Money People
 - **Date:** December 2023
 - **Context:** Mortgage applicant who felt misled about the process. Brief but the only 1-star mortgage review on Smart Money People out of 99 reviews.
 
-### Negative - Phone manner and discrimination concern
+### Negative - Phone manner and discrimination concern (Trustpilot)
 > "I called and the individual who answered came across incredibly entitled. Throwing acronyms at me which I had to request a definition for. When I asked for self-build requirements, I was asked almost immediately whether I was a British citizen. Sure, I may have an accent but really is this the way you provide requirements? I left the call feeling dismissed and angry."
 - **Rating:** 2/5
 - **Source:** Trustpilot
 - **Date:** November 2023
 - **Context:** Prospective self-build borrower felt the citizenship question was prompted by their accent. Left feeling the interaction may have been discriminatory. Raised concerns about jargon-heavy communication.
+
+
+### Positive - Excellent experience - Eco renovation mortgage (Smart Money People)
+> "The Ecology Building Society (BS) have been exceptional. We bought an agricultural property, which had a number of restrictions that other lenders knew very little about and/or were not willing to consider (either at all or without a 20%+ deposit). The Ecology BS had fantastic working knowledge of agricultural ties and Mary Blackburn supported us throughout the application process - which involved a number of additional steps, due to the type of property. Their customer service is truly amazing, run by a small and incredibly friendly team. We are renovating the mortgaged property to a high energy efficient standard. The Ecology BS shared our enthusiasm for the project, advising on both short and long term options. We will soon complete Phase 1 of the retrofit, with the Ecology renovation mortgage offering C-Change discounts on the mortgage interest rate, to reward improved energy ratings. Amid the current context of a climate emergency, this type of financial incentive for Eco works is immensely valuable – both in terms of individual finances and the wider impact on the planet. It has been a genuine pleasure to deal with such an ethical and sustainable bank and I would 100% recommend them to anyone and everyone. Thank you Ecology!"
+- **Rating:** ⭐⭐⭐⭐⭐
+- **Date:** April 2021
+- **Context:** Mortgage product review
+
+### Positive - Mrs Carole Neal (Smart Money People)
+> "They were the only Building Society that would finance our unusual eco project and provided support and took an interest right through to completion. We were invited to present our project to other members at their AGM in order to help those members in their own projects. We have not hesitated to recommend the Ecology Building Society to other people in our position. They provided finance up front which meant that we didn't have to get a bridging loan which is common practice for self builders, When we required more money late in the project that money was readily forthcoming. As both borrowers and savers we have attended many AGMs, which are always well attended, and have been made welcome and our points and opinions have been valued. It is truly a members' society."
+- **Rating:** ⭐⭐⭐⭐⭐
+- **Date:** April 2021
+- **Context:** Mortgage product review
+
+### Positive - Always helpful, kind and professional, with a mission that is positive to the world (Smart Money People)
+> "They gave us a self build mortgage at a time that no one else would as mortgages were tougher to get. Our house is environmentally positive with good insulation, solar panels, air source heat pump and underfloor heating, with no gas connection, which fits well with ecology's mission. We couldn't have achieved our dream home without their support. They made the process really easy to apply, with a lot of support throughout and stayed in contact throughout the build to ensure that we were always on the best rate that they could offer. Always helpful, kind and professional, with a mission that is positive to the world."
+- **Rating:** ⭐⭐⭐⭐⭐
+- **Date:** April 2021
+- **Context:** Mortgage product review
+
+### Positive - Best ethical mortgage provider/Customer Service Champion (Smart Money People)
+> "We chose the Ecology Building Society because we wanted to build an Eco friendly PassivHaus. We knew nothing about them apart form the fact that this was the type of project to which they lent money. However, our journey with them has been very enjoyable. The staff at Ecology have been delightful and easy to deal with. They understood the building process and didn't delay decisions. They have treated us fairly and continue to do so, and their instructions are straightforward and understandable. We always feel like everything is transparent and there is no hidden red tape. We would wholeheartedly recommend them."
+- **Rating:** ⭐⭐⭐⭐⭐
+- **Date:** April 2021
+- **Context:** Mortgage product review
+
+### Positive - 20 years a customer (Smart Money People)
+> "I've been with the Ecology for over 20 years, and always glad to be a customer. One of the very few financial institutions that has a genuinely ethical and responsible approach. No gimmicks or special offers, just simple savings products with decent interest rates. In the past, the online banking was cumbersome, but it's now fine. So good to know your money is supporting other people who need loans to buy, build and renovate properties, rather than going to pay banker bonuses. Also a small company based here in Yorkshire, so what is not to like."
+- **Rating:** ⭐⭐⭐⭐⭐
+- **Date:** June 2025
+- **Context:** Savings product review
+
+### Positive - Satisfied customer (Smart Money People)
+> "We are delighted to have our mortgage with Ecology. We know that our money is doing good in the community and that social responsibility and ethics are taken very seriously. Without the Ecology, many socially responsible eco-housing projects across the UK would not have been possible. Their newsletter is very positive and inspiring. We have had no issues with the management of our mortgage over the past 15 years and we have made many energy-efficiency improvements to our home during that time. We wish them every success."
+- **Rating:** ⭐⭐⭐⭐⭐
+- **Date:** April 2021
+- **Context:** Mortgage product review
+
+### Positive - Savings for good - slow but steady! (Smart Money People)
+> "The Ecology Building means savings are invested in positive change- although it’s definitely ‘slow banking’ over things like withdrawals, changing address, paper statements etc, this is a positive thing for me - my savings stay earning interest because I can’t quickly dip into them ! It takes 1-2 days. Customer service on the phone is good - they arranged an end of day Faster Payment when it was flagged for security, within 2hrs for house move. Good interest rates, only improvement is an app which is coming soon!"
+- **Rating:** ⭐⭐⭐⭐
+- **Date:** November 2024
+- **Context:** Savings product review
+
+### Positive - Supporting individuals and cooperatives (Smart Money People)
+> "I am very happy to save with ecology. I have both personal savings and the housing cooperatives I am involved with have been understood and supported with mortgages by ecology building society. We appreciate them taking the time to understand cooperative ownership as so many other large lenders do not understand cooperatives and ndo not provide suitable suitable options. The customer service is very good and they are a genuinely competitive option for saving, which is a joy of mutuals."
+- **Rating:** ⭐⭐⭐⭐⭐
+- **Date:** December 2024
+- **Context:** Savings product review
+
+### Positive - Excellent Customer Service & Ethical Savings (Smart Money People)
+> "I have been a saver with Ecology Building Society for a number of years. Their customer service is second to none: they are genuine and friendly and it is ALWAYS possible to speak to a human - no horrible call queues or phone bots. Any time I have had a query it has been quickly resolved. I like the fact that my savings are being put to genuinely green uses by the Society and that any interest my savings may generate is ethical. I thoroughly recommend them without hesitation."
+- **Rating:** ⭐⭐⭐⭐⭐
+- **Date:** February 2025
+- **Context:** Savings product review
+
+### Positive - Don't change (Smart Money People)
+> "I wanted a more ethical business to save with and I have been with the Ecology since they were founded. I have had excellent service. The phones are answered promptly and money can be moved with minimum fuss. Staff are always helpful and friendly. I hope they stay ethical, personal and small. I particularly liked the salary ration structure (so CEO and senior staff are not way above those who do so much of the work) albeit this has been diluted more recently."
+- **Rating:** ⭐⭐⭐⭐⭐
+- **Date:** December 2024
+- **Context:** Savings product review
+
+### Positive - Making our dream come true! (Smart Money People)
+> "When we went for a mortgage with the bank we use for all our banking, one that says it supports people like us -farmers wanting to build a home and going that extra mile for us and then they turned us down and so did all the other normal banks just because our barn conversion was a little unique and different it was Ecology who gave us a mortgage and made our dream come true. It was easy and simple and more importantly sensible. Just common sense!"
+- **Rating:** ⭐⭐⭐⭐⭐
+- **Date:** March 2022
+- **Context:** Mortgage product review
+
+### Positive - Ethical, and so Supportive ! (Smart Money People)
+> "I love saving with a building society that does specific, practical things for the environment, and for housing (both so badly needed). Ethical - no investments in bombs or fossil fuels! The people who work for it are lovely! When I ring up to ask questions, I always get patient, friendly help and clear answers. Sure, the interest rate offered is modest - but this is outweighed by the peace of mind Ecology Building Society offers its customers."
+- **Rating:** ⭐⭐⭐⭐⭐
+- **Date:** November 2024
+- **Context:** Savings product review
+
+### Positive - Genuinely Ethical (Smart Money People)
+> "I first opened an account with Ecology Building Society in the 1990s, and only closed the account because I needed the money, so when I again had some savings I opened a new account a few years ago. I prefer to deposit my savings with a company I am confident will use it wisely. I am convinced the EBS are committed to protecting our precious environment and they would never knowingly invest my money in anything unethical."
+- **Rating:** ⭐⭐⭐⭐⭐
+- **Date:** November 2024
+- **Context:** Savings product review
+
+### Positive - Underpinned a 50 year community for the last 10 years. (Smart Money People)
+> "The Ecology Building Society provided a large loan for us to buy back half of a historic building that has been home to a changing community over 50 years. We have a social and environmental approach to sharing while we also all get on with our own lives. A grand house built for a rich family has been home to up to 19 people of all ages and backgrounds at a time. Without the Ecology we could not have done this."
+- **Rating:** ⭐⭐⭐⭐⭐
+- **Date:** March 2022
+- **Context:** Mortgage product review
+
+### Positive - Excellent communication, efficient service (Smart Money People)
+> "We have had a superb experience with Ecology. They have by far been the most helpful and easiest financial institution we have dealt with. The communication with staff has been excellent and service has been really efficient - something that is often lacking with financial institutions. I have already recommended them to others a number of time sand will continue to do so."
+- **Rating:** ⭐⭐⭐⭐⭐
+- **Date:** April 2021
+- **Context:** Mortgage product review
+
+### Positive - I would recommend Ecology Building Society to anyone (Smart Money People)
+> "I have been really impressed by Ecology Building Society. They are clear, transparent and straightforward. And when you communicate with them you speak to a real person who actually gets your situation. They were there for me this year when I needed them. I would definitely recommend them to anyone, especially those who want to have a positive social impact."
+- **Rating:** ⭐⭐⭐⭐⭐
+- **Date:** December 2024
+- **Context:** Savings product review
+
+### Positive - Eco focussed Loans (Smart Money People)
+> "We obtained a mortgage for a piece of natural English woodland to enjoy the peace and tranquility of nature. Without Ecology and their products this would never been a reality. Thanks to Ecology and their forward thinking approach to sustainability we have been able to live the dream to own our own Woodland! I can't recommend them enough!"
+- **Rating:** ⭐⭐⭐⭐⭐
+- **Date:** April 2021
+- **Context:** Mortgage product review
+
+### Positive - Keeping it simple (Smart Money People)
+> "First time self building a home, so was very daunted by the prospect of this type of mortgage, however I needn't have worried. The flexibility offered by Ecology is second to none, allowing you to withdraw funds as and when you need, and the process to do so only involves a quick email. Can't recommend them highly enough"
+- **Rating:** ⭐⭐⭐⭐⭐
+- **Date:** April 2021
+- **Context:** Mortgage product review
+
+### Positive - Very helpful (Smart Money People)
+> "We needed a self-build mortgage for an unusual house built to high thermal eficiency standards. Elsewhere was often "computer says no". Ecology took the time to understand the concept and then couldn't have been more helpul. Great people, great philosophy. All lenders are not equal!"
+- **Rating:** ⭐⭐⭐⭐⭐
+- **Date:** March 2022
+- **Context:** Mortgage product review
+
+### Positive - 35 years of ethical saving. (Smart Money People)
+> "I've been saving with Ecology for 35 years and not only are the savings rates competitive, the AGMs and Member Meet-ups are very enjoyable. I particularly enjoy visiting the unusual venues and meeting like minded people who care about where their savings are invested."
+- **Rating:** ⭐⭐⭐⭐⭐
+- **Date:** February 2025
+- **Context:** Savings product review
+
+### Positive - My experience (Smart Money People)
+> "Staff answer calls promptly, are helpful and friendly - real people! The Society has a policy to ensure the ratio of salaries between staff and CEO/management are fairer than most societies although the ratios are not as good as they were, which is a shame."
+- **Rating:** ⭐⭐⭐⭐⭐
+- **Date:** March 2025
+- **Context:** Savings product review
+
+### Positive - True to their principles (Smart Money People)
+> "The Ecology BS provided us with a mortgage when no one else would. It was a risky project but one true to Ecology's principles and a zero carbon future. The Ecology look at the big picture and support those of us working for a better, greener future."
+- **Rating:** ⭐⭐⭐⭐⭐
+- **Date:** April 2021
+- **Context:** Mortgage product review
+
+### Positive - Opportunity (Smart Money People)
+> "The Ecology B.S through their mortgage products gave me the opportunity to fulfil my dream of a self build using non mainstream products ie car tyres and strawbale. I would like to thank both the founders of the society and the always helpful staff."
+- **Rating:** ⭐⭐⭐⭐⭐
+- **Date:** April 2021
+- **Context:** Mortgage product review
+
+### Positive - Ecology Online Banking (Smart Money People)
+> "Only gave 4 stars because of the Online Banking, which is not the most up-to-date system. (There is not yet an app, but I believe this is in development). Savings: Good value for money, ISAs have good savings rate in line with other providers."
+- **Rating:** ⭐⭐⭐⭐
+- **Date:** April 2025
+- **Context:** Savings product review
+
+### Positive - A personal bank that outs its money where its beliefs are (Smart Money People)
+> "Our housing coop took a mortgage with Ecology Building Society almost 20 years ago. A man called Jon sorted it out for us. We're now building 29 new houses and need a new mortgage - guess what? Jon has sorted it for us."
+- **Rating:** ⭐⭐⭐⭐⭐
+- **Date:** March 2022
+- **Context:** Mortgage product review
 
 ---
 *Last updated: February 2026*
