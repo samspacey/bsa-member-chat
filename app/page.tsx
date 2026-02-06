@@ -182,6 +182,12 @@ export default function Home() {
   const sendBenchmarkEmail = async () => {
     if (!selectedSociety) return;
 
+    const hasEmail = benchmarkEmail && benchmarkEmail.includes("@") && benchmarkEmail.includes(".");
+    if (benchmarkEmail && !hasEmail) {
+      setBenchmarkEmailError("Please enter a valid email address");
+      return;
+    }
+
     setBenchmarkEmailSending(true);
     setBenchmarkEmailError("");
 
@@ -190,23 +196,27 @@ export default function Home() {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
-          email: benchmarkEmail || undefined,
+          email: hasEmail ? benchmarkEmail : undefined,
           societyId: selectedSociety.id,
         }),
       });
 
       if (!res.ok) throw new Error("Failed to generate report");
 
-      // Download the PDF blob
-      const blob = await res.blob();
-      const url = window.URL.createObjectURL(blob);
-      const a = document.createElement("a");
-      a.href = url;
-      a.download = `${selectedSociety.id}-benchmark-report.pdf`;
-      document.body.appendChild(a);
-      a.click();
-      window.URL.revokeObjectURL(url);
-      document.body.removeChild(a);
+      const contentType = res.headers.get("content-type") || "";
+      if (contentType.includes("application/pdf")) {
+        // No email — download the PDF
+        const blob = await res.blob();
+        const url = window.URL.createObjectURL(blob);
+        const a = document.createElement("a");
+        a.href = url;
+        a.download = `${selectedSociety.id}-benchmark-report.pdf`;
+        document.body.appendChild(a);
+        a.click();
+        window.URL.revokeObjectURL(url);
+        document.body.removeChild(a);
+      }
+      // If JSON response, email was sent server-side
 
       setBenchmarkEmailSent(true);
     } catch {
@@ -934,10 +944,10 @@ export default function Home() {
                   {!benchmarkEmailSent ? (
                     <div>
                       <h3 className="text-sm font-semibold text-gray-800 mb-2">
-                        📊 Get this report as a PDF
+                        📧 Get this report as a PDF
                       </h3>
                       <p className="text-xs text-gray-500 mb-3">
-                        Download a professionally formatted PDF of this benchmark report. Optionally leave your email to receive future updates.
+                        We&apos;ll send you a professionally formatted PDF of this benchmark report.
                       </p>
                       <div className="flex gap-2">
                         <input
@@ -947,17 +957,17 @@ export default function Home() {
                             setBenchmarkEmail(e.target.value);
                             setBenchmarkEmailError("");
                           }}
-                          placeholder="your@email.com (optional)"
+                          placeholder="your@email.com"
                           className="flex-1 border border-gray-300 rounded-lg px-3 py-2 text-sm text-gray-900 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent"
                           onKeyDown={(e) => e.key === "Enter" && sendBenchmarkEmail()}
                           disabled={benchmarkEmailSending}
                         />
                         <button
                           onClick={sendBenchmarkEmail}
-                          disabled={benchmarkEmailSending}
+                          disabled={benchmarkEmailSending || !benchmarkEmail.trim()}
                           className="px-4 py-2 text-sm font-medium text-white bg-blue-600 hover:bg-blue-700 rounded-lg transition-colors disabled:bg-gray-300 disabled:cursor-not-allowed whitespace-nowrap"
                         >
-                          {benchmarkEmailSending ? "Downloading..." : "Download PDF"}
+                          {benchmarkEmailSending ? "Sending..." : "Send Report"}
                         </button>
                       </div>
                       {benchmarkEmailError && (
@@ -968,7 +978,7 @@ export default function Home() {
                     <div className="text-center py-3">
                       <div className="inline-flex items-center gap-2 px-4 py-2 bg-emerald-50 text-emerald-700 rounded-lg border border-emerald-200">
                         <span>✅</span>
-                        <span className="text-sm font-medium">Report downloaded!</span>
+                        <span className="text-sm font-medium">Report sent! Check your inbox.</span>
                       </div>
                     </div>
                   )}
