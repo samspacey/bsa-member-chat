@@ -72,7 +72,6 @@ societies.forEach(s => {
 });
 
 function loadReviews(sid) {
-  // Try direct match first
   const candidates = [
     `${sid}.json`,
     `${sid}-building-society.json`,
@@ -82,7 +81,8 @@ function loadReviews(sid) {
   for (const candidate of candidates) {
     const fp = path.join(reviewsDir, candidate);
     if (fs.existsSync(fp)) {
-      return JSON.parse(fs.readFileSync(fp, "utf8"));
+      const data = JSON.parse(fs.readFileSync(fp, "utf8"));
+      return Array.isArray(data) ? data : (data.reviews || []);
     }
   }
   
@@ -90,7 +90,8 @@ function loadReviews(sid) {
   const files = fs.readdirSync(reviewsDir).filter(f => f.endsWith('.json') && f !== '_summary.json');
   for (const f of files) {
     if (f.toLowerCase().includes(sid.replace(/-/g, '')) || f.toLowerCase().includes(sid)) {
-      return JSON.parse(fs.readFileSync(path.join(reviewsDir, f), "utf8"));
+      const data = JSON.parse(fs.readFileSync(path.join(reviewsDir, f), "utf8"));
+      return Array.isArray(data) ? data : (data.reviews || []);
     }
   }
   return [];
