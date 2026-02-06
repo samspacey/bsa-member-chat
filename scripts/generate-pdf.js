@@ -27,30 +27,47 @@ if (!society) {
 
 const reviewsDir = path.join(__dirname, "..", "data", "reviews");
 
+// Exact same factors as the web app (lib/benchmark.ts)
 const FACTOR_KEYWORDS = {
-  "Service Quality": {
-    positive: ["friendly", "helpful", "professional", "excellent", "amazing", "outstanding", "wonderful", "brilliant", "fantastic", "great service", "lovely", "welcoming", "patient", "caring", "knowledgeable", "efficient", "personal", "warm"],
-    negative: ["rude", "unhelpful", "poor service", "terrible", "awful", "appalling", "disgraceful", "dreadful", "worst", "incompetent", "useless", "dismissive", "unprofessional", "shocking"]
+  "App & Digital Experience": {
+    positive: ["app is great","app works well","easy to use online","digital","online banking is good","good app","love the app","great app","website is easy","easy online","modern","user friendly","user-friendly","biometric","fingerprint","faceid","smooth login","intuitive","well designed","well-designed"],
+    negative: ["no app","clunky","outdated","archaic","stone age","no mobile app","terrible app","app crash","app doesn't work","can't login","login issue","website is awful","website doesn't work","glitch","bug","slow website","hard to navigate","not user friendly","password nightmare","locked out","can't access online","online banking is poor","digital experience is poor"]
   },
-  "Digital Experience": {
-    positive: ["easy to use", "user friendly", "website works", "digital", "mobile app", "convenient online", "quick online", "simple online", "modern app", "good app"],
-    negative: ["app crash", "website down", "online broken", "clunky", "outdated website", "difficult online", "crash", "glitch", "stone age", "archaic", "can't login", "error page"]
+  "Account Opening": {
+    positive: ["easy to open","quick to open","simple process","straightforward","opened in minutes","easy sign up","sign-up was easy","smooth onboarding","quick setup","opened online easily","simple to set up","hassle free","hassle-free","easy to set up","painless"],
+    negative: ["hard to open","difficult to open","took ages to open","complicated","too much paperwork","verification nightmare","couldn't open","refused to open","slow process","waited weeks","convoluted","bureaucratic","red tape","identity check","failed verification","rejected","wait for post"]
+  },
+  "Branch Service": {
+    positive: ["branch","staff were great","friendly staff","helpful staff","in branch","in-branch","counter","teller","face to face","face-to-face","personal service","warm welcome","knew my name","by name","walked in","walk in","courteous","professional","patient","never rushed","took the time","went above and beyond","credit to","exceptional service","brilliant service","lovely branch","welcoming","greeted","a pleasure"],
+    negative: ["rude staff","unhelpful","branch was closed","queue","waited ages","unfriendly","dismissive","couldn't care less","wrong information","misinformed","poor branch","branch experience","no appointment","30 miles away","branch closing","no branch","nearest branch","incorrect information"]
+  },
+  "Phone & Remote Support": {
+    positive: ["phone","called","rang","call centre","helpful on the phone","phoned up","spoke to someone","quick response","got back to me","timely manner","email response","customer service was excellent","easiest call","pleasant conversation","resolved quickly","sorted it out","no fuss","helpline","personal call","callback","called me back"],
+    negative: ["couldn't get through","on hold","waited on phone","no response","never replied","no one called back","terrible phone service","hung up","rude on phone","automated","can't speak to anyone","no constructive help","after a month","never rang back","ignored"]
+  },
+  "Savings Products": {
+    positive: ["great rates","competitive rates","best rate","good interest","savings rate","good returns","above average rate","high interest","class leading","decent rate","financial offer is decent","competitive","good isa rate","fixed rate","flexible savings","range of savings","savings products"],
+    negative: ["poor rates","low interest","rate dropped","rate cut","rate slashed","rates are terrible","better elsewhere","uncompetitive","reduced the rate","bait and switch","con","misleading rate","rate change","variable rate cut"]
+  },
+  "Mortgage Process": {
+    positive: ["mortgage was easy","mortgage advisor","mortgage adviser","smooth mortgage","quick mortgage","great mortgage experience","mortgage process was","helped with mortgage","mortgage application","remortgage was easy","professional and knowledgeable","explaining everything clearly","felt confident","safe hands","mortgage advice","first-time buyer"],
+    negative: ["mortgage rejected","mortgage was difficult","slow mortgage","mortgage nightmare","declined mortgage","refused to lend","mortgage process was awful","valuation","surveyor","no proper explanation","inappropriate","upsetting"]
   },
   "Communication": {
-    positive: ["kept informed", "communicated well", "clear communication", "transparent", "responsive", "quick response", "replied quickly", "called back", "kept updated", "explained clearly"],
-    negative: ["no communication", "never replied", "no response", "ignored", "chasing them", "still waiting", "no update", "left in the dark", "nobody called", "unanswered"]
+    positive: ["explained clearly","clear explanation","jargon free","jargon-free","easy to understand","transparent","kept me informed","kept informed","good communication","regular updates","explained everything","informative"],
+    negative: ["no communication","confusing","jargon","unclear","no updates","didn't explain","poor communication","left in the dark","couldn't understand","no explanation","not transparent","small print","hidden","fine print","misleading"]
   },
   "Complaint Handling": {
-    positive: ["resolved quickly", "handled well", "sorted out", "fair compensation", "apologised", "fixed promptly", "dealt with well"],
-    negative: ["unresolved complaint", "escalated", "ombudsman", "months waiting", "ignored complaint", "no resolution", "still unresolved", "formal complaint"]
+    positive: ["resolved quickly","complaint handled","compensation","apology","made it right","sorted the problem","escalated","genuine desire to improve","personal call","recovery","followed up","took it seriously"],
+    negative: ["complaint ignored","no resolution","unresolved","never replied","no apology","didn't care","complaint","terrible response","final","escalate","ombudsman","fos","formal complaint","appalling","disgusting","never responded"]
   },
   "Value & Rates": {
-    positive: ["competitive rate", "good rate", "best rate", "great value", "fair rate", "reasonable rate", "good deal", "attractive rate", "competitive interest"],
-    negative: ["poor rate", "low interest", "rip off", "expensive", "overpriced", "better rates elsewhere", "uncompetitive rate", "terrible rate"]
+    positive: ["good value","value for money","competitive","fair rates","above market","above average","better than banks","worth it","best deal","great deal","excellent value","paid more interest","class leading","decent"],
+    negative: ["poor value","rip off","not worth it","overpriced","expensive","fees too high","charges","hidden charges","better deals elsewhere","not competitive","worse than","losing money"]
   },
   "Trust & Community": {
-    positive: ["trust", "trustworthy", "reliable", "safe", "secure", "mutual", "community", "local branch", "loyal member", "ethical", "good values", "personal touch"],
-    negative: ["don't trust", "untrustworthy", "scam", "misleading", "dishonest", "lost trust"]
+    positive: ["trust","mutual","community","local","ethical","member owned","values","ethos","care about members","not a bank","different","personal touch","human","people first","member first","building society","mutual society","looked after","faith","genuine","honest","integrity","green","sustainable","ecology","kinder","fairer"],
+    negative: ["don't trust","lost trust","like a bank","no different","just about profit","don't care about members","faceless","impersonal","corporate","abandoned","let down","betrayed","broken promise","lip service"]
   }
 };
 
@@ -290,13 +307,13 @@ for (const factor of FACTOR_NAMES) {
   doc.setLineWidth(0.6);
   doc.line(avgX, barY - 1, avgX, barY + barH + 1);
 
-  // Reviews matched count
-  doc.setFontSize(6.5);
+  // Reviews matched count (inline, small)
+  doc.setFontSize(6);
   doc.setFont("helvetica", "normal");
-  doc.setTextColor(170, 170, 170);
-  doc.text(`${s.matched} reviews matched`, col2, barY + barH + 4);
+  doc.setTextColor(180, 180, 180);
+  doc.text(`${s.matched}`, col2 + scoreBarW + 2, barY + 3.2);
 
-  y += 18;
+  y += 14;
 
   // Row separator
   doc.setDrawColor(240, 240, 240);
