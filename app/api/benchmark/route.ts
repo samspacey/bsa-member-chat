@@ -1,6 +1,8 @@
 import { NextRequest, NextResponse } from "next/server";
 import { getBenchmarkForSociety } from "../../../lib/benchmark";
 
+export const maxDuration = 30;
+
 export async function GET(request: NextRequest) {
   const { searchParams } = new URL(request.url);
   const societyId = searchParams.get("societyId");
