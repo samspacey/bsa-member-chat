@@ -525,7 +525,7 @@ export default function Home() {
 
   // Screen 3: Chat Interface
   return (
-    <main className="min-h-screen flex flex-col">
+    <main className="h-screen overflow-hidden flex flex-col">
       {/* Header */}
       <header className="bg-white border-b border-gray-200 px-4 md:px-6 py-3">
         <div className="flex items-center justify-between">
@@ -737,22 +737,12 @@ export default function Home() {
                 </button>
               </div>
               <p className="text-xs text-gray-500 mb-4">
-                {reviews.filter((r) => r.active !== false).length} reviews
-                active for this persona.{" "}
-                {reviews.filter((r) => r.active === false).length > 0 && (
-                  <span className="text-gray-400">
-                    Others shown dimmed.
-                  </span>
-                )}
+                {reviews.filter((r) => r.active !== false).length} reviews active for this persona
               </p>
               <div className="space-y-3">
-                {/* Show active reviews first, then inactive */}
-                {[...reviews]
-                  .sort((a, b) => {
-                    if (a.active !== false && b.active === false) return -1;
-                    if (a.active === false && b.active !== false) return 1;
-                    return a.id - b.id;
-                  })
+                {reviews
+                  .filter((r) => r.active !== false)
+                  .sort((a, b) => a.id - b.id)
                   .map((review) => (
                   <div
                     key={review.id}
@@ -762,8 +752,6 @@ export default function Home() {
                     className={`rounded-lg border p-3 transition-all duration-300 ${
                       highlightedReview === review.id
                         ? "bg-amber-50 border-amber-300 ring-2 ring-amber-200"
-                        : review.active === false
-                        ? "bg-gray-50 border-gray-100 opacity-50"
                         : "bg-white border-gray-200"
                     }`}
                   >
