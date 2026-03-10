@@ -259,8 +259,14 @@ export function scoreSociety(
   const total = positiveCount + negativeCount;
   if (total === 0) return { score: 5.0, positiveCount: 0, negativeCount: 0 };
 
-  // Score = (positive / total) * 10, clamped between 1 and 10
-  const rawScore = (positiveCount / total) * 10;
+  // Bayesian smoothing: pull extreme ratios toward the centre.
+  // Without smoothing, factors like Trust & Community score 9.9 because
+  // their positive keywords ("local", "community") appear in almost every
+  // happy review while negative keywords are genuinely rare — inflating scores.
+  // k=8 means you need 8+ negative signals before a perfect-positive set drops
+  // below 9, and a 50/50 society stays at 5. Adjust k to taste.
+  const k = 8;
+  const rawScore = ((positiveCount + k) / (total + 2 * k)) * 10;
   const score = Math.round(Math.max(1, Math.min(10, rawScore)) * 10) / 10;
 
   return {
