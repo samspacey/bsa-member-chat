@@ -110,16 +110,6 @@
     "color": "#003D6B"
   },
   {
-    "id": "family",
-    "name": "Family Building Society",
-    "shortName": "Family",
-    "emoji": "\ud83d\udc68\u200d\ud83d\udc69\u200d\ud83d\udc67\u200d\ud83d\udc66",
-    "region": "South East",
-    "size": "",
-    "tagline": "Specialist family mortgages",
-    "color": "#FF6B35"
-  },
-  {
     "id": "hanley-economic",
     "name": "Hanley Economic Building Society",
     "shortName": "Hanley Economic",
@@ -171,8 +161,8 @@
   },
   {
     "id": "melton",
-    "name": "Melton Building Society",
-    "shortName": "Melton",
+    "name": "Melton Mowbray Building Society",
+    "shortName": "Melton Mowbray",
     "emoji": "\ud83e\uddc0",
     "region": "Midlands",
     "size": "",
@@ -330,16 +320,6 @@
     "color": "#1E90FF"
   },
   {
-    "id": "norwich-peterborough",
-    "name": "Norwich & Peterborough Building Society",
-    "shortName": "Norwich & Peterborough",
-    "emoji": "\u26ea",
-    "region": "East Anglia",
-    "size": "",
-    "tagline": "Now part of YBS Group",
-    "color": "#336633"
-  },
-  {
     "id": "teachers",
     "name": "Teachers Building Society",
     "shortName": "Teachers",
@@ -400,16 +380,6 @@
     "color": "#006747"
   },
   {
-    "id": "manchester",
-    "name": "Manchester Building Society",
-    "shortName": "Manchester",
-    "emoji": "\ud83d\udc1d",
-    "region": "North West",
-    "size": "",
-    "tagline": "Manchester-based mutual",
-    "color": "#E31B23"
-  },
-  {
     "id": "cambridge",
     "name": "Cambridge Building Society",
     "shortName": "Cambridge",
@@ -418,16 +388,6 @@
     "size": "",
     "tagline": "Community-focused lending",
     "color": "#4B0082"
-  },
-  {
-    "id": "chelsea",
-    "name": "Chelsea Building Society",
-    "shortName": "Chelsea",
-    "emoji": "\ud83d\udc8e",
-    "region": "London",
-    "size": "",
-    "tagline": "Part of YBS Group",
-    "color": "#1C3A5F"
   },
   {
     "id": "earl-shilton",
@@ -441,8 +401,8 @@
   },
   {
     "id": "chorley",
-    "name": "Chorley Building Society",
-    "shortName": "Chorley",
+    "name": "Chorley & District Building Society",
+    "shortName": "Chorley & District",
     "emoji": "\ud83c\udfd8\ufe0f",
     "region": "North West",
     "size": "",
