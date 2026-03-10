@@ -498,34 +498,59 @@ export function calculateRanks(
     );
   });
 
-  // For each factor, compute average and rank
+  // For each factor, compute normalised scores, average and rank.
+  //
+  // Problem without normalisation: factors like "Branch Service" and
+  // "Trust & Community" naturally skew positive for building societies
+  // (members who mention staff/branch are almost always happy). Raw Bayesian
+  // scores cluster at 8-9 for all 42 societies → average 8.2, no spread.
+  //
+  // Fix: after computing raw scores, normalise the distribution so the
+  // industry mean = 5.0 and one standard deviation = 2 score points.
+  // This means the average society scores 5 on every factor, genuinely strong
+  // societies score 7-9, and weak ones score 1-3 — regardless of how the
+  // raw keyword signals happen to skew.
   for (let fi = 0; fi < FACTOR_NAMES.length; fi++) {
     const factor = FACTOR_NAMES[fi];
 
-    // Collect all society scores for this factor
-    const entries: { societyId: string; score: number }[] = [];
+    // Collect all society raw scores for this factor
+    const entries: { societyId: string; rawScore: number; normScore: number }[] = [];
     allScores.forEach((scores, societyId) => {
-      entries.push({ societyId, score: scores[fi].score });
+      entries.push({ societyId, rawScore: scores[fi].score, normScore: 0 });
     });
 
-    // Average
-    const avg =
-      entries.reduce((sum, e) => sum + e.score, 0) / entries.length;
-    const roundedAvg = Math.round(avg * 10) / 10;
+    // Compute mean and stdev of raw scores
+    const mean = entries.reduce((sum, e) => sum + e.rawScore, 0) / entries.length;
+    const variance = entries.reduce((sum, e) => sum + (e.rawScore - mean) ** 2, 0) / entries.length;
+    const stdev = Math.sqrt(variance);
 
-    // Sort descending to determine rank
-    entries.sort((a, b) => b.score - a.score);
+    // Minimum effective stdev: prevents exaggerating tiny differences when all
+    // societies score similarly. 0.4 = about the noise floor for keyword matching.
+    const effectiveStdev = Math.max(stdev, 0.4);
 
-    // Assign rank (handle ties: same score = same rank)
+    // Normalise: centre on 5, scale so 1 stdev = 2 points
+    for (const e of entries) {
+      const norm = 5 + ((e.rawScore - mean) / effectiveStdev) * 2;
+      e.normScore = Math.round(Math.max(1, Math.min(10, norm)) * 10) / 10;
+    }
+
+    // Industry average is always ~5.0 after normalisation
+    const roundedAvg = 5.0;
+
+    // Sort descending by normalised score to determine rank
+    entries.sort((a, b) => b.normScore - a.normScore);
+
+    // Assign rank and write normalised scores back (handle ties)
     let currentRank = 1;
     for (let i = 0; i < entries.length; i++) {
-      if (i > 0 && entries[i].score < entries[i - 1].score) {
+      if (i > 0 && entries[i].normScore < entries[i - 1].normScore) {
         currentRank = i + 1;
       }
       const societyScores = result.get(entries[i].societyId);
       if (societyScores) {
         const factorEntry = societyScores.find((s) => s.factor === factor);
         if (factorEntry) {
+          factorEntry.score = entries[i].normScore; // replace raw with normalised
           factorEntry.average = roundedAvg;
           factorEntry.rank = currentRank;
         }
