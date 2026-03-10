@@ -384,7 +384,7 @@ for (let i = 0; i < FACTOR_NAMES.length; i++) {
   doc.setFont("helvetica", "normal");
   doc.setFontSize(8);
   doc.setTextColor(...midGrey);
-  doc.text(`${ordinal(s.rank)} / ${totalSocieties}`, colRank + 9, textY, { align: "center" });
+  doc.text(`${ordinal(s.rank)}`, colRank + 9, textY, { align: "center" });
 
   // Status badge
   const badgeH    = 5.5;

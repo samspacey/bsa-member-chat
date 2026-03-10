@@ -889,7 +889,7 @@ export default function Home() {
                               {badge}
                             </span>
                             <span className="text-xs text-gray-400">
-                              {ordinal(s.rank)} of {benchmarkData.totalSocieties}
+                              {ordinal(s.rank)}
                             </span>
                           </div>
                         </div>
