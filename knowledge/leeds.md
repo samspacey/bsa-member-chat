@@ -364,12 +364,6 @@ These are real reviews from Trustpilot (uk.trustpilot.com/review/www.leedsbuildi
 - **Date:** January 2024
 - **Context:** Savings product review
 
-### Positive - Leek Building Society : first class ! (Smart Money People)
-> "I would like to commend the professionalism, attitude and knowledge of your staff. My enquiries were always dealt with a timely manner. Our application was in many ways a difficult one; nevertheless, your staff should be congratulated on seeing matters through to a conclusion. Really, really appreciate all your hard work."
-- **Rating:** ⭐⭐⭐⭐⭐
-- **Date:** March 2024
-- **Context:** Mortgage product review
-
 ### Positive - A Happy Customer (Smart Money People)
 > "Two members of staff on the front desk were extremely helpful and arranged an appointment for the next day.Saw Pam the next day right on time. She was very friendly and extremely helpful. Really patient and accommodating guiding me to what would be best savings wise for me. One happy customer. Thanks."
 - **Rating:** ⭐⭐⭐⭐⭐

@@ -213,6 +213,52 @@
       "date": "20th November 2018",
       "product": "Savings",
       "sentiment": "positive"
+    },
+    {
+      "title": "Shambolic website that simply doesn't…",
+      "text": "Shambolic website that simply doesn't work.\nWhat idiot coded this rubbish and who tested it?",
+      "rating": 1,
+      "date": "10th November 2025",
+      "product": "General",
+      "sentiment": "negative",
+      "source": "trustpilot"
+    },
+    {
+      "title": "If I could give no stars I would",
+      "text": "If I could give no stars I would. Daughters account in my name. She is 12. We have taken payments out for decoration for her bedroom and school residential trips and items for her.\nEvery time I’ve gone to Sedgley branch two vile judgemental very sad women work there. They have done nothing but question every transaction, which is wrong. It’s confidential and to be honest nothing at all to do with you. They rejected my request for a cheque today. The reason apparently compliance had flagged the transactions for being so many in a few months. It was a month to month spend. We didn’t estimate a total cost. Again nothing to do with them. Said they would only now issue in her name to her account. She 12 and is not legally allowed to have a current account. I’ve complained to them.",
+      "rating": 1,
+      "date": "10th April 2025",
+      "product": "General",
+      "sentiment": "negative",
+      "source": "trustpilot"
+    },
+    {
+      "title": "I wasted a lot of time",
+      "text": "I wasted a lot of time trying to set up a 60 Day Notice Account. \nIt's phone only so first of all you are expected to read large documents on your phone before proceeding. Then there is a long form, far more suited to typing on a PC keyboard than a phone. I entered personal data but when I got to entering my address I could not could not proceed - mandatory fields not dilled in - even though i filled in ALL of the fields and experimented with different formats.",
+      "rating": 1,
+      "date": "18th February 2025",
+      "product": "General",
+      "sentiment": "negative",
+      "source": "trustpilot"
+    },
+    {
+      "title": "Remortgage",
+      "text": "Recently remortgaged with them, couple of hiccups in the process but they have owned the mistakes and fixed them really quickly. Hats off to their customer service, and feel in safe hands!",
+      "rating": 5,
+      "date": "17th December 2024",
+      "product": "General",
+      "sentiment": "positive",
+      "source": "trustpilot"
+    },
+    {
+      "title": "App failing, email and phone unanswered",
+      "text": "App failing for everyone, no information from company.  No response to email sent 6 days ago. If you try to telephone just get a recorded message saying they are not answering calls at this time!",
+      "rating": 1,
+      "date": "7th February 2024",
+      "product": "General",
+      "sentiment": "negative",
+      "source": "trustpilot"
     }
-  ]
+  ],
+  "trustpilotUrl": "https://uk.trustpilot.com/review/thetipton.co.uk"
 }

@@ -125,3 +125,41 @@ Swansea Building Society provides mortgage products for the Welsh market and bey
 - **Local businesses:** Business savings accounts for Swansea-area organisations
 - **Football fans:** Historical Swansea City AFC partnership attracted local supporters
 - **Safety-conscious savers:** Attracted members during the Icelandic crisis who valued local, safe institutions
+
+
+## Specific Customer Reviews
+### negative - Current manager mumbles branch works to close to the... (Smart Money People)
+> "Current manager mumbles branch works to close to the book no flexibility not really customer friendly but a good actor for a local building society makes his mind up by looking nothing like previous managers"
+- **Rating:** ⭐
+- **Date:** 3rd July 2025
+- **Context:** General review
+
+### positive - Have just opened an online account with Swansea Buil... (Smart Money People)
+> "Have just opened an online account with Swansea Building Society. The process was very straightforward and the account showed up in My Accounts very quickly. Also opened a regular saver account. It is a pity more accounts cannot be opened online as I had to email the forms for the regular saver to be opened but, to be fair, they were on to opening the account as soon as they received the forms. Spoke to a member of staff of the Swansea Branch re a query and they were extremely helpful. They are not the most up to date in relation to their online offering but I would highly recommend."
+- **Rating:** ⭐⭐⭐⭐⭐
+- **Date:** 12th August 2025
+- **Context:** General review
+
+### positive - Excellent customer service-traditional personal touch (Smart Money People)
+> "As always Swansea Building Society gives excellent customer service with a traditional personal touch. Really good interest rates too with good advice, making the customer aware. This is my experience with the Cowbridge branch."
+- **Rating:** ⭐⭐⭐⭐⭐
+- **Date:** 6th April 2024
+- **Context:** General review
+
+### negative - Changed my view from experience. (Smart Money People)
+> "Their non-online online provision is dreadful. Online in name only. Can't open accounts online, only by paper. Can't transfer money automatically, has to be entered on-line then manually authorised. Can't download statements, have to ask for a paper statement to be posted. Claim to do electronic ISA transfers but don't as they have to send a form for you to sign when they get a transfer out request but it is never mentioned until the form arrives in the post (by the time they sent the form 2 other ISA transfers had been completed). If they send you a secure message they don't inform you that a message is there you have to log on to check. Abysmal online service not worth bothering with."
+- **Rating:** ⭐
+- **Date:** 20th April 2023
+- **Context:** General review
+
+### positive - Superb Support and Customer Service from Carmarthen Branch (Smart Money People)
+> "Don't live near a branch so opened an account with them through the Carmarthen Branch (by post and telephone). Absolutely superb support and customer service - the best I've experienced from any financial institution. Would highly recommend the Swansea Building Society and the Carmarthen Branch to anyone"
+- **Rating:** ⭐⭐⭐⭐⭐
+- **Date:** 3rd March 2023
+- **Context:** General review
+
+### positive - Opening branches, not closing them. (Smart Money People)
+> "Fantastic building society. They offer great savings rates and their customer service is excellent. They also offer very good mortgages to key workers in recognition of their efforts."
+- **Rating:** ⭐⭐⭐⭐⭐
+- **Date:** 15th January 2022
+- **Context:** General review

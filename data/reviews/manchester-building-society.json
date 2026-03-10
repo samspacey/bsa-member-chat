@@ -82,6 +82,15 @@
       "product": "General",
       "sentiment": "negative",
       "source": "trustpilot"
+    },
+    {
+      "title": "I am impressed",
+      "text": "I am impressed.  They have put a lot of thought to provide an excellent customer experience.  Applying and uploading ID documents and speed of opening account is excellent. Email docs, welcome pack are concise. Banking site is clear and easy to navigate. Get texts and emails when you pay in. Good interest rate. Shame the society doesn't seem to be high on search engines. Its good that they are part of Newcastle BS. I am glad I found them.",
+      "rating": 5,
+      "date": "20th February 2026",
+      "product": "General",
+      "sentiment": "positive",
+      "source": "trustpilot"
     }
   ],
   "trustpilotUrl": "https://uk.trustpilot.com/review/www.themanchester.co.uk"

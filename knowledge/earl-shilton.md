@@ -142,3 +142,48 @@ Earl Shilton Building Society specialises in personal, case-by-case mortgage ass
 - **Mortgage borrowers:** Across England and Wales (via intermediaries), but likely concentrated locally
 - **Community-minded individuals:** Token collection scheme appeals to those who want their savings to support local causes
 - **Very local focus:** Most members likely within easy reach of Earl Shilton or Barwell branches
+
+
+## Specific Customer Reviews
+### positive - Couldn't be more helpful! (Smart Money People)
+> "Phone them and after a few button clicks on the phone and you are through to a helpful human being. No listening to music for seemingly hours, as with some. They understand your query and give good and helpful advice."
+- **Rating:** ⭐⭐⭐⭐⭐
+- **Date:** 7th March 2025
+- **Context:** General review
+
+### positive - As recommended this week by Money… (Smart Money People)
+> "As recommended this week by Money Saving Expert with highest savings interest rate we opened accounts today.
+From the initial phone calls to actual meeting today has been a great personal experience."
+- **Rating:** ⭐⭐⭐⭐⭐
+- **Date:** 11th August 2023
+- **Context:** General review
+
+### positive - Fantastic customer service received (Smart Money People)
+> "Just opened an account in person with my elderly wheelchair bound Mother, the Customer Service was excellent, in fact it could not of been any better. What a refreshingly pleasant experience, highest standards of customer care."
+- **Rating:** ⭐⭐⭐⭐⭐
+- **Date:** 10th February 2020
+- **Context:** General review
+
+### positive - A genuine and friendly building society… (Smart Money People)
+> "A genuine and friendly building society who put people first. Helped me in acquiring a self build mortgage, but also provided some helpful advice."
+- **Rating:** ⭐⭐⭐⭐⭐
+- **Date:** 17th September 2019
+- **Context:** General review
+
+
+### Positive - As recommended this week by Money… (Trustpilot)
+> "As recommended this week by Money Saving Expert with highest savings interest rate we opened accounts today.
+From the initial phone calls to actual meeting today has been a great personal experience."
+- **Rating:** ⭐⭐⭐⭐⭐ (5/5)
+- **Date:** 11th August 2023
+
+### Positive - Fantastic customer service received (Trustpilot)
+> "Just opened an account in person with my elderly wheelchair bound Mother, the Customer Service was excellent, in fact it could not of been any better. What a refreshingly pleasant experience, highest standards of customer care."
+- **Rating:** ⭐⭐⭐⭐⭐ (5/5)
+- **Date:** 10th February 2020
+
+### Positive - A genuine and friendly building society… (Trustpilot)
+> "A genuine and friendly building society who put people first. Helped me in acquiring a self build mortgage, but also provided some helpful advice."
+- **Rating:** ⭐⭐⭐⭐⭐ (5/5)
+- **Date:** 17th September 2019
+

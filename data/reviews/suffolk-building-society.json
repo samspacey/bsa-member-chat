@@ -1997,6 +1997,16 @@
       "date": "19th December 2025",
       "product": "Savings",
       "sentiment": "positive"
+    },
+    {
+      "title": "Very disappointing",
+      "text": "Very disappointing. Carried out 3 hard searches on the same property and held onto the valuation fee without carrying out the valuation.\nPlease beware. They are not credible.",
+      "rating": 1,
+      "date": "6th January 2025",
+      "product": "General",
+      "sentiment": "negative",
+      "source": "trustpilot"
     }
-  ]
+  ],
+  "trustpilotUrl": "https://uk.trustpilot.com/review/www.suffolkbuildingsociety.co.uk"
 }

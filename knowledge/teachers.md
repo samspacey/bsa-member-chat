@@ -137,3 +137,108 @@ Mortgages are the heart of Teachers Building Society's purpose. They were founde
 - **Savers:** Mix of education professionals and general public (savings open to all)
 - **Target audience:** Anyone working in education who wants to buy a home, particularly those with smaller deposits
 - **Geographic spread:** National across England and Wales, with Dorset-area local presence
+
+
+## Specific Customer Reviews
+### positive - me deaf thanks help how work shell quiet (Smart Money People)
+> "me deaf thanks help how work shell quiet"
+- **Rating:** ⭐⭐⭐⭐⭐
+- **Date:** 15th April 2024
+- **Context:** General review
+
+### positive - Fabulous! (Smart Money People)
+> "I switched to Teachers from another lender years ago, and have had nothing but outstanding service from them. Reviewing my mortgage, adding to it for building works and other reasons and now finally paying it off! Everyone I have spoken to has always been polite, friendly and professional, explaining what needs to be done at every step of the way. Thank you for such a good service over the years."
+- **Rating:** ⭐⭐⭐⭐⭐
+- **Date:** 27th July 2023
+- **Context:** General review
+
+### positive - Highly recommended! (Smart Money People)
+> "My husband and I had been told we would need a high deposit because of his poor credit by other mortgage companies when we began looking at the possibility of a mortgage back in January. We had almost given up hope until we spoke to Gary Andrews (mortgage advisor) who was incredibly helpful from start to finish. Gary was very responsive to all of my daft questions and concerns throughout the process and was always very patient and knowledgeable. We had our mortgage offer today (November) via post and are absolutely ecstatic. I would highly recommend them, especially Gary!"
+- **Rating:** ⭐⭐⭐⭐⭐
+- **Date:** 1st November 2022
+- **Context:** General review
+
+### negative - Avoid (Smart Money People)
+> "Avoid using these time wasters. Had a mortgage approved with absolutely no issues for a holiday let mortgage. We explained at the start of the process we were looking to maximise our income and wanted a cottage that needed a small amount of renovating so that we could not only make money from the rent but also increase the value of the property. This they said was not an issue. However After a month or so of looking and offers they rejected any property we put an offer on based on the most ridiculous things (one was rejected as it was next to a church and had a small graveyard!). When I pushed them they eventually admitted they didn’t want us to get a house that required work and we had to go and find one that was already renovated. Do not use them don’t waste your time with them."
+- **Rating:** ⭐
+- **Date:** 25th August 2020
+- **Context:** General review
+
+### positive - Really helpful, they know your case straight away. Really happy with customer service. (Smart Money People)
+> "They did always know me right after telling the my name. Had no problem asking all my questions, and getting answers. Straightforward process"
+- **Rating:** ⭐⭐⭐⭐⭐
+- **Date:** 25th January 2017
+- **Context:** General review
+
+### negative - The staff are helpful but the ISA rate has dropped a... (Smart Money People)
+> "The staff are helpful but the ISA rate has dropped a so I am about to move my savings to a significantly higher rate. Also, it is not possible to print a statement from their website which is most annoying."
+- **Rating:** ⭐⭐
+- **Date:** 20th April 2025
+- **Context:** General review
+
+### positive - Great 1yr fixed ISA rates and d staff very helpful o... (Smart Money People)
+> "Great 1yr fixed ISA rates and d staff very helpful over the phone."
+- **Rating:** ⭐⭐⭐⭐⭐
+- **Date:** 26th February 2025
+- **Context:** General review
+
+### negative - NO LOYALTY TO LOYAL SAVERS! (Smart Money People)
+> "I've saved with Teachers Building Society for years and years and, whilst they have never paid a headline rate, its always been competitive. I've now found out not only that my savings have been languishing at about half the rate I could get elsewhere, but they are now reducing the rate even further! Although I'm transfering to a new Teachers account to get nearly twice as much interest, I'll also be looking to move funds elsewhere to a Society which treats me fairly, and values my loyalty!"
+- **Rating:** ⭐
+- **Date:** 16th August 2024
+- **Context:** General review
+
+### positive - Love it keep up the good (Smart Money People)
+> "My experience with them as always been great and they are very helpful as well"
+- **Rating:** ⭐⭐⭐⭐⭐
+- **Date:** 23rd May 2024
+- **Context:** General review
+
+### positive - Easy to deal with (Smart Money People)
+> "It's easy being one of their savings customers."
+- **Rating:** ⭐⭐⭐⭐⭐
+- **Date:** 21st November 2015
+- **Context:** General review
+
+### negative - Awful archaic systems and processes (Smart Money People)
+> "Awful archaic systems and processes. Everything is paper-based. They're a bit like a 1980s Skoda. The good thing is that they fully admit to how outdated their systems are!"
+- **Rating:** ⭐
+- **Date:** 6th November 2025
+- **Context:** General review
+
+### negative - They posted my login details to the… (Smart Money People)
+> "They posted my login details to the wrong address (twice); despite providing exactly the right address. Provided a measly £50 compensation. 
+
+Insist on hand-filled applications (in 2023). Use an archaic transfer system for ISA transfers. Transferring my ISA in took months; cost me £151.90 in lost interest.
+
+I would not recommend Teachers Building Society."
+- **Rating:** ⭐
+- **Date:** 2nd March 2024
+- **Context:** General review
+
+### negative - Unfortunately (Smart Money People)
+> "Unfortunately, not a happy experience for my wife and me. Logging in could be easier and I recommend that the Society should review all its procedures. I did receive a four page letter of explanations and apologies but even that contained a significant time-sensitive error. How can we operate accounts when a Society makes significant mistakes?"
+- **Rating:** ⭐
+- **Date:** 13th January 2024
+- **Context:** General review
+
+
+### Negative - Awful archaic systems and processes (Trustpilot)
+> "Awful archaic systems and processes. Everything is paper-based. They're a bit like a 1980s Skoda. The good thing is that they fully admit to how outdated their systems are!"
+- **Rating:** ⭐☆☆☆☆ (1/5)
+- **Date:** 6th November 2025
+
+### Negative - They posted my login details to the… (Trustpilot)
+> "They posted my login details to the wrong address (twice); despite providing exactly the right address. Provided a measly £50 compensation. 
+
+Insist on hand-filled applications (in 2023). Use an archaic transfer system for ISA transfers. Transferring my ISA in took months; cost me £151.90 in lost interest.
+
+I would not recommend Teachers Building Society."
+- **Rating:** ⭐☆☆☆☆ (1/5)
+- **Date:** 2nd March 2024
+
+### Negative - Unfortunately (Trustpilot)
+> "Unfortunately, not a happy experience for my wife and me. Logging in could be easier and I recommend that the Society should review all its procedures. I did receive a four page letter of explanations and apologies but even that contained a significant time-sensitive error. How can we operate accounts when a Society makes significant mistakes?"
+- **Rating:** ⭐☆☆☆☆ (1/5)
+- **Date:** 13th January 2024
+

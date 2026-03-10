@@ -309,6 +309,34 @@
       "date": "15th July 2023",
       "product": "Savings",
       "sentiment": "positive"
+    },
+    {
+      "title": "This company is untrustworthy",
+      "text": "This company is completely untrustworthy.  They have just reneged on hundreds of mortgage deals for customers who have already submitted applications.  Purely because they can't/won't honour the lower rates. Treat your customer fairly means nothing to this company.",
+      "rating": 1,
+      "date": "31st August 2022",
+      "product": "General",
+      "sentiment": "negative",
+      "source": "trustpilot"
+    },
+    {
+      "title": "Excellent customer services and would recommend",
+      "text": "Have never had any accounts with the Buckinghamshire Building Society before but saw a good rate on a fixed term ISA and decided to apply. It is a shame that the application process does not include an online procedure but it was no problem completing the application form and ISA transfer form and posting them in along with ID documentation (uncertified copies are acceptable and do not need to be counter-signed by a solicitor etc)\n\nNeeded to contact them on Saturday concerning the application and sent a message through their web contact form and received a reply the same morning - very impressed.\n\nNow just waitiing for the account to be opened and account number forwarded to me so that I can view the account online.\n\nSo far so good and very impressed. Would recommend them.\n\nEdit : Account set up quickly. Rang customer services, phone answered promptly, very knowledgeable, helpful and efficient staff. Can't recommend highly enough",
+      "rating": 5,
+      "date": "13th June 2022",
+      "product": "General",
+      "sentiment": "positive",
+      "source": "trustpilot"
+    },
+    {
+      "title": "?? YOU TRUST BUCKS WITH YOUR SAVINGS ??",
+      "text": "I had had modest savings with Bucks Building Society since the 1990's, but then they took away my savings from me, only telling me when I phoned that the account had been closed. After a lot of worry that I had been scammed, it turned out that Bucks themselves had closed my account and taken my savings! The FOS  tell me there were a number of similar closures around this time.\nWell, I got my savings back ..... eventually ..... but then they reckoned I was only due £1.35 in interest. When I queried this, it turned out the correct figure was over £40!\n\nSO IF YOU WANT A SOCIETY THAT TAKES YOUR MONEY AWAY FROM YOU WITHOUT YOUR CONSENT, AND THEN TRIES TO GET AWAY WITH PAYING YOU A FRACTION OF THE INTEREST YOU ARE DUE, GO TO THE BUCKS!\n\nI corresponded directly with the Chief Executive, Board of Directors, and Head of Operations after the problem became apparent. They took months dealing with things, and, when I further complained about their service, they took weeks looking into this and then the person who had dealt with the original case (Yes, the person I was complaining about!) reviewed the case and advised their service was perfect!\n\n........ (REALLY??? ......A RESPECTED FINANCIAL INSTITUTION THAT CALCULATES INTEREST  AT  £1.35 RATHER THAN OVER £40 .....PERFECT ??????).\n\nIf I had not queried things, I would have been left with just £1.35 interest. And if I hadn't complained after discovering my money had been taken, I'D HAVE HAD NO SAVINGS, AND NO INTEREST!",
+      "rating": 1,
+      "date": "17th February 2022",
+      "product": "General",
+      "sentiment": "negative",
+      "source": "trustpilot"
     }
-  ]
+  ],
+  "trustpilotUrl": "https://uk.trustpilot.com/review/www.bucksbs.co.uk"
 }
