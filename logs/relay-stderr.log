@@ -1,0 +1,4 @@
+/bin/sh: node: command not found
+[ERROR] PDF generation failed: Command failed: node "/Users/sam/clawd/bsa-member-chat/scripts/generate-pdf.js" "bath" "/tmp/bsa-bath-1773157640767.pdf"
+/bin/sh: node: command not found
+

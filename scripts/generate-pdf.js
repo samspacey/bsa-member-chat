@@ -174,203 +174,305 @@ const ordinal = (n) => {
 };
 
 const doc = new jsPDF();
-const pageWidth = doc.internal.pageSize.getWidth();
+const pageWidth  = doc.internal.pageSize.getWidth();
 const pageHeight = doc.internal.pageSize.getHeight();
-const margin = 20;
-const contentWidth = pageWidth - margin * 2;
+const margin     = 15;
+const contentWidth = pageWidth - margin * 2;  // 180mm
 
-// Colours
-const navy = [15, 48, 87];
-const darkGrey = [50, 50, 50];
-const midGrey = [120, 120, 120];
-const lightGrey = [200, 200, 200];
-const green = [22, 163, 74];
-const amber = [202, 138, 4];
-const red = [220, 50, 50];
+// ── Colour palette ─────────────────────────────────────────────────────────
+const navy      = [15,  48,  87 ];
+const darkGrey  = [50,  50,  50 ];
+const midGrey   = [120, 120, 120];
+const lightGrey = [210, 210, 210];
+const paleBlue  = [240, 245, 251];
+const green     = [22,  163, 74 ];
+const amber     = [180, 130, 20 ];
+const red       = [220, 50,  50 ];
+const greenFill = [34,  197, 94 ];
+const amberFill = [250, 180, 50 ];
+const redFill   = [239, 68,  68 ];
 
-let y = 20;
+// ── Column positions ───────────────────────────────────────────────────────
+const colFactor  = margin;           // factor label, ~52mm wide → ends ~67
+const colScore   = margin + 53;      // score value centre window
+const colAvg     = margin + 65;      // avg value centre window
+const colBar     = margin + 77;      // bar start, 55mm wide → ends 132
+const colBarW    = 55;
+const colRank    = margin + 134;     // rank, centred in ~18mm
+const colStatus  = margin + 154;     // badge start, 26mm wide → ends 195
+const colStatusW = 26;
 
-// === HEADER ===
-doc.setFontSize(22);
+let y = 18;
+
+// ── Top accent bar ─────────────────────────────────────────────────────────
+doc.setFillColor(...navy);
+doc.rect(0, 0, pageWidth, 8, "F");
+
+// ── Header ─────────────────────────────────────────────────────────────────
+y = 20;
+doc.setFontSize(21);
 doc.setFont("helvetica", "bold");
 doc.setTextColor(...navy);
 doc.text(society.name, pageWidth / 2, y, { align: "center" });
-y += 9;
+y += 8;
 
-doc.setFontSize(13);
+doc.setFontSize(12);
 doc.setFont("helvetica", "normal");
 doc.setTextColor(...midGrey);
 doc.text("Member Experience Benchmark Report", pageWidth / 2, y, { align: "center" });
-y += 8;
+y += 6;
 
-doc.setFontSize(9);
-doc.setTextColor(150, 150, 150);
+doc.setFontSize(8.5);
+doc.setTextColor(160, 160, 160);
 const dateStr = new Date().toLocaleDateString("en-GB", { day: "numeric", month: "long", year: "numeric" });
 doc.text(`Woodhurst Consulting  •  ${dateStr}`, pageWidth / 2, y, { align: "center" });
-y += 10;
+y += 8;
 
-// Divider
 doc.setDrawColor(...lightGrey);
 doc.setLineWidth(0.4);
 doc.line(margin, y, pageWidth - margin, y);
 y += 8;
 
-// === SUMMARY LINE ===
-doc.setFontSize(9);
+// ── Summary box ────────────────────────────────────────────────────────────
+const scoresArr = FACTOR_NAMES.map(f => ({ factor: f, ...myScores[f] }));
+const bestScore  = scoresArr.reduce((best, s) => s.score > best.score ? s : best, scoresArr[0]);
+const worstGap   = scoresArr.reduce((worst, s) => (s.score - s.average) < (worst.score - worst.average) ? s : worst, scoresArr[0]);
+const aboveCount = scoresArr.filter(s => (s.score - s.average) >= 0.5).length;
+const belowCount = scoresArr.filter(s => (s.score - s.average) < -0.5).length;
+
+const boxH = 26;
+doc.setFillColor(...paleBlue);
+doc.roundedRect(margin, y, contentWidth, boxH, 3, 3, "F");
+doc.setDrawColor(200, 220, 240);
+doc.setLineWidth(0.5);
+doc.roundedRect(margin, y, contentWidth, boxH, 3, 3, "S");
+
+const bY    = y + 8;
+const col3rd = contentWidth / 3;
+
+// Panel 1 – Overall Position
+doc.setFont("helvetica", "bold");
+doc.setFontSize(8.5);
+doc.setTextColor(...navy);
+doc.text("Overall Position", margin + 6, bY);
+doc.setFont("helvetica", "normal");
+doc.setFontSize(8);
+doc.setTextColor(...darkGrey);
+doc.text(`${aboveCount} of ${scoresArr.length} factors above industry average`, margin + 6, bY + 6);
+doc.text(`${belowCount} of ${scoresArr.length} factors below industry average`, margin + 6, bY + 11);
+
+// Divider 1
+const d1 = margin + col3rd;
+doc.setDrawColor(200, 220, 240);
+doc.setLineWidth(0.5);
+doc.line(d1, y + 4, d1, y + boxH - 4);
+
+// Panel 2 – Top Strength
+doc.setFont("helvetica", "bold");
+doc.setFontSize(8.5);
+doc.setTextColor(...green);
+doc.text("Top Strength", d1 + 5, bY);
+doc.setFont("helvetica", "bold");
+doc.setFontSize(8);
+doc.setTextColor(...darkGrey);
+const bestLabel = bestScore.factor.length > 22 ? bestScore.factor.slice(0, 21) + "…" : bestScore.factor;
+doc.text(bestLabel, d1 + 5, bY + 6);
 doc.setFont("helvetica", "normal");
 doc.setTextColor(...midGrey);
-doc.text(`Benchmarked against ${totalSocieties} building societies  •  Based on customer review sentiment analysis`, margin, y);
-y += 10;
+doc.text(`Score: ${bestScore.score.toFixed(1)}  (avg ${bestScore.average.toFixed(1)})`, d1 + 5, bY + 11);
 
-// === TABLE HEADER ===
-const col1 = margin;                    // Factor name
-const col2 = margin + contentWidth * 0.32;  // Bar start
-const barWidth = contentWidth * 0.30;   // Bar width
-const col3 = margin + contentWidth * 0.65;  // Score
-const col4 = margin + contentWidth * 0.74;  // Avg
-const col5 = margin + contentWidth * 0.83;  // Rank
-const col6 = margin + contentWidth * 0.93;  // Status
+// Divider 2
+const d2 = margin + col3rd * 2;
+doc.setDrawColor(200, 220, 240);
+doc.line(d2, y + 4, d2, y + boxH - 4);
 
+// Panel 3 – Biggest Gap
+doc.setFont("helvetica", "bold");
+doc.setFontSize(8.5);
+doc.setTextColor(...red);
+doc.text("Biggest Gap", d2 + 5, bY);
+doc.setFont("helvetica", "bold");
+doc.setFontSize(8);
+doc.setTextColor(...darkGrey);
+const gapLabel = worstGap.factor.length > 22 ? worstGap.factor.slice(0, 21) + "…" : worstGap.factor;
+doc.text(gapLabel, d2 + 5, bY + 6);
+doc.setFont("helvetica", "normal");
+doc.setTextColor(...midGrey);
+doc.text(`Score: ${worstGap.score.toFixed(1)}  (avg ${worstGap.average.toFixed(1)})`, d2 + 5, bY + 11);
+
+y += boxH + 9;
+
+// ── Table header ───────────────────────────────────────────────────────────
 doc.setFontSize(7.5);
 doc.setFont("helvetica", "bold");
 doc.setTextColor(...midGrey);
-doc.text("Factor", col1, y);
-doc.text("Score", col3, y, { align: "center" });
-doc.text("Avg", col4, y, { align: "center" });
-doc.text("Rank", col5, y, { align: "center" });
+doc.text("Factor",  colFactor, y);
+doc.text("Score",   colScore  + 5, y, { align: "center" });
+doc.text("Avg",     colAvg    + 5, y, { align: "center" });
+doc.text("0",       colBar,        y);
+doc.text("5",       colBar + colBarW / 2, y, { align: "center" });
+doc.text("10",      colBar + colBarW, y, { align: "right" });
+doc.text("Rank",    colRank   + 9, y, { align: "center" });
+doc.text("Status",  colStatus + colStatusW / 2, y, { align: "center" });
 y += 2;
 
-doc.setDrawColor(180, 180, 180);
-doc.setLineWidth(0.3);
+doc.setDrawColor(160, 160, 160);
+doc.setLineWidth(0.4);
 doc.line(margin, y, pageWidth - margin, y);
-y += 6;
+y += 5;
 
-// === TABLE ROWS ===
-for (const factor of FACTOR_NAMES) {
-  const s = myScores[factor];
-  const diff = s.score - s.average;
+// ── Table rows ─────────────────────────────────────────────────────────────
+const rowH = 13;
+for (let i = 0; i < FACTOR_NAMES.length; i++) {
+  const factor = FACTOR_NAMES[i];
+  const s      = myScores[factor];
+  const diff   = s.score - s.average;
 
-  let statusLabel, statusColor;
-  if (diff >= 0.5) { statusLabel = "+"; statusColor = green; }
-  else if (diff >= -0.5) { statusLabel = "~"; statusColor = amber; }
-  else { statusLabel = "-"; statusColor = red; }
+  let statusLabel, statusRGB, barRGB;
+  if (diff >= 0.5) {
+    statusLabel = "Above avg"; statusRGB = green;  barRGB = greenFill;
+  } else if (diff >= -0.5) {
+    statusLabel = "Near avg";  statusRGB = amber;  barRGB = amberFill;
+  } else {
+    statusLabel = "Below avg"; statusRGB = red;    barRGB = redFill;
+  }
 
-  let barColor;
-  if (diff >= 0.5) barColor = [34, 197, 94];
-  else if (diff >= -0.5) barColor = [250, 204, 21];
-  else barColor = [239, 68, 68];
+  // Alternating row background
+  if (i % 2 === 0) {
+    doc.setFillColor(249, 249, 249);
+    doc.rect(margin, y - 4, contentWidth, rowH, "F");
+  }
+
+  const textY  = y + 1;
+  const barY   = y - 2;
+  const barH   = 5;
 
   // Factor name
   doc.setFont("helvetica", "bold");
-  doc.setFontSize(9);
+  doc.setFontSize(8.5);
   doc.setTextColor(...darkGrey);
-  doc.text(factor, col1, y);
+  doc.text(factor, colFactor, textY);
 
-  // Score
+  // Score (navy bold)
   doc.setFont("helvetica", "bold");
   doc.setFontSize(9);
-  doc.text(s.score.toFixed(1), col3, y, { align: "center" });
+  doc.setTextColor(...navy);
+  doc.text(s.score.toFixed(1), colScore + 5, textY, { align: "center" });
 
-  // Average
+  // Industry avg
   doc.setFont("helvetica", "normal");
+  doc.setFontSize(8.5);
   doc.setTextColor(...midGrey);
-  doc.text(s.average.toFixed(1), col4, y, { align: "center" });
+  doc.text(s.average.toFixed(1), colAvg + 5, textY, { align: "center" });
 
-  // Rank
-  doc.setFontSize(8);
-  doc.text(ordinal(s.rank), col5, y, { align: "center" });
+  // Bar background
+  doc.setFillColor(225, 225, 225);
+  doc.roundedRect(colBar, barY, colBarW, barH, 1, 1, "F");
 
-  // Status indicator (colored circle)
-  doc.setFillColor(...statusColor);
-  doc.circle(col6, y - 1.5, 2, "F");
+  // Bar coloured fill
+  const scoreBarW = Math.max(2, (s.score / 10) * colBarW);
+  doc.setFillColor(...barRGB);
+  doc.roundedRect(colBar, barY, scoreBarW, barH, 1, 1, "F");
 
-  // Bar (below text, with some spacing)
-  const barY = y + 2;
-  const barH = 4;
-
-  // Background bar
-  doc.setFillColor(240, 240, 240);
-  doc.roundedRect(col2, barY, barWidth, barH, 1, 1, "F");
-
-  // Score bar (scale from 0-10, minimum visible width)
-  const scoreBarW = Math.max(3, (s.score / 10) * barWidth);
-  doc.setFillColor(...barColor);
-  if (scoreBarW > 3) {
-    doc.roundedRect(col2, barY, scoreBarW, barH, 1.5, 1.5, "F");
-  } else {
-    doc.rect(col2, barY, scoreBarW, barH, "F");
-  }
-
-  // Average marker line
-  const avgX = col2 + (s.average / 10) * barWidth;
-  doc.setDrawColor(80, 80, 80);
-  doc.setLineWidth(0.6);
+  // Average tick
+  const avgX = colBar + (s.average / 10) * colBarW;
+  doc.setDrawColor(50, 50, 50);
+  doc.setLineWidth(0.8);
   doc.line(avgX, barY - 1, avgX, barY + barH + 1);
 
-  // Reviews matched count (inline, small)
-  doc.setFontSize(6);
+  // Rank
   doc.setFont("helvetica", "normal");
-  doc.setTextColor(180, 180, 180);
-  doc.text(`${s.matched}`, col2 + scoreBarW + 2, barY + 3.2);
+  doc.setFontSize(8);
+  doc.setTextColor(...midGrey);
+  doc.text(`${ordinal(s.rank)} / ${totalSocieties}`, colRank + 9, textY, { align: "center" });
 
-  y += 14;
+  // Status badge
+  const badgeH    = 5.5;
+  const badgeTopY = barY - 0.5;
+  doc.setFillColor(...statusRGB);
+  doc.roundedRect(colStatus, badgeTopY, colStatusW, badgeH, 1.5, 1.5, "F");
+  doc.setFont("helvetica", "bold");
+  doc.setFontSize(6.5);
+  doc.setTextColor(255, 255, 255);
+  doc.text(statusLabel, colStatus + colStatusW / 2, badgeTopY + 3.7, { align: "center" });
 
-  // Row separator
-  doc.setDrawColor(240, 240, 240);
-  doc.setLineWidth(0.2);
-  doc.line(margin, y - 4, pageWidth - margin, y - 4);
+  // Row divider
+  if (i < FACTOR_NAMES.length - 1) {
+    doc.setDrawColor(220, 220, 220);
+    doc.setLineWidth(0.2);
+    doc.line(margin, y + rowH - 4, pageWidth - margin, y + rowH - 4);
+  }
+
+  y += rowH;
 }
 
-// === LEGEND ===
-y += 2;
+y += 5;
+
+// ── Legend ─────────────────────────────────────────────────────────────────
 doc.setFontSize(7);
+doc.setFont("helvetica", "bold");
+doc.setTextColor(...midGrey);
+doc.text("Legend:", margin, y);
+
+const legendItems = [
+  ["Above avg", green ],
+  ["Near avg",  amber ],
+  ["Below avg", red   ],
+];
+let lx = margin + 15;
+for (const [label, colour] of legendItems) {
+  const bw = 20, bh = 5;
+  doc.setFillColor(...colour);
+  doc.roundedRect(lx, y - 3.8, bw, bh, 1.2, 1.2, "F");
+  doc.setFont("helvetica", "bold");
+  doc.setFontSize(6.5);
+  doc.setTextColor(255, 255, 255);
+  doc.text(label, lx + bw / 2, y - 0.3, { align: "center" });
+  lx += bw + 4;
+}
+
+// Avg tick legend
+doc.setDrawColor(50, 50, 50);
+doc.setLineWidth(0.8);
+doc.line(lx + 3, y - 4, lx + 3, y + 1);
 doc.setFont("helvetica", "normal");
+doc.setFontSize(7);
 doc.setTextColor(...midGrey);
-// Draw legend with colored dots
-doc.setFillColor(...green);
-doc.circle(margin + 2, y - 1, 1.5, "F");
-doc.setTextColor(...midGrey);
-doc.text("Above avg (+0.5)", margin + 6, y);
+doc.text("= Industry average", lx + 6, y);
 
-doc.setFillColor(...amber);
-doc.circle(margin + 52, y - 1, 1.5, "F");
-doc.text("Near avg", margin + 56, y);
-
-doc.setFillColor(...red);
-doc.circle(margin + 82, y - 1, 1.5, "F");
-doc.text("Below avg (-0.5)", margin + 86, y);
-
-doc.setDrawColor(80, 80, 80);
-doc.setLineWidth(0.5);
-doc.line(margin + 130, y - 3, margin + 130, y + 1);
-doc.text("Industry average", margin + 133, y);
-y += 4;
-doc.text("Scores range from 1–10 (10 = best). Bar colour indicates performance relative to the industry average.", margin, y);
-
-// === METHODOLOGY ===
 y += 10;
+
+// ── Methodology ────────────────────────────────────────────────────────────
 doc.setDrawColor(...lightGrey);
 doc.setLineWidth(0.3);
 doc.line(margin, y, pageWidth - margin, y);
-y += 6;
+y += 5;
 
-doc.setFontSize(8);
+doc.setFontSize(7.5);
 doc.setFont("helvetica", "bold");
 doc.setTextColor(...darkGrey);
 doc.text("Methodology", margin, y);
-y += 5;
+y += 4.5;
 
 doc.setFont("helvetica", "normal");
-doc.setFontSize(7.5);
+doc.setFontSize(7);
 doc.setTextColor(...midGrey);
-const methodology = `Scores are derived from keyword-based sentiment analysis of ${loadReviews(societyId).length} customer reviews from Smart Money People and Trustpilot. Each factor is scored by the ratio of positive to negative keyword matches. Rankings are calculated across ${totalSocieties} building societies. This report is generated automatically and should be considered alongside other data sources.`;
+const methodology = `Scores are derived from keyword-based sentiment analysis of customer reviews from Smart Money People and Trustpilot. Each factor is scored 1–10 by the ratio of positive to negative keyword matches in reviews. Rankings are calculated across all ${totalSocieties} building societies in the benchmark. This report is generated automatically and should be considered alongside other data sources.`;
 const methodLines = doc.splitTextToSize(methodology, contentWidth);
 doc.text(methodLines, margin, y);
 
-// === FOOTER ===
-doc.setFontSize(7);
-doc.setTextColor(170, 170, 170);
-doc.text("© Woodhurst Consulting  •  Confidential  •  bsa-member-chat.vercel.app", pageWidth / 2, pageHeight - 10, { align: "center" });
+// ── Footer ─────────────────────────────────────────────────────────────────
+const footerY = pageHeight - 8;
+doc.setDrawColor(...lightGrey);
+doc.setLineWidth(0.3);
+doc.line(margin, footerY - 4, pageWidth - margin, footerY - 4);
+doc.setFontSize(7.5);
+doc.setFont("helvetica", "normal");
+doc.setTextColor(150, 150, 150);
+doc.text(
+  "Woodhurst Consulting  |  Data & Digital Advisory  |  Confidential",
+  pageWidth / 2, footerY, { align: "center" }
+);
 
 // Save
 fs.writeFileSync(outputPath, Buffer.from(doc.output("arraybuffer")));
